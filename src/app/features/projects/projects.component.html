@@ -1,0 +1,48 @@
+<section>
+  <h2>{{ 'PROJECTS.TITLE' | translate }}</h2>
+
+  @for (project of ('PROJECTS.ITEMS' | translate); track $index) {
+
+    <div class="project">
+      <h3>{{ project.TITLE }}</h3>
+
+      <p>{{ project.TEXT1 }}</p>
+
+      @if (project.TEXT2) {
+        <p>
+          {{ project.TEXT2 }}
+          @if (project.LINK_TEXT) {
+            <a href="https://portalcientifico.upsa.es/" target="_blank">
+              {{ project.LINK_TEXT }}
+            </a>
+          }
+        </p>
+      }
+
+      @if (project.LIST) {
+        <ul>
+          @for (item of project.LIST; track $index) {
+            <li>{{ item }}</li>
+          }
+        </ul>
+      }
+
+      @if (project.TEXT3) {
+        <p>{{ project.TEXT3 }}</p>
+      }
+
+      @if (project.TEXT4) {
+        <p>{{ project.TEXT4 }}</p>
+      }
+
+      <p><strong>Stack:</strong> {{ project.STACK }}</p>
+
+      <a class="github-btn"
+         [href]="getGithubLink(project.TITLE)"
+         target="_blank">
+        {{ project.GITHUB }}
+      </a>
+    </div>
+
+  }
+</section>

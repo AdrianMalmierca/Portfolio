@@ -1,0 +1,47 @@
+/* Contact Section */
+.contact-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  color: #222;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Email Button */
+.email-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #6200d1;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.email-btn:hover {
+  background-color: rgb(161, 71, 251);
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* Links */
+.contact-section a:not(.email-btn) {
+  color: #6200d1;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}

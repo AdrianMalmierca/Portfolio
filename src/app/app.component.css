@@ -1,0 +1,75 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.8rem 2rem;
+  background: #6200d1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Contenedor central de links */
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+/* Agrupar links */
+.navbar > a {
+  margin: 0 1.5rem;
+}
+
+/* Underline Animation */
+.navbar a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.25s ease;
+}
+
+.navbar a:hover {
+  color: #cd81ff;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+/* Botones idioma */
+.lang-buttons {
+  margin-left: auto; /* Empuja a la derecha */
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lang-buttons button {
+  background: white;
+  border: none;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.lang-buttons button:hover {
+  background: #e7d4ff;
+}
+
+/* Main Content */
+main {
+  padding: 3rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
