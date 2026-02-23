@@ -87,3 +87,21 @@
   color: #000;
   transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+
+  .stack-section,
+  .projects-section,
+  .contact-section {
+    padding: 2rem 1rem;
+  }
+
+  .stack-card,
+  .project {
+    padding: 1.5rem;
+  }
+
+  .project h3 {
+    font-size: 1.2rem;
+  }
+}

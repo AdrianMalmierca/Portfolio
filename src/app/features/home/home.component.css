@@ -100,3 +100,23 @@
   color: #000;
   transform: translateY(-3px);
 }
+
+@media (max-width: 768px) {
+
+  .home-section {
+    padding: 2rem 1rem;
+  }
+
+  .home-section h1 {
+    font-size: 2rem;
+  }
+
+  .profile-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .home-block {
+    padding: 1.5rem;
+  }
+}
