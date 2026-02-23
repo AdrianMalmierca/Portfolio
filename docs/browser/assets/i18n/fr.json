@@ -1,0 +1,136 @@
+{
+  "HOME": {
+    "TITLE": "Home",
+    "NAME": "Adrián Martín Malmierca",
+    "TITLE1": "Ingénieur informatique · Développeur informatique junior",
+    "BLOCKS": {
+      "RESUME": {
+        "TITLE": "Résumé",
+        "TEXT1": "Je suis développeur informatique junior et même si je programme principalement des applications mobiles:",
+        "MOBILE_LIST": [
+          "iOS avec Swift (SwiftUI ou UIKit) (Projet Ledgerly).",
+          "Android avec Kotlin.",
+          "Cross-platform avec React Native et .NET MAUI."
+        ],
+        "TEXT2": "Je peux également développer des applications web:",
+        "WEB_LIST": [
+          "HTML, CSS, et JavaScript.",
+          "Angular (Categorify).",
+          "Angular avec Ionic (Daily Mood)."
+        ],
+        "TEXT3": "Je connais également PHP avec CSS, Python (Chatbot).",
+        "TEXT4": "Passionné par l'architecture propre, les systèmes évolutifs et l'ingénierie orientée produit. Je suis espagnol et je déménagerai en France en septembre 2026."
+      },
+      "EDUCATION": {
+        "TITLE": "Éducation",
+        "TEXT1": "J'ai etudié l'ingénierie informatique à l'Université pontificale de Salamanque de septembre 2021 à juin 2025.",
+        "TEXT2": "Je suis actuellement en master d'applications mobiles à l'Université pontificale de Salamanque",
+        "LINK": " (MIMO)",
+        "TEXT3": ", fin prévue en septembre 2026."
+      },
+      "EXPERIENCE": {
+        "TITLE": "Expérience Professionnelle",
+        "TEXT1": "Stage à l'Université pontificale de Salamanque de novembre 2024 à mai 2025 (6 mois).",
+        "TEXT2": "Actuellement en stage chez Orange de mars 2026 à août 2026 (5 mois)."
+      },
+      "LANGUAGES": {
+        "TITLE": "Langues",
+        "SPANISH": "Espagnol: langue maternelle",
+        "ENGLISH": "Anglais: Certificat Oxford B2",
+        "FRENCH": "Français: Certificat DELF B2"
+      },
+      "CERTIFICATS": {
+        "TITLE": "Certificats",
+        "SPANISH": "Participation à la 5e édition de HACK4EDU | 2024",
+        "ENGLISH": "Image de marque personnelle à 360°",
+        "FRENCH": "Copilot: Maîtrisez l’IA dans Microsoft 365"
+      },
+      "PROJECTS": {
+        "TITLE": "Mes projets",
+        "CTA": "Voir les projets"
+      }
+    }
+  },
+  "STACK": {
+    "TITLE": "Stack",
+    "TITLE1": "Tech Stack",
+    "CARDS": {
+      "MOBILE": {
+        "TITLE": "Mobile et multiplateforme",
+        "TEXT": "Swift, SwiftUI, UIKit, Kotlin, Ionic, .NET MAUI"
+      },
+      "WEB": {
+        "TITLE": "Interface Web",
+        "TEXT": "Angular, React"
+      },
+      "BACKEND": {
+        "TITLE": "Backend et microservices",
+        "TEXT": "Python (FastAPI, Django), Node.js (Express.js), PHP, C#, Java"
+      },
+      "DB": {
+        "TITLE": "Bases de données",
+        "TEXT": "PostgreSQL, MongoDB"
+      },
+      "AI": {
+        "TITLE": "AI / ML / RAG",
+        "TEXT": "Python, LLMs, FAISS, RAG"
+      },
+      "CLOUD": {
+        "TITLE": "Cloud / DevOps",
+        "TEXT": "Terraform, Packer, Docker"
+      }
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "EMAIL_LABEL": "E-mail",
+    "EMAIL_BTN": "Envoyer un email",
+    "PHONE_LABEL": "Téléphone",
+    "LINKEDIN": "Linkedin",
+    "GITHUB": "GitHub"
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "ITEMS": [
+      {
+        "TITLE": "Chatbot",
+        "TEXT1": "Ce projet met en œuvre un système complet de génération augmentée par la recherche (RAG) permettant aux utilisateurs d'interroger les données de publications académiques extraites du portail scientifique de l'Université pontificale de Salamanque.",
+        "TEXT2": "Les données sources proviennent de: ",
+        "LINK_TEXT": "Portail scientifique",
+        "TEXT3": "Le site web a été exploré à l'aide d'Apache Nutch, générant un fichier de données qui a ensuite été transformé et nettoyé en un format JSON structuré, adapté à l'indexation et à la recherche sémantiques.",
+        "STACK": "Python, FAISS, RAG, LLM, Angular, FastAPI, OpenAI (GPT-4 turbo modèle)",
+        "GITHUB": "Voir sur GitHub"
+      },
+      {
+        "TITLE": "AWS",
+        "TEXT1": "Ce projet déploie l'API REST MIMO Movies dans le cloud à l'aide d'une architecture évolutive, automatisée grâce à:",
+        "LIST": ["Docker.", "Terraform.", "Packer."],
+        "TEXT2": "Elle transforme une API locale en un déploiement entièrement automatisé, évolutif et natif du cloud sur AWS.",
+        "STACK": "TypeScript, Terraform, Packer, Docker, SQLite et Postman.",
+        "GITHUB": "Voir sur GitHub"
+      },
+      {
+        "TITLE": "Categorify",
+        "TEXT1": "Categorify est une application web complète construite avec Angular (frontend) et Express (backend), conçue pour organiser et gérer les URL de manière structurée et visuelle.",
+        "TEXT2": "L'application permet aux utilisateurs de créer des catégories à code couleur et d'y stocker des entrées URL, y compris des métadonnées telles que la description, l'image et le statut de favori.",
+        "TEXT3": "L'application est déployée sur OnRender, vous n'avez donc pas besoin de la déployer localement: https://categorify.onrender.com",
+        "TEXT4": "Le projet complet (interface utilisateur et serveur) est disponible sur GitHub, mais il est hébergé sur Render à des fins de démonstration. Les entreprises peuvent visualiser l'application et interagir avec elle en ligne sans avoir besoin de l'exécuter localement.",
+        "STACK": "Angular, Express.js, MongoDB et Render.",
+        "GITHUB": "Voir sur GitHub"
+      },
+      {
+        "TITLE": "Daily Mood",
+        "TEXT1": "Une application e-commerce mobile/web moderne, développée avec Angular (architecture autonome) et le framework Ionic, offrant une gestion d'état réactive via Angular Signals, un processus de paiement simulé, la gestion des stocks, des favoris et un panier persistant.",
+        "TEXT2": "Ce projet illustre les principes d'architecture propre, les modèles d'interface utilisateur réactifs, la conception modulaire des composants et les bonnes pratiques de développement front-end.",
+        "STACK": "Angular, Ionic, TypeScript et RxJS.",
+        "GITHUB": "Voir sur GitHub"
+      },
+      {
+        "TITLE": "Ledgerly",
+        "TEXT1": "Ledgerly est une application iOS de suivi des dépenses personnelles, développée avec Swift et SwiftUI. Elle permet aux utilisateurs d'ajouter, de consulter, de catégoriser et de visualiser leurs dépenses grâce à une interface moderne et intuitive. Ledgerly prend également en charge la persistance locale des données via Core Data et la synchronisation avec un service backend.",
+        "STACK": "Swift, SwiftUI et MVVM.",
+        "GITHUB": "Voir sur GitHub"
+      }
+    ]
+  }
+}
