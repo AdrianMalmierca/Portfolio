@@ -127,7 +127,7 @@
       },
       {
         "TITLE": "Ledgerly",
-        "TEXT1": "iOS application developed with SwiftUI following MVVM architecture, focused on financial tracking with a clear separation of concerns.",
+        "TEXT1": "Ledgerly is a personal expense tracking iOS application built with Swift and SwiftUI. It allows users to add, view, categorize, and visualize their expenses with a modern, intuitive interface. Ledgerly also supports local persistence via Core Data and synchronization with a backend service.",
         "STACK": "Swift, SwiftUI and MVVM.",
         "GITHUB": "View on GitHub"
       }
