@@ -1,0 +1,136 @@
+{
+  "HOME": {
+    "TITLE": "Home",
+    "NAME": "Adrián Martín Malmierca",
+    "TITLE1": "Computer Engineer · Junior Software Developer",
+    "BLOCKS": {
+      "RESUME": {
+        "TITLE": "Summary",
+        "TEXT1": "I am a junior software developer, although I primarily develop mobile applications:",
+        "MOBILE_LIST": [
+          "iOS with Swift (SwiftUI or UIKit) (Ledgerly Project).",
+          "Android with Kotlin.",
+          "Cross-platform with React Native and .NET MAUI."
+        ],
+        "TEXT2": "I can also develop web applications:",
+        "WEB_LIST": [
+          "HTML, CSS, and JavaScript.",
+          "Angular (Categorify).",
+          "Angular with Ionic (Daily Mood)."
+        ],
+        "TEXT3": "I also have knowledge of PHP with CSS and Python (Chatbot).",
+        "TEXT4": "Passionate about clean architecture, scalable systems, and product-oriented engineering. I am Spanish and will relocate to France in September 2026."
+      },
+      "EDUCATION": {
+        "TITLE": "Education",
+        "TEXT1": "I studied Computer Engineering at the Pontifical University of Salamanca from September 2021 to June 2025.",
+        "TEXT2": "I am currently pursuing a Master's degree in Mobile Applications at the Pontifical University of Salamanca",
+        "LINK": " (MIMO)",
+        "TEXT3": ", expected completion in September 2026."
+      },
+      "EXPERIENCE": {
+        "TITLE": "Professional Experience",
+        "TEXT1": "Internship at the Pontifical University of Salamanca from November 2024 to May 2025 (6 months).",
+        "TEXT2": "Currently an intern at Orange from March 2026 to August 2026 (5 months)."
+      },
+      "LANGUAGES": {
+        "TITLE": "Languages",
+        "SPANISH": "Spanish: Native",
+        "ENGLISH": "English: Oxford B2 Certificate",
+        "FRENCH": "French: DELF B2 Certificate"
+      },
+      "CERTIFICATS": {
+        "TITLE": "Certificates",
+        "SPANISH": "Participation in the 5th edition of HACK4EDU | 2024",
+        "ENGLISH": "360° Personal Branding",
+        "FRENCH": "Copilot: Master AI in Microsoft 365"
+      },
+      "PROJECTS": {
+        "TITLE": "My Projects",
+        "CTA": "View Projects"
+      }
+    }
+  },
+  "STACK": {
+    "TITLE": "Stack",
+    "TITLE1": "Technology stack",
+    "CARDS": {
+      "MOBILE": {
+        "TITLE": "Mobile and Cross-platform",
+        "TEXT": "Swift, SwiftUI, UIKit, Kotlin, Ionic, .NET MAUI"
+      },
+      "WEB": {
+        "TITLE": "Web Interface",
+        "TEXT": "Angular, React"
+      },
+      "BACKEND": {
+        "TITLE": "Backend and Microservices",
+        "TEXT": "Python (FastAPI, Django), Node.js (Express.js), PHP, C#, Java"
+      },
+      "DB": {
+        "TITLE": "Databases",
+        "TEXT": "PostgreSQL, MongoDB"
+      },
+      "AI": {
+        "TITLE": "AI / ML / RAG",
+        "TEXT": "Python, LLMs, FAISS, RAG"
+      },
+      "CLOUD": {
+        "TITLE": "Cloud / DevOps",
+        "TEXT": "Terraform, Packer, Docker"
+      }
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "EMAIL_LABEL": "Email",
+    "EMAIL_BTN": "Send email",
+    "PHONE_LABEL": "Phone",
+    "LINKEDIN": "LinkedIn",
+    "GITHUB": "GitHub"
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "ITEMS": [
+      {
+        "TITLE": "Chatbot",
+        "TEXT1": "This project implements a complete Retrieval-Augmented Generation (RAG) system that allows users to query academic publication data extracted from the scientific portal of the Pontifical University of Salamanca.",
+        "TEXT2": "The source data comes from: ",
+        "LINK_TEXT": "Scientific Portal",
+        "TEXT3": "The website was crawled using Apache Nutch, generating a data file that was later transformed and cleaned into a structured JSON format suitable for indexing and semantic search.",
+        "STACK": "Python, FAISS, RAG, LLM, Angular, FastAPI, OpenAI (GPT-4 Turbo model)",
+        "GITHUB": "View on GitHub"
+      },
+      {
+        "TITLE": "AWS",
+        "TEXT1": "This project deploys the MIMO Movies REST API to the cloud using a scalable architecture automated with:",
+        "LIST": ["Docker.", "Terraform.", "Packer."],
+        "TEXT2": "It transforms a local API into a fully automated, scalable, and cloud-native deployment on AWS.",
+        "STACK": "TypeScript, Terraform, Packer, Docker, SQLite and Postman.",
+        "GITHUB": "View on GitHub"
+      },
+      {
+        "TITLE": "Categorify",
+        "TEXT1": "Categorify is a full-stack web application built with Angular (frontend) and Express (backend), designed to organize and manage URLs in a structured and visual way.",
+        "TEXT2": "It allows users to create color-coded categories and store URL entries with metadata such as description, image, and favorite status.",
+        "TEXT3": "The application is deployed on Render, so it does not need to be run locally: https://categorify.onrender.com",
+        "TEXT4": "The complete project is available on GitHub and hosted on Render for demonstration purposes, allowing companies to interact with the application online.",
+        "STACK": "Angular, Express.js, MongoDB and Render.",
+        "GITHUB": "View on GitHub"
+      },
+      {
+        "TITLE": "Daily Mood",
+        "TEXT1": "A modern mobile/web e-commerce application developed with Angular (standalone architecture) and Ionic, featuring reactive state management with Angular Signals, a simulated checkout process, stock management, favorites, and a persistent cart.",
+        "TEXT2": "The project demonstrates clean architecture principles, reactive UI patterns, modular component design, and frontend development best practices.",
+        "STACK": "Angular, Ionic, TypeScript and RxJS.",
+        "GITHUB": "View on GitHub"
+      },
+      {
+        "TITLE": "Ledgerly",
+        "TEXT1": "iOS application developed with SwiftUI following MVVM architecture, focused on financial tracking with a clear separation of concerns.",
+        "STACK": "Swift, SwiftUI and MVVM.",
+        "GITHUB": "View on GitHub"
+      }
+    ]
+  }
+}
