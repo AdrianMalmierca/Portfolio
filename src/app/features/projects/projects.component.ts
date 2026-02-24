@@ -57,7 +57,8 @@ export class ProjectsComponent implements OnDestroy {
     this.langSub.unsubscribe();
   }
 
-  getGithubLink(title: string): string {
+  getGithubLink(id: string) {
+    console.log('ID recibido:', id);
     const map: Record<string, string> = {
       'Chatbot': 'https://github.com/AdrianMalmierca/Chatbot',
       'AWS': 'https://github.com/AdrianMalmierca/Cloudproject',
@@ -67,6 +68,6 @@ export class ProjectsComponent implements OnDestroy {
       'CI': 'https://github.com/AdrianMalmierca/CI-CD'
     };
 
-    return map[title] ?? '#';
+    return map[id] ?? '#';
   }
 }
