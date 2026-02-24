@@ -63,9 +63,7 @@ export class ProjectsComponent implements OnDestroy {
       Categorify: 'https://github.com/AdrianMalmierca/Categorify',
       'Daily Mood': 'https://github.com/AdrianMalmierca/DailyMood',
       Ledgerly: 'https://github.com/AdrianMalmierca/Ledgerly',
-      'CI/CD projet avec GitHub Actions et Railway': 'https://github.com/AdrianMalmierca/CI-CD',
-      'Proyecto CI/CD con github actions y Railway': 'https://github.com/AdrianMalmierca/CI-CD',
-      'CI/CD Project with GitHub Actions and Railway': 'https://github.com/AdrianMalmierca/CI-CD'
+      'CI/CD': 'https://github.com/AdrianMalmierca/CI-CD'
     };
 
     return map[title] ?? '#';

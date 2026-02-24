@@ -135,8 +135,8 @@
         "GITHUB": "View on GitHub"
       },
       {
-        "TITLE": "CI/CD Project with GitHub Actions and Railway",
-        "TEXT1": "This project has intentionally simple business logic, but is designed with professional backend standards.",
+        "TITLE": "CI/CD",
+        "TEXT1": "This project has intentionally simple business logic, but is designed with professional backend standards, made with GitHub Actions and Railway",
         "LIST": [
           "Modular architecture",
           "Environment-based configuration",
