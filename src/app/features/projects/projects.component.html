@@ -1,7 +1,7 @@
 <section>
   <h2>{{ 'PROJECTS.TITLE' | translate }}</h2>
 
-  @for (project of projects; track $index) {
+  @for (project of projects; track project.TITLE) {
 
     <div class="project">
       <h3>{{ project.TITLE }}</h3>
@@ -19,9 +19,9 @@
         </p>
       }
 
-      @if (project.LIST) {
+      @if (project.LIST?.length) {
         <ul>
-          @for (item of project.LIST; track $index) {
+          @for (item of project.LIST; track item) {
             <li>{{ item }}</li>
           }
         </ul>
@@ -37,11 +37,15 @@
 
       <p><strong>Stack:</strong> {{ project.STACK }}</p>
 
-      <a class="github-btn"
-         [href]="getGithubLink(project.TITLE)"
-         target="_blank">
+      <a
+        class="github-btn"
+        [href]="getGithubLink(project.TITLE)"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         {{ project.GITHUB }}
       </a>
+
     </div>
 
   }

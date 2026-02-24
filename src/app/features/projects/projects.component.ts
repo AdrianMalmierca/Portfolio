@@ -1,7 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { TranslateModule, TranslateService, LangChangeEvent } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
+
+interface Project {
+  TITLE: string;
+  TEXT1: string;
+  TEXT2?: string;
+  TEXT3?: string;
+  TEXT4?: string;
+  LIST?: string[];
+  LINK_TEXT?: string;
+  STACK: string;
+  GITHUB: string;
+}
 
 @Component({
   selector: 'app-projects',
@@ -10,24 +23,36 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css'
 })
-export class ProjectsComponent {
-projects: any[] = [];
+export class ProjectsComponent implements OnDestroy {
+
+  projects: Project[] = [];
+  private langSub!: Subscription;
+
   constructor(private translate: TranslateService) {
     this.translate.setDefaultLang('fr');
     this.translate.use('fr');
 
     this.loadProjects();
+
+    this.langSub = this.translate.onLangChange.subscribe(
+      (event: LangChangeEvent) => {
+        this.loadProjects();
+      }
+    );
   }
 
   loadProjects() {
-    this.translate.get('PROJECTS.ITEMS').subscribe((items) => {
+    this.translate.get('PROJECTS.ITEMS').subscribe((items: Project[]) => {
       this.projects = items;
     });
   }
 
   switchLang(lang: string) {
     this.translate.use(lang);
-    this.loadProjects();
+  }
+
+  ngOnDestroy() {
+    this.langSub.unsubscribe();
   }
 
   getGithubLink(title: string): string {
@@ -37,9 +62,11 @@ projects: any[] = [];
       Categorify: 'https://github.com/AdrianMalmierca/Categorify',
       'Daily Mood': 'https://github.com/AdrianMalmierca/DailyMood',
       Ledgerly: 'https://github.com/AdrianMalmierca/Ledgerly',
-      'CI-CD': 'https://github.com/AdrianMalmierca/CI-CD'
+      'CI/CD projet avec GitHub Actions et Railway': 'https://github.com/AdrianMalmierca/CI-CD',
+      'Proyecto CI/CD con github actions y Railway': 'https://github.com/AdrianMalmierca/CI-CD',
+      'CI/CD Project with GitHub Actions and Railway': 'https://github.com/AdrianMalmierca/CI-CD'
     };
 
     return map[title] ?? '#';
   }
-  }
+}
