@@ -97,6 +97,7 @@
         "TEXT1": "Ce projet met en œuvre un système complet de génération augmentée par la recherche (RAG) permettant aux utilisateurs d'interroger les données de publications académiques extraites du portail scientifique de l'Université pontificale de Salamanque.",
         "TEXT2": "Les données sources proviennent de: ",
         "LINK_TEXT": "Portail scientifique",
+        "LINK_TEXT2": "https://portalcientifico.upsa.es/",
         "TEXT3": "Le site web a été exploré à l'aide d'Apache Nutch, générant un fichier de données qui a ensuite été transformé et nettoyé en un format JSON structuré, adapté à l'indexation et à la recherche sémantiques.",
         "STACK": "Python, FAISS, RAG, LLM, Angular, FastAPI, OpenAI (GPT-4 turbo modèle)",
         "GITHUB": "Voir sur GitHub"
@@ -113,7 +114,9 @@
         "TITLE": "Categorify",
         "TEXT1": "Categorify est une application web complète construite avec Angular (frontend) et Express (backend), conçue pour organiser et gérer les URL de manière structurée et visuelle.",
         "TEXT2": "L'application permet aux utilisateurs de créer des catégories à code couleur et d'y stocker des entrées URL, y compris des métadonnées telles que la description, l'image et le statut de favori.",
-        "TEXT3": "L'application est déployée sur OnRender, vous n'avez donc pas besoin de la déployer localement: https://categorify.onrender.com",
+        "TEXT3": "L'application est déployée sur OnRender, vous n'avez donc pas besoin de la déployer localement: ",
+        "LINK_TEXT":"Categorify sur Render",
+        "LINK_TEXT2": "https://categorify.onrender.com",
         "TEXT4": "Le projet complet (interface utilisateur et serveur) est disponible sur GitHub, mais il est hébergé sur Render à des fins de démonstration. Les entreprises peuvent visualiser l'application et interagir avec elle en ligne sans avoir besoin de l'exécuter localement.",
         "STACK": "Angular, Express.js, MongoDB et Render.",
         "GITHUB": "Voir sur GitHub"
