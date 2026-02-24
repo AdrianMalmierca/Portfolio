@@ -132,7 +132,7 @@
         "GITHUB": "Voir sur GitHub"
       },
       {
-        "TITLE": "Projet CI/CD avec GitHub Actions et Railway",
+        "TITLE": "CI-CD projet avec GitHub Actions et Railway",
         "TEXT1": "Une API REST Express.js structurée pour la production qui illustre:",
         "LIST": [
             "Architecture modulaire",
