@@ -21,8 +21,8 @@
 
       @if (project.LIST) {
         <ul>
-          @for (item of project.LIST; track $index) {
-            <li>{{ item }}</li>
+          @for (project of projects; track $index) {
+            <li>{{ project }}</li>
           }
         </ul>
       }

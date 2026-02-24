@@ -11,14 +11,24 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrl: './projects.component.css'
 })
 export class ProjectsComponent {
+projects: any[] = [];
   constructor(private translate: TranslateService) {
-      this.translate.setDefaultLang('fr');
-      this.translate.use('fr');
-    }
+    this.translate.setDefaultLang('fr');
+    this.translate.use('fr');
 
-    switchLang(lang: string) {
-      this.translate.use(lang);
-    }
+    this.loadProjects();
+  }
+
+  loadProjects() {
+    this.translate.get('PROJECTS.ITEMS').subscribe((items) => {
+      this.projects = items;
+    });
+  }
+
+  switchLang(lang: string) {
+    this.translate.use(lang);
+    this.loadProjects();
+  }
 
   getGithubLink(title: string): string {
     const map: Record<string, string> = {
