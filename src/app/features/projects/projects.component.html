@@ -1,7 +1,7 @@
 <section>
   <h2>{{ 'PROJECTS.TITLE' | translate }}</h2>
 
-  @for (project of ('PROJECTS.ITEMS' | translate); track $index) {
+  @for (project of projects; track $index) {
 
     <div class="project">
       <h3>{{ project.TITLE }}</h3>
@@ -21,8 +21,8 @@
 
       @if (project.LIST) {
         <ul>
-          @for (project of projects; track $index) {
-            <li>{{ project }}</li>
+          @for (item of project.LIST; track $index) {
+            <li>{{ item }}</li>
           }
         </ul>
       }
