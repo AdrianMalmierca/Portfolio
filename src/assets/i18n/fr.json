@@ -134,7 +134,7 @@
       {
         "TITLE": "Projet CI/CD avec GitHub Actions et Railway",
         "TEXT1": "Une API REST Express.js structurée pour la production qui illustre:",
-        "TEXT2": [
+        "LIST": [
           "Architecture modulaire",
           "Configuration basée sur l'environnement",
           "Tests automatisés avec Jest + Supertest",
@@ -142,10 +142,10 @@
           "Séparation claire des problèmes",
           "Gestion et journalisation des bogues"
         ],
-        "TEXT3": "Ce projet possède une logique métier volontairement simple, mais est conçu selon les standards professionnels du backend.",
+        "TEXT2": "Ce projet possède une logique métier volontairement simple, mais est conçu selon les standards professionnels du backend.",
         "STACK": "Node.js 20, Express.js, Jest (framework de tests), Supertest (assertions HTTP) et GitHub Actions (CI).",
         "GITHUB": "Voir sur GitHub"
-        }
+      }
     ]
   }
 }

@@ -132,19 +132,19 @@
         "GITHUB": "View on GitHub"
       },
       {
-      "TITLE": "CD/CI Project with GitHub Actions and Railway",
-      "TEXT1": "A structured Express.js REST API for production that demonstrates:",
-      "TEXT2": [
-      "Modular architecture",
-      "Environment-based configuration",
-      "Automated testing with Jest + Supertest",
-      "Continuous Integration (CI) pipeline using GitHub Actions",
-      "Clear separation of problems",
-      "Bug management and logging"
-      ],
-      "TEXT3": "This project has intentionally simple business logic, but is designed with professional backend standards.",
-      "STACK": "Node.js 20, Express.js, Jest (testing framework), Supertest (HTTP assertions), and GitHub Actions (CI).",
-      "GITHUB": "View on GitHub"
+        "TITLE": "CI/CD Project with GitHub Actions and Railway",
+        "TEXT1": "A structured Express.js REST API for production that demonstrates:",
+        "LIST": [
+          "Modular architecture",
+          "Environment-based configuration",
+          "Automated testing with Jest + Supertest",
+          "Continuous Integration (CI) pipeline using GitHub Actions",
+          "Clear separation of problems",
+          "Bug management and logging"
+        ],
+        "TEXT2": "This project has intentionally simple business logic, but is designed with professional backend standards.",
+        "STACK": "Node.js 20, Express.js, Jest (testing framework), Supertest (HTTP assertions), and GitHub Actions (CI).",
+        "GITHUB": "View on GitHub"
       }
     ]
   }
