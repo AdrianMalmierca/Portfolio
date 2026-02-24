@@ -12,6 +12,7 @@ interface Project {
   TEXT4?: string;
   LIST?: string[];
   LINK_TEXT?: string;
+  LINK_TEXT2?: string;
   STACK: string;
   GITHUB: string;
 }

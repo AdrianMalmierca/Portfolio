@@ -97,6 +97,7 @@
         "TEXT1": "Este proyecto implementa un sistema completo de generación aumentada por recuperación (RAG) que permite a los usuarios consultar datos de publicaciones académicas extraídas del portal científico de la Universidad Pontificia de Salamanca.",
         "TEXT2": "Los datos fuente provienen de: ",
         "LINK_TEXT": "Portal científico",
+        "LINK_TEXT2": "https://portalcientifico.upsa.es/",
         "TEXT3": "El sitio web fue explorado utilizando Apache Nutch, generando un archivo de datos que posteriormente fue transformado y limpiado en un formato JSON estructurado, adecuado para indexación y búsqueda semántica.",
         "STACK": "Python, FAISS, RAG, LLM, Angular, FastAPI, OpenAI (modelo GPT-4 turbo)",
         "GITHUB": "Ver en GitHub"
@@ -113,7 +114,9 @@
         "TITLE": "Categorify",
         "TEXT1": "Categorify es una aplicación web completa construida con Angular (frontend) y Express (backend), diseñada para organizar y gestionar URLs de manera estructurada y visual.",
         "TEXT2": "Permite a los usuarios crear categorías con código de color y almacenar entradas URL con metadatos como descripción, imagen y estado de favorito.",
-        "TEXT3": "La aplicación está desplegada en Render, por lo que no es necesario ejecutarla localmente: https://categorify.onrender.com",
+        "TEXT3": "La aplicación está desplegada en Render, por lo que no es necesario ejecutarla localmente: ",
+        "LINK_TEXT":"Categorify en Render",
+        "LINK_TEXT2": "https://categorify.onrender.com",
         "TEXT4": "El proyecto completo está disponible en GitHub y alojado en Render con fines de demostración, permitiendo a las empresas interactuar con la aplicación online.",
         "STACK": "Angular, Express.js, MongoDB y Render.",
         "GITHUB": "Ver en GitHub"
