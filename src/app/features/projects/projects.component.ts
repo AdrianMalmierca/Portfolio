@@ -68,6 +68,6 @@ export class ProjectsComponent implements OnDestroy {
       'CI': 'https://github.com/AdrianMalmierca/CI-CD'
     };
 
-    return map[id] ?? '#';
+    return map[""] ?? '#';
   }
 }
