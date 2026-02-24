@@ -93,6 +93,7 @@
     "TITLE": "Projects",
     "ITEMS": [
       {
+        "ID": "Chatbot",
         "TITLE": "Chatbot",
         "TEXT1": "Ce projet met en œuvre un système complet de génération augmentée par la recherche (RAG) permettant aux utilisateurs d'interroger les données de publications académiques extraites du portail scientifique de l'Université pontificale de Salamanque.",
         "TEXT2": "Les données sources proviennent de: ",
@@ -103,6 +104,7 @@
         "GITHUB": "Voir sur GitHub"
       },
       {
+        "ID": "AWS",
         "TITLE": "AWS",
         "TEXT1": "Ce projet déploie l'API REST MIMO Movies dans le cloud à l'aide d'une architecture évolutive, automatisée grâce à:",
         "LIST": ["Docker.", "Terraform.", "Packer."],
@@ -111,6 +113,7 @@
         "GITHUB": "Voir sur GitHub"
       },
       {
+        "ID": "Categorify",
         "TITLE": "Categorify",
         "TEXT1": "Categorify est une application web complète construite avec Angular (frontend) et Express (backend), conçue pour organiser et gérer les URL de manière structurée et visuelle.",
         "TEXT2": "L'application permet aux utilisateurs de créer des catégories à code couleur et d'y stocker des entrées URL, y compris des métadonnées telles que la description, l'image et le statut de favori.",
@@ -122,6 +125,7 @@
         "GITHUB": "Voir sur GitHub"
       },
       {
+        "ID": "Daily Mood",
         "TITLE": "Daily Mood",
         "TEXT1": "Une application e-commerce mobile/web moderne, développée avec Angular (architecture autonome) et le framework Ionic, offrant une gestion d'état réactive via Angular Signals, un processus de paiement simulé, la gestion des stocks, des favoris et un panier persistant.",
         "TEXT2": "Ce projet illustre les principes d'architecture propre, les modèles d'interface utilisateur réactifs, la conception modulaire des composants et les bonnes pratiques de développement front-end.",
@@ -129,12 +133,14 @@
         "GITHUB": "Voir sur GitHub"
       },
       {
+        "ID": "Ledgerly",
         "TITLE": "Ledgerly",
         "TEXT1": "Ledgerly est une application iOS de suivi des dépenses personnelles, développée avec Swift et SwiftUI. Elle permet aux utilisateurs d'ajouter, de consulter, de catégoriser et de visualiser leurs dépenses grâce à une interface moderne et intuitive. Ledgerly prend également en charge la persistance locale des données via Core Data et la synchronisation avec un service backend.",
         "STACK": "Swift, SwiftUI et MVVM.",
         "GITHUB": "Voir sur GitHub"
       },
       {
+        "ID": "CI-CD",
         "TITLE": "CI/CD",
         "TEXT1": "Ce projet possède une logique métier volontairement simple, mais est conçu selon les standards professionnels du backend, fait avec GitHub Actions et Railway.",
         "LIST": [ 

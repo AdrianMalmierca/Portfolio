@@ -5,6 +5,7 @@ import { TranslateModule, TranslateService, LangChangeEvent } from '@ngx-transla
 import { Subscription } from 'rxjs';
 
 interface Project {
+  ID: string;
   TITLE: string;
   TEXT1: string;
   TEXT2?: string;

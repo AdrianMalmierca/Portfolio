@@ -93,6 +93,7 @@
     "TITLE": "Projects",
     "ITEMS": [
       {
+        "ID": "Chatbot",
         "TITLE": "Chatbot",
         "TEXT1": "This project implements a complete Retrieval-Augmented Generation (RAG) system that allows users to query academic publication data extracted from the scientific portal of the Pontifical University of Salamanca.",
         "TEXT2": "The source data comes from: ",
@@ -103,6 +104,7 @@
         "GITHUB": "View on GitHub"
       },
       {
+        "ID": "AWS",
         "TITLE": "AWS",
         "TEXT1": "This project deploys the MIMO Movies REST API to the cloud using a scalable architecture automated with:",
         "LIST": ["Docker.", "Terraform.", "Packer."],
@@ -111,6 +113,7 @@
         "GITHUB": "View on GitHub"
       },
       {
+        "ID": "Categorify",
         "TITLE": "Categorify",
         "TEXT1": "Categorify is a full-stack web application built with Angular (frontend) and Express (backend), designed to organize and manage URLs in a structured and visual way.",
         "TEXT2": "It allows users to create color-coded categories and store URL entries with metadata such as description, image, and favorite status.",
@@ -122,6 +125,7 @@
         "GITHUB": "View on GitHub"
       },
       {
+        "ID": "Daily Mood",
         "TITLE": "Daily Mood",
         "TEXT1": "A modern mobile/web e-commerce application developed with Angular (standalone architecture) and Ionic, featuring reactive state management with Angular Signals, a simulated checkout process, stock management, favorites, and a persistent cart.",
         "TEXT2": "The project demonstrates clean architecture principles, reactive UI patterns, modular component design, and frontend development best practices.",
@@ -129,12 +133,14 @@
         "GITHUB": "View on GitHub"
       },
       {
+        "ID": "Ledgerly",
         "TITLE": "Ledgerly",
         "TEXT1": "Ledgerly is a personal expense tracking iOS application built with Swift and SwiftUI. It allows users to add, view, categorize, and visualize their expenses with a modern, intuitive interface. Ledgerly also supports local persistence via Core Data and synchronization with a backend service.",
         "STACK": "Swift, SwiftUI and MVVM.",
         "GITHUB": "View on GitHub"
       },
       {
+        "ID": "CI-CD",
         "TITLE": "CI/CD",
         "TEXT1": "This project has intentionally simple business logic, but is designed with professional backend standards, made with GitHub Actions and Railway",
         "LIST": [
