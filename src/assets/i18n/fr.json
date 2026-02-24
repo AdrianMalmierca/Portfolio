@@ -140,7 +140,7 @@
         "GITHUB": "Voir sur GitHub"
       },
       {
-        "ID": "CI-CD",
+        "ID": "CI",
         "TITLE": "CI/CD",
         "TEXT1": "Ce projet possède une logique métier volontairement simple, mais est conçu selon les standards professionnels du backend, fait avec GitHub Actions et Railway.",
         "LIST": [ 

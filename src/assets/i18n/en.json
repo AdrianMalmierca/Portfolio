@@ -140,7 +140,7 @@
         "GITHUB": "View on GitHub"
       },
       {
-        "ID": "CI-CD",
+        "ID": "CI",
         "TITLE": "CI/CD",
         "TEXT1": "This project has intentionally simple business logic, but is designed with professional backend standards, made with GitHub Actions and Railway",
         "LIST": [
