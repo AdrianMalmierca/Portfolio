@@ -134,7 +134,7 @@
       {
         "TITLE": "CI/CD projet avec GitHub Actions et Railway",
         "TEXT1": "Ce projet possède une logique métier volontairement simple, mais est conçu selon les standards professionnels du backend.",
-        "LIST": [
+        "LIST": [ 
             "Architecture modulaire",
             "Configuration basée sur l'environnement",
             "Tests automatisés avec Jest + Supertest",
