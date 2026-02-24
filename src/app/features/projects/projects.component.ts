@@ -26,7 +26,8 @@ export class ProjectsComponent {
       AWS: 'https://github.com/AdrianMalmierca/Cloudproject',
       Categorify: 'https://github.com/AdrianMalmierca/Categorify',
       'Daily Mood': 'https://github.com/AdrianMalmierca/DailyMood',
-      Ledgerly: 'https://github.com/AdrianMalmierca/Ledgerly'
+      Ledgerly: 'https://github.com/AdrianMalmierca/Ledgerly',
+      'CI-CD': 'https://github.com/AdrianMalmierca/CI-CD'
     };
 
     return map[title] ?? '#';

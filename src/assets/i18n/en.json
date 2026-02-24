@@ -130,6 +130,21 @@
         "TEXT1": "Ledgerly is a personal expense tracking iOS application built with Swift and SwiftUI. It allows users to add, view, categorize, and visualize their expenses with a modern, intuitive interface. Ledgerly also supports local persistence via Core Data and synchronization with a backend service.",
         "STACK": "Swift, SwiftUI and MVVM.",
         "GITHUB": "View on GitHub"
+      },
+      {
+      "TITLE": "CD/CI Project with GitHub Actions and Railway",
+      "TEXT1": "A structured Express.js REST API for production that demonstrates:",
+      "TEXT2": [
+      "Modular architecture",
+      "Environment-based configuration",
+      "Automated testing with Jest + Supertest",
+      "Continuous Integration (CI) pipeline using GitHub Actions",
+      "Clear separation of problems",
+      "Bug management and logging"
+      ],
+      "TEXT3": "This project has intentionally simple business logic, but is designed with professional backend standards.",
+      "STACK": "Node.js 20, Express.js, Jest (testing framework), Supertest (HTTP assertions), and GitHub Actions (CI).",
+      "GITHUB": "View on GitHub"
       }
     ]
   }
