@@ -59,12 +59,12 @@ export class ProjectsComponent implements OnDestroy {
 
   getGithubLink(title: string): string {
     const map: Record<string, string> = {
-      Chatbot: 'https://github.com/AdrianMalmierca/Chatbot',
-      AWS: 'https://github.com/AdrianMalmierca/Cloudproject',
-      Categorify: 'https://github.com/AdrianMalmierca/Categorify',
+      'Chatbot': 'https://github.com/AdrianMalmierca/Chatbot',
+      'AWS': 'https://github.com/AdrianMalmierca/Cloudproject',
+      'Categorify': 'https://github.com/AdrianMalmierca/Categorify',
       'Daily Mood': 'https://github.com/AdrianMalmierca/DailyMood',
-      Ledgerly: 'https://github.com/AdrianMalmierca/Ledgerly',
-      CI: 'https://github.com/AdrianMalmierca/CI-CD'
+      'Ledgerly': 'https://github.com/AdrianMalmierca/Ledgerly',
+      'CI': 'https://github.com/AdrianMalmierca/CI-CD'
     };
 
     return map[title] ?? '#';
