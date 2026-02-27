@@ -144,7 +144,7 @@
         "TITLE": "CI/CD",
         "TEXT1": "Una API REST de Express.js estructurada para producción que demuestra:", 
         "LIST": [
-           "Arquitectura modular",
+            "Arquitectura modular",
             "Configuración basada en el entorno",
             "Pruebas automatizadas con Jest + Supertest",
             "Canal de integración continua (CI) mediante GitHub Actions",
