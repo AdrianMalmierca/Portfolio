@@ -8,6 +8,14 @@
 
       <p>{{ project.TEXT1 }}</p>
 
+      @if (project.LIST?.length) {
+        <ul>
+          @for (item of project.LIST; track item) {
+            <li>{{ item }}</li>
+          }
+        </ul>
+      }
+
       @if (project.TEXT2) {
         <p>
           {{ project.TEXT2 }}
@@ -17,14 +25,6 @@
             </a>
           }
         </p>
-      }
-
-      @if (project.LIST?.length) {
-        <ul>
-          @for (item of project.LIST; track item) {
-            <li>{{ item }}</li>
-          }
-        </ul>
       }
 
       @if (project.TEXT3) {
