@@ -158,7 +158,7 @@
       {
         "ID": "MIMOAPI",
         "TITLE": "API avec tests",
-        "TEXT1": "Cette API fournit :",
+        "TEXT1": "Cette API fournit:",
         "LIST": [
           "Un catalogue de films paginé",
           "Calcul de la note moyenne par film",
