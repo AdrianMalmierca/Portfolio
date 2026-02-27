@@ -158,7 +158,7 @@
       {
         "ID": "MIMOAPI",
         "TITLE": "API con pruebas",
-        "TEXT1": "Esta API proporciona:",
+        "TEXT1": "Esta API proporciona:", 
         "LIST": [
           "Un catálogo de películas paginado",
           "Cálculo de la calificación promedio por película",
