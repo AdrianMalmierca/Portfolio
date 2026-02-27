@@ -154,6 +154,22 @@
         "TEXT2": "A structured Express.js REST API for production that demonstrates:",
         "STACK": "Node.js 20, Express.js, Jest (testing framework), Supertest (HTTP assertions), and GitHub Actions (CI).",
         "GITHUB": "View on GitHub"
+      },
+      {
+        "ID": "MIMOAPI",
+        "TITLE": "Api with testing",
+        "TEXT1": "This API provides:",
+        "LIST": [
+          "A paginated movie catalog",
+          "Average rating calculation per movie",
+          "User-based rating system (one rating per user per movie)",
+          "Authenticated watchlist management",
+          "API key–based authentication",
+          "Request validation and structured error handling"
+        ],
+        "TEXT2": "It simulates a production-ready backend for a movie platform where users can rate movies and maintain personal watchlists.",
+        "STACK": "TypeScript, Docker, SQLite and Postman.",
+        "GITHUB": "View on GitHub"
       }
     ]
   }

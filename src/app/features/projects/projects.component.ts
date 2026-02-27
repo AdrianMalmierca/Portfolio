@@ -65,7 +65,8 @@ export class ProjectsComponent implements OnDestroy {
       'Categorify': 'https://github.com/AdrianMalmierca/Categorify',
       'Daily Mood': 'https://github.com/AdrianMalmierca/DailyMood',
       'Ledgerly': 'https://github.com/AdrianMalmierca/Ledgerly',
-      'CI': 'https://github.com/AdrianMalmierca/CI-testing'
+      'CI': 'https://github.com/AdrianMalmierca/CI-testing',
+      'MIMOAPI': 'https://github.com/AdrianMalmierca/Api-with-testing'
     };
 
     return map[id] ?? '#';

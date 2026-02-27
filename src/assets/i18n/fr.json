@@ -154,7 +154,23 @@
         "TEXT2": "Une API REST Express.js structurée pour la production qui illustre:",
         "STACK": "Node.js 20, Express.js, Jest (framework de tests), Supertest (assertions HTTP) et GitHub Actions (CI).",
         "GITHUB": "Voir sur GitHub"
-      }
+      },
+      {
+        "ID": "MIMOAPI",
+        "TITLE": "API avec tests",
+        "TEXT1": "Cette API fournit :",
+        "LIST": [
+          "Un catalogue de films paginé",
+          "Calcul de la note moyenne par film",
+          "Système de notation par utilisateur (une note par utilisateur et par film)",
+          "Gestion authentifiée des listes de films à voir",
+          "Authentification par clé API",
+          "Validation des requêtes et gestion structurée des erreurs"
+        ],
+        "TEXT2": "Elle simule un backend prêt pour la production pour une plateforme de films où les utilisateurs peuvent noter les films et gérer leurs listes de films à voir.",
+        "STACK": "TypeScript, Docker, SQLite et Postman.",
+        "GITHUB": "Voir sur GitHub"
+        }
     ]
   }
 }
