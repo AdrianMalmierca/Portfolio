@@ -142,7 +142,7 @@
       {
         "ID": "CI",
         "TITLE": "CI/CD",
-        "TEXT1": "Este proyecto tiene una lógica de negocio intencionadamente simple, pero está diseñado con estándares profesionales de backend, realizado con github actions y Railway.", 
+        "TEXT1": "Una API REST de Express.js estructurada para producción que demuestra:", 
         "LIST": [
             "Arquitectura modular",
             "Configuración basada en el entorno",
@@ -151,7 +151,7 @@
             "Separación clara de problemas",
             "Gestión y registro de errores"
         ],
-        "TEXT2":"Una API REST de Express.js estructurada para producción que demuestra:",
+        "TEXT2":"Este proyecto tiene una lógica de negocio intencionadamente simple, pero está diseñado con estándares profesionales de backend, realizado con github actions y Railway.",
         "STACK": "Node.js 20, Express.js, Jest (testing framework), Supertest (HTTP assertions) y GitHub Actions (CI).",
         "GITHUB": "Ver en GitHub"
       },
