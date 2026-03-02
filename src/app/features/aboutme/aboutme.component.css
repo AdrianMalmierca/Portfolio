@@ -146,20 +146,57 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
+  /* Reduce padding general de la card */
+  .about-card {
+    padding: 2rem 1.5rem;
+  }
+
+  /* About hero más compacto */
+  .about-hero {
+    margin-bottom: 2rem; /* menos espacio debajo de la foto */
+  }
+
+  /* Foto más pequeña */
   .about-photo {
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 140px;
   }
 
   .about-hero h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .about-role {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 
+  /* Intro más legible */
+  .about-intro {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /* Contenido más compacto */
   .about-content {
-    gap: 0.5rem;
+    gap: 1rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.3rem;
+    padding-left: 0.8rem;
+  }
+
+  .about-content h2::before {
+    height: 18px;
+    width: 3px;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .section-divider {
+    margin: 1.5rem 0;
   }
 }
