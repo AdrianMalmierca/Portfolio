@@ -38,4 +38,19 @@ export class AppComponent {
     this.translate.use(lang);
     localStorage.setItem('lang', lang);
   }
+
+  menuOpen = false;
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+    const navCenter = document.querySelector('.nav-center');
+    const navRight = document.querySelector('.nav-right');
+    if (this.menuOpen) {
+      navCenter?.classList.remove('hide');
+      navRight?.classList.remove('hide');
+    } else {
+      navCenter?.classList.add('hide');
+      navRight?.classList.add('hide');
+    }
+  }
 }

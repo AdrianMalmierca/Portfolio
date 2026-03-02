@@ -89,24 +89,72 @@ main {
   margin: 0 auto;
 }
 
+.nav-center, .nav-right {
+  display: flex;
+}
+
+.navbar .nav-center.hide, 
+.navbar .nav-right.hide {
+  display: none;
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+.navbar .nav-center.hide,
+.navbar .nav-right.hide {
+  display: none !important;
+}
+
 /* Responsive Navbar */
 @media (max-width: 768px) {
   .navbar {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     padding: 1rem;
     gap: 0.5rem;
   }
 
-  .navbar > a {
-    margin: 0.5rem 0.8rem;
+  /* Nav-left centrado */
+  .nav-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Nav-center y Nav-right apilados y centrados */
+  .nav-center,
+  .nav-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    z-index: 1100;
+  }
+  
+  .nav-center a {
     font-size: 0.95rem;
   }
 
   .lang-buttons {
-    width: 100%;
     justify-content: center;
-    margin-left: 0;
     margin-top: 0.5rem;
+    gap: 0.5rem;
   }
 
   .lang-buttons button {
