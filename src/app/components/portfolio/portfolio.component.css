@@ -1,7 +1,4 @@
-/* ========================================= */
 /* PORTFOLIO SECTION (aligned like hero) */
-/* ========================================= */
-
 .portfolio-section {
   width: 100%;
   margin: 0 auto 0 auto;
@@ -15,18 +12,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  align-items: stretch; /* Esto asegura que las columnas tengan la misma altura */
+  align-items: stretch;
 }
 
-/* ========================================= */
 /* GENERAL CARD SYSTEM */
-/* ========================================= */
-
 .card {
   background: #f6f2ff;
   border: 1px solid rgba(98,0,209,0.08);
-  padding: 1.0rem;          /* antes 1.8rem */
-  border-radius: 16px;      /* antes 20px */
+  padding: 1.0rem;    
+  border-radius: 16px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
   text-decoration: none;
@@ -38,10 +32,7 @@
   box-shadow: 0 14px 35px rgba(0,0,0,0.15);
 }
 
-/* ========================================= */
 /* LEFT PROJECT CARD */
-/* ========================================= */
-
 .card-projects {
     background: linear-gradient(
     135deg,
@@ -97,7 +88,7 @@
 .card-projects .card-img {
   width: 100%;
   height: auto;
-  max-height: 450px;   /* límite opcional */
+  max-height: 450px; 
   object-fit: cover;
   border-radius: 18px;
 }
@@ -106,15 +97,12 @@
   transform: scale(1.05);
 }
 
-/* ========================================= */
 /* STACK CARD */
-/* ========================================= */
-
 .right-column {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  height: 100%;    /* ocupa toda la altura del grid item */
+  height: 100%;
   min-height: 0;
 }
 .card-stack {
@@ -145,10 +133,7 @@
   margin-bottom: 0.3rem;
 }
 
-/* ========================================= */
 /* TECH GRID */
-/* ========================================= */
-
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -158,24 +143,24 @@
 
 .tech-item {
   display: flex;
-  align-items: center;      /* imagen a la izquierda, texto a la derecha */
-  gap: 0.5rem;              /* espacio entre imagen y nombre */
+  align-items: center;     
+  gap: 0.5rem;             
   background: white;
   border: 1px solid rgba(98,0,209,0.12);
-  padding: 0.4rem 0.8rem;   /* más compacto que antes */
+  padding: 0.4rem 0.8rem;  
   border-radius: 10px;
   font-size: 0.8rem;
   font-weight: 600;
   color: #6200d1;
   transition: all 0.2s ease;
   cursor: default;
-  min-width: 100px;         /* evita que se achique demasiado */
+  min-width: 100px;        
 }
 
 .tech-item img {
   width: 20px;
   height: 20px;
-  margin: 0;               /* sin margen extra */
+  margin: 0;            
 }
 
 .tech-item span {
@@ -196,17 +181,14 @@
   color: rgb(255, 255, 255);
 }
 
-/* ========================================= */
 /* SMALL CARDS ROW */
-/* ========================================= */
-
 .small-cards-row {
-  flex: 1;             /* ocupa la otra mitad disponible proporcional */
+  flex: 1;       
   min-height: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  overflow: hidden;    /* evita que sobresalga */
+  overflow: hidden; 
 }
 
 .card-small {
@@ -247,10 +229,7 @@
   transform: scale(1.2);
 }
 
-/* ========================================= */
 /* BEYOND GRID */
-/* ========================================= */
-
 .beyond-grid {
   display: flex;
   flex-wrap: wrap;
@@ -275,10 +254,7 @@
   transform: translateY(-3px);
 }
 
-/* ========================================= */
 /* RESPONSIVE */
-/* ========================================= */
-
 @media (max-width: 992px) {
   .portfolio-container {
     grid-template-columns: 1fr;

@@ -23,11 +23,11 @@ body {
 /* Main ocupa el espacio restante */
 main {
   flex: 1;
-  padding-bottom: 0; /* sin padding extra */
+  padding-bottom: 0;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem; /* importante para respiración lateral */
+  padding: 0 1rem;
 }

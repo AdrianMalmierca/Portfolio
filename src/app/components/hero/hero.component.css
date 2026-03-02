@@ -22,7 +22,7 @@
 }
 
 .hero-container {
-  width: calc(100% - 1.5rem);  /* menos margen lateral */
+  width: calc(100% - 1.5rem);
   margin: 2rem auto;
   display: flex;
   align-items: center;
@@ -38,10 +38,10 @@
 }
 
 .hero-description {
-  font-size: 1.25rem;   /* más grande en desktop */
+  font-size: 1.25rem;
   line-height: 1.7;
   opacity: 0.95;
-  max-width: 900px;     /* mejora legibilidad */
+  max-width: 900px;   
 }
 
 .hero-description strong {

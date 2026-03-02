@@ -1,7 +1,6 @@
 <section class="portfolio-section">
   <div class="portfolio-container">
 
-    <!-- Project Card -->
     <a href="{{ projectCard.LINK }}" class="card card-projects">
       <h2>{{ projectCard.TITLE }}</h2>
       <p [innerHTML]="projectCard.TEXT"></p>
@@ -10,7 +9,6 @@
 
     <div class="right-column">
 
-      <!-- Tech Stack -->
       <div class="card card-stack">
         <h2>{{ techStack.TITLE }}</h2>
         <div class="tech-grid">
@@ -25,7 +23,6 @@
         </div>
       </div>
 
-      <!-- Small Cards -->
       <div class="small-cards-row">
 
         @for (card of smallCards; track card) {
@@ -47,11 +44,8 @@
               </div>
             </div>
           }
-
         }
-
       </div>
-
     </div>
   </div>
 </section>

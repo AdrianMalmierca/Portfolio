@@ -1,13 +1,11 @@
 <nav class="navbar">
 
-  <!-- LEFT: Logo -->
   <div class="nav-left">
     <a routerLink="/home" class="logo-link">
       <img src="../assets/logo3.png" alt="Logo" class="logo">
     </a>
   </div>
  
-  <!-- CENTER: Navigation -->
   <div class="nav-center">
       <a routerLink="/home">{{ 'NAV.HOME' | translate }}</a>
       <a href="#experience">{{ 'NAV.EXPERIENCE' | translate }}</a>
@@ -17,10 +15,8 @@
 
   <button class="nav-toggle" (click)="toggleMenu()">☰</button>
 
-  <!-- RIGHT: Social + Language -->
   <div class="nav-right">
 
-    <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/adri%C3%A1n-mart%C3%ADn-malmierca-4aa6b0293/"
        target="_blank"
        rel="noopener noreferrer"
@@ -28,7 +24,6 @@
       <img src="../assets/linkedin.png" alt="LinkedIn">
     </a>
 
-    <!-- GitHub -->
     <a href="https://github.com/AdrianMalmierca"
        target="_blank"
        rel="noopener noreferrer"
@@ -36,7 +31,6 @@
       <img src="../assets/github.png" alt="GitHub">
     </a>
 
-    <!-- Language -->
     <div class="lang-buttons">
       <button (click)="switchLang('fr')">FR</button>
       <button (click)="switchLang('es')">ES</button>

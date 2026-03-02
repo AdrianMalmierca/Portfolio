@@ -1,7 +1,4 @@
-/* ========================================= */
 /* ABOUT SECTION */
-/* ========================================= */
-
 .about-section {
   width: 100%;
   padding: 5rem 1.5rem;
@@ -75,7 +72,6 @@
   margin: 0 auto;
 }
 
-/* CONTENT */
 /* CONTENT */
 .about-content {
   max-width: 780px;

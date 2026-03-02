@@ -26,7 +26,7 @@
       {
         "TITLE": "Stagiaire développement d'une app iOS avec fonctionnalités AR",
         "COMPANY": "Orange",
-        "DATES": "Mars 2026 - Présent (fin Août 2026) (5 mois)",
+        "DATES": "Mars 2026 - En cours (fin Août 2026) (5 mois)",
         "TEXT": "Développement d'une application interactive SwiftUI avec fonctionnalités AR et backend Google Firebase. Les utilisateurs se connectent avec Google, visualisent les POI sur une carte et les explorent en réalité augmentée avec images et métadonnées (coordonnées, utilisateur, date, etc.).",
         "STACK": "iOS: Swift, SwiftUI, ARKit/RealityKit, Firebase"
       },

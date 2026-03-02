@@ -7,7 +7,7 @@
     hsl(258, 100%, 94%) 40%,
     #d7c6ff 100%
   );
-  padding: 4rem 4rem 1rem 4rem; /* reducir padding inferior */
+  padding: 4rem 4rem 1rem 4rem;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -19,7 +19,7 @@
 .footer-top {
   display: flex;
   align-items: center;
-  justify-content: center; /* centra verticalmente y horizontalmente los p */
+  justify-content: center; 
   gap: 1rem;
   flex-wrap: nowrap;
 }
@@ -70,8 +70,8 @@
   width: 100%;
   flex-wrap: nowrap;
   border-top: 1px solid rgba(98,0,209,0.2);
-  padding-top: 1rem;       /* distancia entre línea y contenido dentro de footer-bottom */
-  margin-top: 1rem;        /* distancia entre footer-top y la línea */
+  padding-top: 1rem;    
+  margin-top: 1rem;     
 }
 
 .footer-bottom p {

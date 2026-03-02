@@ -37,7 +37,7 @@
   text-decoration: none;
   font-weight: 600;
   position: relative;
-  padding-bottom: 3px; /* espacio para el borde animado */
+  padding-bottom: 3px;
 }
 
 .nav-center a::after {
@@ -45,10 +45,10 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 0;              /* empieza desde 0 */
+  width: 0;   
   height: 2px;
   background-color: #7300ff;
-  transition: width 0.3s ease; /* animación del ancho */
+  transition: width 0.3s ease;
 }
 
 .nav-center a:hover {
@@ -56,7 +56,7 @@
 }
 
 .nav-center a:hover::after {
-  width: 100%;           /* se expande hasta el 100% del enlace */
+  width: 100%;  
 }
 
 /* RIGHT */
@@ -126,8 +126,8 @@ main {
   font-size: 1.8rem;
   cursor: pointer;
   color: white;
-  line-height: 1; /* asegura que se vea completo */
-  padding: 0.2rem 0.5rem; /* pequeño padding para que no se corte */
+  line-height: 1;
+  padding: 0.2rem 0.5rem;
   z-index: 1100;
 }
 
@@ -136,10 +136,10 @@ main {
 
   .navbar {
     flex-direction: column;
-    align-items: stretch; /* ocupa todo el ancho */
+    align-items: stretch;
     width: 100%;
     padding: 0 0.5rem;
-    overflow-x: hidden; /* evita scroll lateral */
+    overflow-x: hidden;
     position: relative;
   }
 
@@ -151,13 +151,13 @@ main {
   /* Menú desplegable compacto */
   .nav-center,
   .nav-right {
-    display: none; /* inicialmente oculto */
+    display: none;
     flex-direction: column;
     align-items: center;
-    gap: 0.6rem; /* reduce espacio entre elementos */
+    gap: 0.6rem; 
     padding: 0.5rem 0;
     width: 100%;
-    background: #aa8eff; /* mismo color del navbar */
+    background: #aa8eff;
     border-radius: 0 0 12px 12px;
   }
 
@@ -170,7 +170,7 @@ main {
   .nav-center a,
   .nav-right a,
   .lang-buttons button {
-    font-size: 0.9rem; /* un poco más compacto */
+    font-size: 0.9rem; 
   }
 
   .nav-toggle {

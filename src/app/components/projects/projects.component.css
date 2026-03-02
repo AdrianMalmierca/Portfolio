@@ -1,6 +1,4 @@
-/* ========================================= */
 /* PROJECTS SECTION */
-/* ========================================= */
 .projects-section {
   width: 100%;
   margin: 0 auto;
@@ -17,22 +15,18 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* ========================================= */
 /* CONTENEDOR PRINCIPAL DE PROJECTS */
-/* ========================================= */
 .projects-container {
   max-width: 1300px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 proyectos por fila */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 2rem;
-  align-items: stretch; /* altura uniforme de los cards */
+  align-items: stretch; 
   padding: 0 1.5rem;
 }
 
-/* ========================================= */
 /* CARD INDIVIDUAL DE PROJECTS */
-/* ========================================= */
 .card-projects2 {
       background: linear-gradient(
     135deg,
@@ -41,14 +35,14 @@
     #ffffff 100%
   );
   border-radius: 16px;
-  padding: 1rem 1rem 2.5rem 1rem; /* espacio extra abajo para el botón */
+  padding: 1rem 1rem 2.5rem 1rem; 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* ya no push del botón, usamos padding-bottom */
+  justify-content: flex-start;
   position: relative;
-  min-height: 400px; /* altura mínima para evitar que cards muy cortos desalineen */
-  max-height: 600px; /* limita que no crezcan demasiado */
-  overflow: hidden; /* evita que contenido largo sobresalga */
+  min-height: 400px;
+  max-height: 600px;
+  overflow: hidden; 
   box-shadow: 0 6px 18px rgba(0,0,0,0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -72,8 +66,8 @@
 /* Estilo avanzado para párrafos */
 .card-projects2 p {
   font-size: 0.95rem;
-  line-height: 1.2; /* menos espacio */
-  margin: 0.25rem 0; /* menos margen entre p */
+  line-height: 1.2;
+  margin: 0.25rem 0;
   font-weight: 500;
   color: #1e103d;
   text-align: justify;
@@ -85,15 +79,13 @@
   text-decoration: underline;
 }
 
-/* ========================================= */
 /* STACK GRID (TECNOLGÍAS) */
-/* ========================================= */
 .tech-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.5rem;
-  justify-content: center; /* ahora centrado */
+  justify-content: center;
 }
 
 /* Cada item del stack */
@@ -126,9 +118,7 @@
   filter: brightness(0) invert(1);
 }
 
-/* ========================================= */
 /* BOTÓN EN LA ESQUINA INFERIOR DERECHA */
-/* ========================================= */
 .card-projects2 .btn-primary {
   position: absolute;
   bottom: 1rem;
@@ -149,10 +139,7 @@
   box-shadow: 0 8px 20px rgba(0,0,0,0.12);
 }
 
-/* ========================================= */
 /* PROJECTS FOOTER – GITHUB CTA */
-/* ========================================= */
-
 .projects-footer {
   margin-top: 4rem;
   padding-top: 2.5rem;
@@ -210,7 +197,7 @@
   .card-projects2 {
     min-height: auto;
     max-height: none;
-    padding-bottom: 3rem; /* espacio para el botón */
+    padding-bottom: 3rem;
   }
   .card-projects2 .btn-primary {
     position: static;

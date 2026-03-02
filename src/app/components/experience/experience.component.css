@@ -3,7 +3,7 @@
   background: #f6f2ff; 
   border-radius: 20px;
   margin: 3rem auto;
-  max-width: 900px;   /* centra y evita que llegue a los bordes */
+  max-width: 900px; 
 }
 
 .experience-section h2 {
@@ -15,13 +15,12 @@
 }
 
 /* Contenedor de toda la experiencia */
-/* Contenedor de toda la experiencia */
 .experience-container {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding-left: 60px; /* espacio para línea y círculos */
+  padding-left: 60px; 
 }
 
 /* Línea vertical de timeline */
@@ -29,7 +28,7 @@
   content: "";
   position: absolute;
   top: 0;
-  left: 28px; /* centrada respecto a los círculos */
+  left: 28px;
   width: 4px;
   height: 100%;
   background: #6200d1;
@@ -48,8 +47,8 @@
 .experience-item::before {
   content: "";
   position: absolute;
-  left: -10px; /* ajusta para que quede entre la línea y el texto */
-  top: 0.8rem; /* alinea con el título */
+  left: -10px;
+  top: 0.8rem;
   width: 16px;
   height: 16px;
   background: #fff;
@@ -66,7 +65,7 @@
   flex-direction: column;
   gap: 0.3rem;
   position: relative;
-  padding-left: 16px; /* deja espacio para el círculo */
+  padding-left: 16px; 
   z-index: 1;
 }
 
