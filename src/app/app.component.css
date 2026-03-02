@@ -98,6 +98,12 @@ main {
   display: none;
 }
 
+.navbar .nav-center.hide,
+.navbar .nav-right.hide {
+  display: none !important;
+}
+
+/* BOTÓN HAMBURGUESA */
 .nav-toggle {
   display: none;
   background: none;
@@ -105,73 +111,57 @@ main {
   font-size: 1.8rem;
   cursor: pointer;
   color: white;
+  line-height: 1; /* asegura que se vea completo */
+  padding: 0.2rem 0.5rem; /* pequeño padding para que no se corte */
+  z-index: 1100;
 }
-
-.navbar .nav-center.hide,
-.navbar .nav-right.hide {
-  display: none !important;
-}
-
-.nav-toggle {
-  display: none;
-}
-
 
 /* Responsive Navbar */
 @media (max-width: 768px) {
+
   .navbar {
     flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    align-items: stretch; /* para que ocupe todo el ancho */
-    padding: 0; /* padding lateral cero para evitar scroll */
+    align-items: stretch; /* ocupa todo el ancho */
     width: 100%;
-    overflow-x: hidden; /* evita scroll lateral por cualquier elemento */
+    padding: 0 0.5rem;
+    overflow-x: hidden; /* evita scroll lateral */
+    position: relative;
   }
 
-  /* Nav-left centrado */
   .nav-left {
-    width: 100%;
-    display: flex;
     justify-content: center;
+    width: 100%;
   }
 
-  /* Nav-center y Nav-right apilados y centrados */
+  /* Menú desplegable compacto */
   .nav-center,
   .nav-right {
-    width: 100%; /* ok */
-    max-width: 100%; /* evita desbordamiento */
-    padding: 0 1rem; /* respiración lateral dentro del viewport */
+    display: none; /* inicialmente oculto */
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
-    margin-top: 0.5rem;
+    gap: 0.6rem; /* reduce espacio entre elementos */
+    padding: 0.5rem 0;
+    width: 100%;
+    background: #aa8eff; /* mismo color del navbar */
+    border-radius: 0 0 12px 12px;
   }
 
-  main {
-    padding: 3rem 1rem; /* respeta el mismo padding que navCenter/navRight */
+  /* Mostrar menú al abrir */
+  .nav-center.show,
+  .nav-right.show {
+    display: flex;
+  }
+
+  .nav-center a,
+  .nav-right a,
+  .lang-buttons button {
+    font-size: 0.9rem; /* un poco más compacto */
   }
 
   .nav-toggle {
     display: block;
     position: absolute;
-    top: 1rem;
-    right: 1.5rem;
-    z-index: 1100;
-  }
-
-  .nav-center a {
-    font-size: 0.95rem;
-  }
-
-  .lang-buttons {
-    justify-content: center;
-    margin-top: 0.5rem;
-    gap: 0.5rem;
-  }
-
-  .lang-buttons button {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.8rem;
+    top: 0.8rem;
+    right: 1rem;
   }
 }
