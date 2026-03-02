@@ -1,0 +1,43 @@
+<section class="about-section">
+  <div class="about-card">
+    <div class="about-hero">
+      <img src="assets/FotoPerfil.png" alt="Adrián Martín Malmierca" class="about-photo">
+      <h1>Adrián Martín Malmierca</h1>
+      <h2 class="about-role">{{ 'ABOUTME.TITLE' | translate }}</h2>
+      <p class="about-intro" [innerHTML]="'ABOUTME.INTRO' | translate"></p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <div class="about-content">
+      <h2>{{ 'ABOUTME.TITLE' | translate }}</h2>
+      <p [innerHTML]="'ABOUTME.INTRO' | translate"></p>
+
+      <div class="section-divider"></div>
+
+      <h2>What I Do</h2>
+      <p [innerHTML]="'ABOUTME.WHAT_I_DO.FULLSTACK' | translate"></p>
+      <p [innerHTML]="'ABOUTME.WHAT_I_DO.MOBILE' | translate"></p>
+      <p [innerHTML]="'ABOUTME.WHAT_I_DO.ARCHITECTURE' | translate"></p>
+
+      <div class="section-divider"></div>
+
+      <h2>Education</h2>
+      <p [innerHTML]="'ABOUTME.EDUCATION' | translate"></p>
+
+      <div class="section-divider"></div>
+
+      <h2>Languages</h2>
+      <p [innerHTML]="'ABOUTME.LANGUAGES' | translate"></p>
+
+      <div class="section-divider"></div>
+
+      <h2>Certificates</h2>
+      <p [innerHTML]="'ABOUTME.CERTIFICATES' | translate"></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <app-projects></app-projects>
+</section>

@@ -1,176 +1,186 @@
 {
-  "HOME": {
-    "TITLE": "Home",
+  "NAV": {
+    "HOME": "Accueil",
+    "EXPERIENCE": "Expérience",
+    "PROJECTS": "Projets",
+    "ABOUTME": "À propos"
+  },
+  "HERO": {
+    "AVAILABILITY": "Disponible pour le travail",
     "NAME": "Adrián Martín Malmierca",
-    "TITLE1": "Ingénieur informatique · Développeur informatique junior",
-    "BLOCKS": {
-      "RESUME": {
-        "TITLE": "Résumé",
-        "TEXT1": "Je suis développeur informatique junior et même si je programme principalement des applications mobiles:",
-        "MOBILE_LIST": [
-          "iOS avec Swift (SwiftUI ou UIKit) (Projet Ledgerly).",
-          "Android avec Kotlin.",
-          "Cross-platform avec React Native et .NET MAUI."
-        ],
-        "TEXT2": "Je peux également développer des applications web:",
-        "WEB_LIST": [
-          "HTML, CSS, et JavaScript.",
-          "Angular (Categorify).",
-          "Angular avec Ionic (Daily Mood)."
-        ],
-        "TEXT3": "Je connais également PHP avec CSS, Python (Chatbot).",
-        "TEXT4": "Passionné par l'architecture propre, les systèmes évolutifs et l'ingénierie orientée produit. Je suis espagnol et je déménagerai en France en septembre 2026."
-      },
-      "EDUCATION": {
-        "TITLE": "Éducation",
-        "TEXT1": "J'ai etudié l'ingénierie informatique à l'Université pontificale de Salamanque de septembre 2021 à juin 2025.",
-        "TEXT2": "Je suis actuellement en master d'applications mobiles à l'Université pontificale de Salamanque",
-        "LINK": " (MIMO)",
-        "TEXT3": ", fin prévue en septembre 2026."
-      },
-      "EXPERIENCE": {
-        "TITLE": "Expérience Professionnelle",
-        "TEXT1": "Stage à l'Université pontificale de Salamanque de novembre 2024 à mai 2025 (6 mois).",
-        "TEXT2": "Actuellement en stage chez Orange de mars 2026 à août 2026 (5 mois)."
-      },
-      "LANGUAGES": {
-        "TITLE": "Langues",
-        "SPANISH": "Espagnol: langue maternelle",
-        "ENGLISH": "Anglais: Certificat Oxford B2",
-        "FRENCH": "Français: Certificat DELF B2"
-      },
-      "CERTIFICATS": {
-        "TITLE": "Certificats",
-        "SPANISH": "Participation à la 5e édition de HACK4EDU | 2024",
-        "ENGLISH": "Image de marque personnelle à 360°",
-        "FRENCH": "Copilot: Maîtrisez l’IA dans Microsoft 365"
-      },
-      "PROJECTS": {
-        "TITLE": "Mes projets",
-        "CTA": "Voir les projets"
-      }
+    "DESCRIPTION": "<strong>Ingénieur logiciel Full Stack & Ingénieur en applications mobiles</strong> avec plus d'un an d'expérience professionnelle (stages), spécialisé dans les systèmes évolutifs, l'architecture propre et les applications cloud-ready. Je transforme les idées numériques en réalité grâce à une combinaison de précision technique et de vision produit.",
+    "BUTTONS": {
+      "EMAIL": "Envoyer un e-mail",
+      "ABOUTME": "À propos de moi"
     }
   },
-  "STACK": {
-    "TITLE": "Stack",
-    "TITLE1": "Tech Stack",
-    "CARDS": {
-      "MOBILE": {
-        "TITLE": "Mobile et multiplateforme",
-        "TEXT": "Swift, SwiftUI, UIKit, Kotlin, Ionic, .NET MAUI"
-      },
-      "WEB": {
-        "TITLE": "Interface Web",
-        "TEXT": "Angular, React"
-      },
-      "BACKEND": {
-        "TITLE": "Backend et microservices",
-        "TEXT": "Python (FastAPI, Django), Node.js (Express.js), PHP, C#, Java"
-      },
-      "DB": {
-        "TITLE": "Bases de données",
-        "TEXT": "PostgreSQL, MongoDB"
-      },
-      "AI": {
-        "TITLE": "AI / ML / RAG",
-        "TEXT": "Python, LLMs, FAISS, RAG"
-      },
-      "CLOUD": {
-        "TITLE": "Cloud / DevOps",
-        "TEXT": "Terraform, Packer, Docker"
-      }
-    }
+  "FOOTER": {
+    "READY": "Prêt à entrer en contact ?",
+    "CREATE": "Créons quelque chose de merveilleux",
+    "EMAIL": "Envoyer un e-mail",
+    "CREATED_BY": "Créé par : Adrián Martín Malmierca"
   },
-  "CONTACT": {
-    "TITLE": "Contact",
-    "EMAIL_LABEL": "E-mail",
-    "EMAIL_BTN": "Envoyer un email",
-    "PHONE_LABEL": "Téléphone",
-    "LINKEDIN": "Linkedin",
-    "GITHUB": "GitHub"
+  "EXPERIENCE": {
+    "TITLE": "Expérience",
+    "ITEMS": [
+      {
+        "TITLE": "Stagiaire développement d'une app iOS avec fonctionnalités AR",
+        "COMPANY": "Orange",
+        "DATES": "Mars 2026 - Présent (fin Août 2026) (5 mois)",
+        "TEXT": "Développement d'une application interactive SwiftUI avec fonctionnalités AR et backend Google Firebase. Les utilisateurs se connectent avec Google, visualisent les POI sur une carte et les explorent en réalité augmentée avec images et métadonnées (coordonnées, utilisateur, date, etc.).",
+        "STACK": "iOS: Swift, SwiftUI, ARKit/RealityKit, Firebase"
+      },
+      {
+        "TITLE": "Stage développement d'un chatbot pour publications académiques",
+        "COMPANY": "Université Pontificale de Salamanque",
+        "DATES": "Novembre 2024 – Avril 2025 (6 mois)",
+        "TEXT": "Mise en place d'un système complet <strong>Retrieval-Augmented Generation (RAG)</strong> pour interroger les données de publications académiques extraites du <strong>Portail Scientifique</strong>. Les données ont été crawlé avec <strong>Apache Nutch</strong> et transformées en JSON structuré pour l'indexation et la recherche sémantique.",
+        "STACK": "Python, FAISS, RAG, LLM, Angular, FastAPI, OpenAI (GPT-4 Turbo)"
+      }
+    ]
+  },
+    "PORTFOLIO": {
+    "PROJECT_CARD": {
+      "TITLE": "Projets",
+      "TEXT": "Je transforme les idées en produits numériques évolutifs. Des applications mobiles aux architectures backend, chaque projet reflète un équilibre entre précision technique et vision produit.",
+      "IMAGE": "../../../assets/categorify.png",
+      "ALT": "Project sample",
+      "LINK": "#projects"
+    },
+    "TECH_STACK":{ 
+      "TITLE": "Pile technologique",
+      "ITEMS": [
+        {"NAME": "Angular", "IMG": "../assets/angular.png"},
+        {"NAME": "React", "IMG": "../assets/react.png"},
+        {"NAME": "Ionic", "IMG": "../assets/ionic.svg"},
+        {"NAME": "JavaScript", "IMG": "../assets/js.png"},
+        {"NAME": "TypeScript", "IMG": "../assets/ts.svg"},
+        {"NAME": "Python", "IMG": "../assets/python.png"},
+        {"NAME": "Django", "IMG": "../assets/django.png"},
+        {"NAME": "FastAPI", "IMG": "../assets/fastapi.svg"},
+        {"NAME": "Node.js", "IMG": "../assets/node.svg"},
+        {"NAME": "Swift", "IMG": "../assets/swift.svg"},
+        {"NAME": "Kotlin", "IMG": "../assets/kotlin.png"},
+        {"NAME": "PostgreSQL", "IMG": "../assets/postgresql.png"},
+        {"NAME": "MongoDB", "IMG": "../assets/mongo.png"},
+        {"NAME": "MySQL", "IMG": "../assets/mysql.svg"},
+        {"NAME": "Docker", "IMG": "../assets/docker.svg"},
+        {"NAME": "Terraform", "IMG": "../assets/terraform.svg"},
+        {"NAME": "Packer", "IMG": "../assets/packer.svg"},
+        {"NAME": "PHP", "IMG": "../assets/php.png"},
+        {"NAME": "Java", "IMG": "../assets/java.png"},
+        {"NAME": "MAUI", "IMG": "../assets/maui.svg"},
+        {"NAME": "Figma", "IMG": "../assets/figma.png"},
+        {"NAME": "Vercel", "IMG": "../assets/vercel.svg"},
+        {"NAME": "Render", "IMG": "../assets/render.avif"},
+        {"NAME": "Git", "IMG": "../assets/git.svg"},
+        {"NAME": "Markdown", "IMG": "../assets/md.png"}
+      ]
+    },
+    "SMALL_CARDS": [
+      {
+        "TYPE": "GITHUB",
+        "TEXT": "Aimez-vous le design de cette page ?",
+        "IMG": "assets/github.png",
+        "LINK": "https://github.com/AdrianMalmierca"
+      },
+      {
+        "TYPE": "BEYOND",
+        "TITLE": "Au-delà du code",
+        "ITEMS": ["Architecture propre", "Systèmes évolutifs", "Vision produit", "Sensibilisation à l'expérience utilisateur"]
+      }
+    ]
   },
   "PROJECTS": {
-    "TITLE": "Projects",
+    "TITLE": "Projets",
+    "DESCRIPTION": "Je transforme des idées en produits numériques évolutifs. Des applications mobiles aux architectures backend, chaque projet reflète un équilibre entre précision technique et vision produit.",
     "ITEMS": [
       {
         "ID": "Chatbot",
         "TITLE": "Chatbot",
-        "TEXT1": "Ce projet met en œuvre un système complet de génération augmentée par la recherche (RAG) permettant aux utilisateurs d'interroger les données de publications académiques extraites du portail scientifique de l'Université pontificale de Salamanque.",
-        "TEXT2": "Les données sources proviennent de: ",
-        "LINK_TEXT": "Portail scientifique",
-        "LINK_TEXT2": "https://portalcientifico.upsa.es/",
-        "TEXT3": "Le site web a été exploré à l'aide d'Apache Nutch, générant un fichier de données qui a ensuite été transformé et nettoyé en un format JSON structuré, adapté à l'indexation et à la recherche sémantiques.",
-        "STACK": "Python, FAISS, RAG, LLM, Angular, FastAPI, OpenAI (GPT-4 turbo modèle)",
-        "GITHUB": "Voir sur GitHub"
+        "TEXT1": "Ce projet implémente un système complet de <strong>RAG</strong> permettant aux utilisateurs d'interroger les données de publications académiques extraites du portail scientifique de l'Université Pontificale de Salamanque.",
+        "TEXT2": "Les données sources proviennent de :",
+        "LINK_TEXT": "Portail Scientifique",
+        "LINK_URL": "https://portalcientifico.upsa.es/",
+        "TEXT3": "Le site a été crawlé avec Apache Nutch, générant un fichier de données qui a ensuite été transformé et nettoyé en JSON structuré, adapté à l'indexation et à la recherche sémantique.",
+        "STACK": ["Python", "FAISS", "RAG", "LLM", "Angular", "FastAPI", "OpenAI (GPT-4 Turbo)"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Chatbot"
       },
       {
         "ID": "AWS",
         "TITLE": "AWS",
-        "TEXT1": "Ce projet déploie l'API REST MIMO Movies dans le cloud à l'aide d'une architecture évolutive, automatisée grâce à:",
-        "LIST": ["Docker.", "Terraform.", "Packer."],
-        "TEXT2": "Elle transforme une API locale en un déploiement entièrement automatisé, évolutif et natif du cloud sur AWS.",
-        "STACK": "TypeScript, Terraform, Packer, Docker, SQLite et Postman.",
-        "GITHUB": "Voir sur GitHub"
+        "TEXT1": "Ce projet déploie l'API REST MIMO Movies dans le cloud via une architecture évolutive automatisée avec :",
+        "LIST": ["Docker", "Terraform", "Packer"],
+        "TEXT2": "Il transforme une API locale en un déploiement entièrement automatisé, scalable et natif cloud sur AWS.",
+        "STACK": ["TypeScript", "Terraform", "Packer", "Docker", "SQLite", "Postman"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Cloudproject"
       },
       {
         "ID": "Categorify",
         "TITLE": "Categorify",
-        "TEXT1": "Categorify est une application web complète construite avec Angular (frontend) et Express (backend), conçue pour organiser et gérer les URL de manière structurée et visuelle.",
-        "TEXT2": "L'application permet aux utilisateurs de créer des catégories à code couleur et d'y stocker des entrées URL, y compris des métadonnées telles que la description, l'image et le statut de favori.",
-        "TEXT3": "L'application est déployée sur OnRender, vous n'avez donc pas besoin de la déployer localement: ",
-        "LINK_TEXT":"Categorify sur Render",
-        "LINK_TEXT2": "https://categorify.onrender.com",
-        "TEXT4": "Le projet complet (interface utilisateur et serveur) est disponible sur GitHub, mais il est hébergé sur Render à des fins de démonstration. Les entreprises peuvent visualiser l'application et interagir avec elle en ligne sans avoir besoin de l'exécuter localement.",
-        "STACK": "Angular, Express.js, MongoDB et Render.",
-        "GITHUB": "Voir sur GitHub"
+        "TEXT1": "Categorify est une application web full-stack construite avec Angular (frontend) et Express (backend), conçue pour organiser et gérer les URL de manière structurée et visuelle.",
+        "TEXT2": "Elle permet aux utilisateurs de créer des catégories colorées et de stocker des URL avec des métadonnées comme description, image et statut favori. <a href='https://categorify.onrender.com/' target='_blank'>Categorify sur Render</a>",
+        "TEXT3": "L'application est déployée sur Render et ne nécessite donc pas d'exécution locale.",
+        "TEXT4": "Le projet complet est disponible sur GitHub et hébergé sur Render à des fins de démonstration.",
+        "STACK": ["Angular", "Express.js", "MongoDB", "Render"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Categorify"
       },
       {
-        "ID": "Daily Mood",
+        "ID": "DailyMood",
         "TITLE": "Daily Mood",
-        "TEXT1": "Une application e-commerce mobile/web moderne, développée avec Angular (architecture autonome) et le framework Ionic, offrant une gestion d'état réactive via Angular Signals, un processus de paiement simulé, la gestion des stocks, des favoris et un panier persistant.",
-        "TEXT2": "Ce projet illustre les principes d'architecture propre, les modèles d'interface utilisateur réactifs, la conception modulaire des composants et les bonnes pratiques de développement front-end.",
-        "STACK": "Angular, Ionic, TypeScript et RxJS.",
-        "GITHUB": "Voir sur GitHub"
+        "TEXT1": "Application mobile/web e-commerce moderne développée avec Angular (architecture standalone) et Ionic, avec gestion d'état réactive via Angular Signals, processus de checkout simulé, gestion de stock, favoris et panier persistant.",
+        "TEXT2": "Le projet illustre les principes d'architecture propre, les patterns UI réactifs, le design modulaire et les meilleures pratiques frontend.",
+        "STACK": ["Angular", "Ionic", "TypeScript", "RxJS"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/DailyMood"
       },
       {
         "ID": "Ledgerly",
         "TITLE": "Ledgerly",
-        "TEXT1": "Ledgerly est une application iOS de suivi des dépenses personnelles, développée avec Swift et SwiftUI. Elle permet aux utilisateurs d'ajouter, de consulter, de catégoriser et de visualiser leurs dépenses grâce à une interface moderne et intuitive. Ledgerly prend également en charge la persistance locale des données via Core Data et la synchronisation avec un service backend.",
-        "STACK": "Swift, SwiftUI et MVVM.",
-        "GITHUB": "Voir sur GitHub"
+        "TEXT1": "Ledgerly est une application iOS de suivi des dépenses personnelles développée avec Swift et SwiftUI. Elle permet d'ajouter, consulter, catégoriser et visualiser ses dépenses avec une interface moderne et intuitive.",
+        "TEXT2": "Ledgerly supporte également la persistance locale via Core Data et la synchronisation avec un backend.",
+        "STACK": ["Swift", "SwiftUI", "MVVM"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Ledgerly"
       },
       {
-        "ID": "CI",
-        "TITLE": "CI/CD",
-        "TEXT1": "Une API REST Express.js structurée pour la production qui illustre:",
-        "LIST": [ 
-            "Architecture modulaire",
-            "Configuration basée sur l'environnement",
-            "Tests automatisés avec Jest + Supertest",
-            "Pipeline d'intégration continue (CI) utilisant GitHub Actions",
-            "Séparation claire des problèmes",
-            "Gestion et journalisation des bogues"
-        ],
-        "TEXT2": "Ce projet possède une logique métier volontairement simple, mais est conçu selon les standards professionnels du backend, fait avec GitHub Actions et Railway.",
-        "STACK": "Node.js 20, Express.js, Jest (framework de tests), Supertest (assertions HTTP) et GitHub Actions (CI).",
-        "GITHUB": "Voir sur GitHub"
+        "ID": "CI-testing",
+        "TITLE": "CI/testing",
+        "TEXT1": "API REST Express.js structurée pour la production, démontrant :",
+        "LIST": ["Architecture modulaire", "Configuration basée sur l'environnement", "Tests automatisés avec Jest + Supertest", "Pipeline CI avec GitHub Actions", "Séparation claire des problèmes", "Gestion et journalisation des bugs"],
+        "TEXT2": "Ce projet présente une logique métier simple mais conçue selon des standards backend professionnels.",
+        "STACK": ["Node.js 20", "Express.js", "Jest", "Supertest", "GitHub Actions"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/CI-testing"
       },
       {
-        "ID": "MIMOAPI",
-        "TITLE": "API avec tests",
-        "TEXT1": "Cette API fournit:",
-        "LIST": [
-          "Un catalogue de films paginé",
-          "Calcul de la note moyenne par film",
-          "Système de notation par utilisateur (une note par utilisateur et par film)",
-          "Gestion authentifiée des listes de films à voir",
-          "Authentification par clé API",
-          "Validation des requêtes et gestion structurée des erreurs"
-        ],
-        "TEXT2": "Elle simule un backend prêt pour la production pour une plateforme de films où les utilisateurs peuvent noter les films et gérer leurs listes de films à voir.",
-        "STACK": "TypeScript, Docker, SQLite et Postman.",
-        "GITHUB": "Voir sur GitHub"
-        }
-    ]
+        "ID": "Api-testing",
+        "TITLE": "API avec testing",
+        "TEXT1": "Cette API fournit :",
+        "LIST": ["Catalogue de films paginé", "Calcul de la note moyenne par film", "Système de notation par utilisateur (une note par utilisateur et par film)", "Gestion de watchlist authentifiée", "Authentification par clé API", "Validation des requêtes et gestion structurée des erreurs"],
+        "TEXT2": "Elle simule un backend prêt pour la production pour une plateforme de films où les utilisateurs peuvent noter et gérer des watchlists personnelles.",
+        "STACK": ["TypeScript", "Docker", "SQLite", "Postman"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Api-with-testing"
+      }
+    ],
+    "FOOTER_TEXT": "Intéressé par l'exploration de plus de dépôts prêts pour la production, d'expériences architecturales et de recherches en cours ?",
+    "FOOTER_LINK": "Voir tous les projets sur GitHub →",
+    "FOOTER_LINK_URL": "https://github.com/AdrianMalmierca"
+  },
+  "ABOUTME": {
+    "TITLE": "À propos de moi",
+    "INTRO": "Je travaille à l'intersection de l'architecture, de l'utilisabilité et de la performance. Mon objectif n'est pas seulement de construire des applications fonctionnelles, mais d'ingénier des systèmes évolutifs, maintenables et durables.",
+    "WHAT_I_DO": {
+      "FULLSTACK": "<strong>Développement Full-Stack.</strong> Conception d'applications de bout en bout avec frameworks frontend modernes, backend scalable et infrastructure cloud — de la modélisation des bases de données au déploiement en production.",
+      "MOBILE": "<strong>Ingénierie d'applications mobiles.</strong> Développement natif et cross-platform axé sur la performance, l'UX et la maintenabilité à long terme.",
+      "ARCHITECTURE": "<strong>Architecture & Qualité du code.</strong> Architecture propre, principes SOLID, systèmes modulaires et design patterns scalables."
+    },
+    "EDUCATION": "J'ai étudié l'ingénierie informatique à l'Université Pontificale de Salamanque de Septembre 2021 à Juin 2025. Je poursuis actuellement un Master en Applications Mobiles (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) à l'Université Pontificale de Salamanque, avec une fin prévue en Septembre 2026.",
+    "LANGUAGES": "Espagnol — Langue maternelle<br>Anglais — Certificat Oxford B2<br>Français — Certificat DELF B2",
+    "CERTIFICATES": "Participation à la 5ème édition de HACK4EDU | 2024<br>360° Personal Branding<br>Copilot : Maîtriser l'IA dans Microsoft 365"
   }
 }

@@ -1,0 +1,57 @@
+<section class="portfolio-section">
+  <div class="portfolio-container">
+
+    <!-- Project Card -->
+    <a href="{{ projectCard.LINK }}" class="card card-projects">
+      <h2>{{ projectCard.TITLE }}</h2>
+      <p [innerHTML]="projectCard.TEXT"></p>
+      <img src="{{ projectCard.IMAGE }}" alt="{{ projectCard.ALT }}" class="card-img">
+    </a>
+
+    <div class="right-column">
+
+      <!-- Tech Stack -->
+      <div class="card card-stack">
+        <h2>{{ techStack.TITLE }}</h2>
+        <div class="tech-grid">
+
+          @for (tech of techStack.ITEMS; track tech) {
+            <div class="tech-item">
+              <img src="{{ tech.IMG }}" alt="{{ tech.NAME }}">
+              <span>{{ tech.NAME }}</span>
+            </div>
+          }
+
+        </div>
+      </div>
+
+      <!-- Small Cards -->
+      <div class="small-cards-row">
+
+        @for (card of smallCards; track card) {
+
+          @if (card.TYPE === 'GITHUB') {
+            <a href="{{ card.LINK }}" target="_blank" rel="noopener noreferrer" class="card card-small">
+              <p>{{ card.TEXT }}</p>
+              <img src="{{ card.IMG }}" alt="GitHub" class="card-icon">
+            </a>
+          }
+
+          @if (card.TYPE === 'BEYOND') {
+            <div class="card card-small card-beyond">
+              <h3>{{ card.TITLE }}</h3>
+              <div class="beyond-grid">
+                @for (item of card.ITEMS; track item) {
+                  <div class="beyond-item">{{ item }}</div>
+                }
+              </div>
+            </div>
+          }
+
+        }
+
+      </div>
+
+    </div>
+  </div>
+</section>

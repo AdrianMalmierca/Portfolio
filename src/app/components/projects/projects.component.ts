@@ -1,41 +1,45 @@
 import { Component } from '@angular/core';
-import { RouterOutlet, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-projects',
   standalone: true,
-  imports: [
-    RouterOutlet,
-    CommonModule,
-    RouterModule,
-    TranslateModule,
-    FooterComponent
-  ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [CommonModule, RouterModule, TranslateModule],
+  templateUrl: './projects.component.html',
+  styleUrl: './projects.component.css'
 })
-export class AppComponent {
+export class ProjectsComponent {
+
+  projectsItems: any[] = [];
 
   constructor(private translate: TranslateService) {
     translate.addLangs(['fr', 'en', 'es']);
     translate.setDefaultLang('fr');
 
     const savedLang = localStorage.getItem('lang');
-
     if (savedLang) {
       translate.use(savedLang);
     } else {
       const browserLang = translate.getBrowserLang();
-      const langToUse = browserLang?.match(/en|fr|es/) ? browserLang : 'fr';
+      const langToUse = browserLang?.match(/fr|en|es/) ? browserLang : 'fr';
       translate.use(langToUse);
     }
+
+    this.loadProjects();
+    this.translate.onLangChange.subscribe(() => this.loadProjects());
   }
 
   switchLang(lang: string) {
     this.translate.use(lang);
     localStorage.setItem('lang', lang);
   }
+
+  loadProjects() {
+    this.translate.get('PROJECTS.ITEMS').subscribe((items: any[]) => {
+      this.projectsItems = items;
+    });
+  }
+
 }

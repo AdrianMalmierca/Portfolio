@@ -1,6 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+/* Reset básico */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Body como flex column */
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: 'Segoe UI', Roboto, sans-serif;
   color: #222;
-  margin: 0;
+}
+
+/* Main ocupa el espacio restante */
+main {
+  flex: 1;
+  padding-bottom: 0; /* sin padding extra */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem; /* importante para respiración lateral */
 }

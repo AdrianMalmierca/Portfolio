@@ -1,0 +1,222 @@
+/* ========================================= */
+/* PROJECTS SECTION */
+/* ========================================= */
+.projects-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.projects-section h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(90deg, #6200d1, #8e2de2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ========================================= */
+/* CONTENEDOR PRINCIPAL DE PROJECTS */
+/* ========================================= */
+.projects-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 proyectos por fila */
+  gap: 2rem;
+  align-items: stretch; /* altura uniforme de los cards */
+  padding: 0 1.5rem;
+}
+
+/* ========================================= */
+/* CARD INDIVIDUAL DE PROJECTS */
+/* ========================================= */
+.card-projects2 {
+      background: linear-gradient(
+    135deg,
+    #cab9ff 0%,
+    #d0c9ff 40%,
+    #ffffff 100%
+  );
+  border-radius: 16px;
+  padding: 1rem 1rem 2.5rem 1rem; /* espacio extra abajo para el botón */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* ya no push del botón, usamos padding-bottom */
+  position: relative;
+  min-height: 400px; /* altura mínima para evitar que cards muy cortos desalineen */
+  max-height: 600px; /* limita que no crezcan demasiado */
+  overflow: hidden; /* evita que contenido largo sobresalga */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-projects2:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(0,0,0,0.12);
+}
+
+/* Título del proyecto */
+.card-projects2 h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+
+/* Estilo avanzado para párrafos */
+.card-projects2 p {
+  font-size: 0.95rem;
+  line-height: 1.2; /* menos espacio */
+  margin: 0.25rem 0; /* menos margen entre p */
+  font-weight: 500;
+  color: #1e103d;
+  text-align: justify;
+}
+
+.card-projects2 p a {
+  color: #6200d1;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* ========================================= */
+/* STACK GRID (TECNOLGÍAS) */
+/* ========================================= */
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  justify-content: center; /* ahora centrado */
+}
+
+/* Cada item del stack */
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  border: 1px solid rgba(98,0,209,0.12);
+  padding: 0.3rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6200d1;
+  min-width: 100px;
+  transition: all 0.2s ease;
+}
+
+.tech-item img {
+  width: 20px;
+  height: 20px;
+}
+
+.tech-item:hover {
+  background: #6200d1;
+  color: white;
+}
+
+.tech-item:hover img {
+  filter: brightness(0) invert(1);
+}
+
+/* ========================================= */
+/* BOTÓN EN LA ESQUINA INFERIOR DERECHA */
+/* ========================================= */
+.card-projects2 .btn-primary {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background: #6200d1;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.card-projects2 .btn-primary:hover {
+  background: #8e2de2;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* ========================================= */
+/* PROJECTS FOOTER – GITHUB CTA */
+/* ========================================= */
+
+.projects-footer {
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(98, 0, 209, 0.15);
+  text-align: center;
+}
+
+.projects-more-text {
+  font-size: 1.15rem;
+  color: #1e103d;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.projects-github-link {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #6200d1;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.projects-github-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(90deg, #6200d1, #8e2de2);
+  transition: width 0.3s ease;
+}
+
+.projects-github-link:hover {
+  letter-spacing: 0.5px;
+}
+
+.projects-github-link:hover::after {
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+  .card-projects2 {
+    min-height: auto;
+    max-height: none;
+    padding-bottom: 3rem; /* espacio para el botón */
+  }
+  .card-projects2 .btn-primary {
+    position: static;
+    margin-top: 1rem;
+  }
+  .tech-grid {
+    justify-content: center;
+  }
+}

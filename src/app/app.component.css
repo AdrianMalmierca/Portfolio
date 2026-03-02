@@ -1,76 +1,91 @@
-/* Navbar Container */
 .navbar {
   display: flex;
   align-items: center;
-  padding: 1.8rem 2rem;
-  background: #6200d1;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  background: #aa8eff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-/* Contenedor central de links */
-.navbar a {
-  color: #ffffff;
+/* LEFT */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* CENTER */
+.nav-center {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-center a {
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: 600;
-  font-size: 1.05rem;
-  letter-spacing: 0.5px;
   position: relative;
   transition: color 0.2s ease;
 }
 
-/* Agrupar links */
-.navbar > a {
-  margin: 0 1.5rem;
+.nav-center a:hover {
+  color: #8624ff;
 }
 
-/* Underline Animation */
-.navbar a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 0%;
-  height: 2px;
-  background-color: white;
-  transition: width 0.25s ease;
-}
-
-.navbar a:hover {
-  color: #cd81ff;
-}
-
-.navbar a:hover::after {
-  width: 100%;
-}
-
-/* Botones idioma */
-.lang-buttons {
-  margin-left: auto; /* Empuja a la derecha */
+/* RIGHT */
+.nav-right {
   display: flex;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-link img {
+  height: 22px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.icon-link img:hover {
+  transform: scale(1.15);
+  opacity: 0.8;
+}
+
+/* Language buttons */
+.lang-buttons {
+  display: flex;
+  gap: 0.4rem;
 }
 
 .lang-buttons button {
-  background: white;
+  background: rgb(0, 0, 0);
   border: none;
-  padding: 0.35rem 0.6rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 6px;
   cursor: pointer;
   font-weight: 600;
-  transition: background 0.2s ease;
+  font-size: 0.8rem;
+  color: white;
 }
 
 .lang-buttons button:hover {
-  background: #e7d4ff;
+  background: #7300ff;
 }
 
 /* Main Content */
 main {
   padding: 3rem 1rem;
-  max-width: 1000px;
   margin: 0 auto;
 }
 

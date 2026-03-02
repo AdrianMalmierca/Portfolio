@@ -1,25 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet, RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-    RouterOutlet,
-    CommonModule,
-    RouterModule,
-    TranslateModule,
-    FooterComponent
-  ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-hero',
+  imports: [CommonModule, RouterModule, TranslateModule],
+  templateUrl: './hero.component.html',
+  styleUrl: './hero.component.css'
 })
-export class AppComponent {
+export class HeroComponent {
 
-  constructor(private translate: TranslateService) {
+    constructor(private translate: TranslateService) {
     translate.addLangs(['fr', 'en', 'es']);
     translate.setDefaultLang('fr');
 
@@ -38,4 +30,5 @@ export class AppComponent {
     this.translate.use(lang);
     localStorage.setItem('lang', lang);
   }
+
 }

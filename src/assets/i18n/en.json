@@ -1,176 +1,186 @@
 {
-  "HOME": {
-    "TITLE": "Home",
+  "NAV": {
+    "HOME": "Home",
+    "EXPERIENCE": "Experience",
+    "PROJECTS": "Projects",
+    "ABOUTME": "About Me"
+  },
+  "HERO": {
+    "AVAILABILITY": "Available for work",
     "NAME": "Adrián Martín Malmierca",
-    "TITLE1": "Computer Engineer · Junior Software Developer",
-    "BLOCKS": {
-      "RESUME": {
-        "TITLE": "Summary",
-        "TEXT1": "I am a junior software developer, although I primarily develop mobile applications:",
-        "MOBILE_LIST": [
-          "iOS with Swift (SwiftUI or UIKit) (Ledgerly Project).",
-          "Android with Kotlin.",
-          "Cross-platform with React Native and .NET MAUI."
-        ],
-        "TEXT2": "I can also develop web applications:",
-        "WEB_LIST": [
-          "HTML, CSS, and JavaScript.",
-          "Angular (Categorify).",
-          "Angular with Ionic (Daily Mood)."
-        ],
-        "TEXT3": "I also have knowledge of PHP with CSS and Python (Chatbot).",
-        "TEXT4": "Passionate about clean architecture, scalable systems, and product-oriented engineering. I am Spanish and will relocate to France in September 2026."
-      },
-      "EDUCATION": {
-        "TITLE": "Education",
-        "TEXT1": "I studied Computer Engineering at the Pontifical University of Salamanca from September 2021 to June 2025.",
-        "TEXT2": "I am currently pursuing a Master's degree in Mobile Applications at the Pontifical University of Salamanca",
-        "LINK": " (MIMO)",
-        "TEXT3": ", expected completion in September 2026."
-      },
-      "EXPERIENCE": {
-        "TITLE": "Professional Experience",
-        "TEXT1": "Internship at the Pontifical University of Salamanca from November 2024 to May 2025 (6 months).",
-        "TEXT2": "Currently an intern at Orange from March 2026 to August 2026 (5 months)."
-      },
-      "LANGUAGES": {
-        "TITLE": "Languages",
-        "SPANISH": "Spanish: Native",
-        "ENGLISH": "English: Oxford B2 Certificate",
-        "FRENCH": "French: DELF B2 Certificate"
-      },
-      "CERTIFICATS": {
-        "TITLE": "Certificates",
-        "SPANISH": "Participation in the 5th edition of HACK4EDU | 2024",
-        "ENGLISH": "360° Personal Branding",
-        "FRENCH": "Copilot: Master AI in Microsoft 365"
-      },
-      "PROJECTS": {
-        "TITLE": "My Projects",
-        "CTA": "View Projects"
-      }
+    "DESCRIPTION": "<strong>Full Stack Software Engineer & Mobile Applications Engineer</strong> with over a year of professional experience (internships), specializing in scalable systems, clean architecture, and cloud-ready applications. I turn digital ideas into reality through a combination of technical precision and product vision.",
+    "BUTTONS": {
+      "EMAIL": "Send Email",
+      "ABOUTME": "About Me"
     }
   },
-  "STACK": {
-    "TITLE": "Stack",
-    "TITLE1": "Technology stack",
-    "CARDS": {
-      "MOBILE": {
-        "TITLE": "Mobile and Cross-platform",
-        "TEXT": "Swift, SwiftUI, UIKit, Kotlin, Ionic, .NET MAUI"
-      },
-      "WEB": {
-        "TITLE": "Web Interface",
-        "TEXT": "Angular, React"
-      },
-      "BACKEND": {
-        "TITLE": "Backend and Microservices",
-        "TEXT": "Python (FastAPI, Django), Node.js (Express.js), PHP, C#, Java"
-      },
-      "DB": {
-        "TITLE": "Databases",
-        "TEXT": "PostgreSQL, MongoDB"
-      },
-      "AI": {
-        "TITLE": "AI / ML / RAG",
-        "TEXT": "Python, LLMs, FAISS, RAG"
-      },
-      "CLOUD": {
-        "TITLE": "Cloud / DevOps",
-        "TEXT": "Terraform, Packer, Docker"
-      }
-    }
+  "FOOTER": {
+    "READY": "Ready to get in touch?",
+    "CREATE": "Let's create something amazing",
+    "EMAIL": "Send Email",
+    "CREATED_BY": "Created by: Adrián Martín Malmierca"
   },
-  "CONTACT": {
-    "TITLE": "Contact",
-    "EMAIL_LABEL": "Email",
-    "EMAIL_BTN": "Send email",
-    "PHONE_LABEL": "Phone",
-    "LINKEDIN": "LinkedIn",
-    "GITHUB": "GitHub"
+  "EXPERIENCE": {
+    "TITLE": "Experience",
+    "ITEMS": [
+      {
+        "TITLE": "iOS App Development Intern with AR Features",
+        "COMPANY": "Orange",
+        "DATES": "March 2026 - Present (end August 2026) (5 months)",
+        "TEXT": "Developed an interactive SwiftUI application with AR features and Google Firebase backend. Users log in with Google, view POIs on a map, and explore them in augmented reality with images and metadata (coordinates, user, date, etc.).",
+        "STACK": "iOS: Swift, SwiftUI, ARKit/RealityKit, Firebase"
+      },
+      {
+        "TITLE": "Internship developing a chatbot for academic publications",
+        "COMPANY": "Pontifical University of Salamanca",
+        "DATES": "November 2024 – April 2025 (6 months)",
+        "TEXT": "Implemented a complete <strong>Retrieval-Augmented Generation (RAG)</strong> system to query academic publication data extracted from the <strong>Scientific Portal</strong>. Data was crawled with <strong>Apache Nutch</strong> and transformed into structured JSON for indexing and semantic search.",
+        "STACK": "Python, FAISS, RAG, LLM, Angular, FastAPI, OpenAI (GPT-4 Turbo)"
+      }
+    ]
+  },
+  "PORTFOLIO": {
+    "PROJECT_CARD": {
+      "TITLE": "Projects",
+      "TEXT": "I turn ideas into scalable digital products. From mobile apps to backend architectures, each project reflects a balance between technical precision and product vision.",
+      "IMAGE": "../../../assets/categorify.png",
+      "ALT": "Project sample",
+      "LINK": "#projects"
+    },
+    "TECH_STACK": {
+      "TITLE": "Tech Stack",
+      "ITEMS": [
+        {"NAME": "Angular", "IMG": "../assets/angular.png"},
+        {"NAME": "React", "IMG": "../assets/react.png"},
+        {"NAME": "Ionic", "IMG": "../assets/ionic.svg"},
+        {"NAME": "JavaScript", "IMG": "../assets/js.png"},
+        {"NAME": "TypeScript", "IMG": "../assets/ts.svg"},
+        {"NAME": "Python", "IMG": "../assets/python.png"},
+        {"NAME": "Django", "IMG": "../assets/django.png"},
+        {"NAME": "FastAPI", "IMG": "../assets/fastapi.svg"},
+        {"NAME": "Node.js", "IMG": "../assets/node.svg"},
+        {"NAME": "Swift", "IMG": "../assets/swift.svg"},
+        {"NAME": "Kotlin", "IMG": "../assets/kotlin.png"},
+        {"NAME": "PostgreSQL", "IMG": "../assets/postgresql.png"},
+        {"NAME": "MongoDB", "IMG": "../assets/mongo.png"},
+        {"NAME": "MySQL", "IMG": "../assets/mysql.svg"},
+        {"NAME": "Docker", "IMG": "../assets/docker.svg"},
+        {"NAME": "Terraform", "IMG": "../assets/terraform.svg"},
+        {"NAME": "Packer", "IMG": "../assets/packer.svg"},
+        {"NAME": "PHP", "IMG": "../assets/php.png"},
+        {"NAME": "Java", "IMG": "../assets/java.png"},
+        {"NAME": "MAUI", "IMG": "../assets/maui.svg"},
+        {"NAME": "Figma", "IMG": "../assets/figma.png"},
+        {"NAME": "Vercel", "IMG": "../assets/vercel.svg"},
+        {"NAME": "Render", "IMG": "../assets/render.avif"},
+        {"NAME": "Git", "IMG": "../assets/git.svg"},
+        {"NAME": "Markdown", "IMG": "../assets/md.png"}
+      ]
+    },
+    "SMALL_CARDS": [
+      {
+        "TYPE": "GITHUB",
+        "TEXT": "Do you like the design of this page?",
+        "IMG": "assets/github.png",
+        "LINK": "https://github.com/AdrianMalmierca"
+      },
+      {
+        "TYPE": "BEYOND",
+        "TITLE": "Beyond Code",
+        "ITEMS": ["Clean Architecture", "Scalable Systems", "Product Vision", "User Experience Awareness"]
+      }
+    ]
   },
   "PROJECTS": {
     "TITLE": "Projects",
+    "DESCRIPTION": "I turn ideas into scalable digital products. From mobile apps to backend architectures, each project reflects a balance between technical precision and product vision.",
     "ITEMS": [
       {
         "ID": "Chatbot",
         "TITLE": "Chatbot",
-        "TEXT1": "This project implements a complete Retrieval-Augmented Generation (RAG) system that allows users to query academic publication data extracted from the scientific portal of the Pontifical University of Salamanca.",
-        "TEXT2": "The source data comes from: ",
+        "TEXT1": "This project implements a complete <strong>RAG</strong> system allowing users to query academic publication data extracted from the Pontifical University of Salamanca Scientific Portal.",
+        "TEXT2": "The source data comes from:",
         "LINK_TEXT": "Scientific Portal",
-        "LINK_TEXT2": "https://portalcientifico.upsa.es/",
-        "TEXT3": "The website was crawled using Apache Nutch, generating a data file that was later transformed and cleaned into a structured JSON format suitable for indexing and semantic search.",
-        "STACK": "Python, FAISS, RAG, LLM, Angular, FastAPI, OpenAI (GPT-4 Turbo model)",
-        "GITHUB": "View on GitHub"
+        "LINK_URL": "https://portalcientifico.upsa.es/",
+        "TEXT3": "The site was crawled with Apache Nutch, generating a data file that was then transformed and cleaned into structured JSON suitable for indexing and semantic search.",
+        "STACK": ["Python", "FAISS", "RAG", "LLM", "Angular", "FastAPI", "OpenAI (GPT-4 Turbo)"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Chatbot"
       },
       {
         "ID": "AWS",
         "TITLE": "AWS",
-        "TEXT1": "This project deploys the MIMO Movies REST API to the cloud using a scalable architecture automated with:",
-        "LIST": ["Docker.", "Terraform.", "Packer."],
-        "TEXT2": "It transforms a local API into a fully automated, scalable, and cloud-native deployment on AWS.",
-        "STACK": "TypeScript, Terraform, Packer, Docker, SQLite and Postman.",
-        "GITHUB": "View on GitHub"
+        "TEXT1": "This project deploys the MIMO Movies REST API in the cloud via an automated scalable architecture with:",
+        "LIST": ["Docker", "Terraform", "Packer"],
+        "TEXT2": "It transforms a local API into a fully automated, scalable, cloud-native deployment on AWS.",
+        "STACK": ["TypeScript", "Terraform", "Packer", "Docker", "SQLite", "Postman"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Cloudproject"
       },
       {
         "ID": "Categorify",
         "TITLE": "Categorify",
         "TEXT1": "Categorify is a full-stack web application built with Angular (frontend) and Express (backend), designed to organize and manage URLs in a structured and visual way.",
-        "TEXT2": "It allows users to create color-coded categories and store URL entries with metadata such as description, image, and favorite status.",
-        "TEXT3": "The application is deployed on Render, so it does not need to be run locally: ",
-        "LINK_TEXT":"Categorify on Render",
-        "LINK_TEXT2": "https://categorify.onrender.com",
-        "TEXT4": "The complete project is available on GitHub and hosted on Render for demonstration purposes, allowing companies to interact with the application online.",
-        "STACK": "Angular, Express.js, MongoDB and Render.",
-        "GITHUB": "View on GitHub"
+        "TEXT2": "It allows users to create colored categories and store URLs with metadata like description, image, and favorite status. <a href='https://categorify.onrender.com/' target='_blank'>Categorify on Render</a>",
+        "TEXT3": "The application is deployed on Render and does not require local execution.",
+        "TEXT4": "The complete project is available on GitHub and hosted on Render for demonstration purposes.",
+        "STACK": ["Angular", "Express.js", "MongoDB", "Render"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Categorify"
       },
       {
-        "ID": "Daily Mood",
+        "ID": "DailyMood",
         "TITLE": "Daily Mood",
-        "TEXT1": "A modern mobile/web e-commerce application developed with Angular (standalone architecture) and Ionic, featuring reactive state management with Angular Signals, a simulated checkout process, stock management, favorites, and a persistent cart.",
-        "TEXT2": "The project demonstrates clean architecture principles, reactive UI patterns, modular component design, and frontend development best practices.",
-        "STACK": "Angular, Ionic, TypeScript and RxJS.",
-        "GITHUB": "View on GitHub"
+        "TEXT1": "Modern mobile/web e-commerce app developed with Angular (standalone architecture) and Ionic, with reactive state management via Angular Signals, simulated checkout process, stock management, favorites, and persistent cart.",
+        "TEXT2": "The project illustrates clean architecture principles, reactive UI patterns, modular design, and frontend best practices.",
+        "STACK": ["Angular", "Ionic", "TypeScript", "RxJS"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/DailyMood"
       },
       {
         "ID": "Ledgerly",
         "TITLE": "Ledgerly",
-        "TEXT1": "Ledgerly is a personal expense tracking iOS application built with Swift and SwiftUI. It allows users to add, view, categorize, and visualize their expenses with a modern, intuitive interface. Ledgerly also supports local persistence via Core Data and synchronization with a backend service.",
-        "STACK": "Swift, SwiftUI and MVVM.",
-        "GITHUB": "View on GitHub"
+        "TEXT1": "Ledgerly is an iOS personal expense tracking app developed with Swift and SwiftUI. It allows users to add, view, categorize, and visualize expenses with a modern and intuitive interface.",
+        "TEXT2": "Ledgerly also supports local persistence via Core Data and synchronization with a backend.",
+        "STACK": ["Swift", "SwiftUI", "MVVM"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Ledgerly"
       },
       {
-        "ID": "CI",
-        "TITLE": "CI/CD",
-        "TEXT1": "A structured Express.js REST API for production that demonstrates:",
-        "LIST": [
-          "Modular architecture",
-          "Environment-based configuration",
-          "Automated testing with Jest + Supertest",
-          "Continuous Integration (CI) pipeline using GitHub Actions",
-          "Clear separation of problems",
-          "Bug management and logging"
-        ],
-        "TEXT2": "This project has intentionally simple business logic, but is designed with professional backend standards, made with GitHub Actions and Railway",
-        "STACK": "Node.js 20, Express.js, Jest (testing framework), Supertest (HTTP assertions), and GitHub Actions (CI).",
-        "GITHUB": "View on GitHub"
+        "ID": "CI-testing",
+        "TITLE": "CI/testing",
+        "TEXT1": "Express.js REST API structured for production, demonstrating:",
+        "LIST": ["Modular architecture", "Environment-based configuration", "Automated tests with Jest + Supertest", "CI pipeline with GitHub Actions", "Clear separation of concerns", "Bug tracking and logging"],
+        "TEXT2": "This project presents simple business logic designed according to professional backend standards.",
+        "STACK": ["Node.js 20", "Express.js", "Jest", "Supertest", "GitHub Actions"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/CI-testing"
       },
       {
-        "ID": "MIMOAPI",
-        "TITLE": "Api with testing",
+        "ID": "Api-testing",
+        "TITLE": "API with testing",
         "TEXT1": "This API provides:",
-        "LIST": [
-          "A paginated movie catalog",
-          "Average rating calculation per movie",
-          "User-based rating system (one rating per user per movie)",
-          "Authenticated watchlist management",
-          "API key–based authentication",
-          "Request validation and structured error handling"
-        ],
-        "TEXT2": "It simulates a production-ready backend for a movie platform where users can rate movies and maintain personal watchlists.",
-        "STACK": "TypeScript, Docker, SQLite and Postman.",
-        "GITHUB": "View on GitHub"
+        "LIST": ["Paginated movie catalog", "Average rating calculation per movie", "User rating system (one rating per user per movie)", "Authenticated watchlist management", "API key authentication", "Request validation and structured error handling"],
+        "TEXT2": "It simulates a production-ready backend for a movie platform where users can rate and manage personal watchlists.",
+        "STACK": ["TypeScript", "Docker", "SQLite", "Postman"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Api-with-testing"
       }
-    ]
+    ],
+    "FOOTER_TEXT": "Interested in exploring more production-ready repos, architectural experiments, and ongoing research?",
+    "FOOTER_LINK": "See all projects on GitHub →",
+    "FOOTER_LINK_URL": "https://github.com/AdrianMalmierca"
+  },
+  "ABOUTME": {
+    "TITLE": "About Me",
+    "INTRO": "I work at the intersection of architecture, usability, and performance. My goal is not just to build functional applications, but to engineer scalable, maintainable, and sustainable systems.",
+    "WHAT_I_DO": {
+      "FULLSTACK": "<strong>Full-Stack Development.</strong> Designing end-to-end applications with modern frontend frameworks, scalable backend, and cloud infrastructure — from database modeling to production deployment.",
+      "MOBILE": "<strong>Mobile Application Engineering.</strong> Native and cross-platform development focused on performance, UX, and long-term maintainability.",
+      "ARCHITECTURE": "<strong>Architecture & Code Quality.</strong> Clean architecture, SOLID principles, modular systems, and scalable design patterns."
+    },
+    "EDUCATION": "I studied Computer Engineering at the Pontifical University of Salamanca from September 2021 to June 2025. I am currently pursuing a Master in Mobile Applications (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) at the Pontifical University of Salamanca, expected to finish in September 2026.",
+    "LANGUAGES": "Spanish — Native<br>English — Oxford B2 Certificate<br>French — DELF B2 Certificate",
+    "CERTIFICATES": "Participant in the 5th edition of HACK4EDU | 2024<br>360° Personal Branding<br>Copilot: Mastering AI in Microsoft 365"
   }
 }

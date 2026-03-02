@@ -1,25 +1,16 @@
 import { Component } from '@angular/core';
-import { RouterOutlet, RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-    RouterOutlet,
-    CommonModule,
-    RouterModule,
-    TranslateModule,
-    FooterComponent
-  ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  selector: 'app-footer',
+  imports: [CommonModule, RouterModule, TranslateModule],
+  templateUrl: './footer.component.html',
+  styleUrl: './footer.component.css'
 })
-export class AppComponent {
-
-  constructor(private translate: TranslateService) {
+export class FooterComponent {
+    constructor(private translate: TranslateService) {
     translate.addLangs(['fr', 'en', 'es']);
     translate.setDefaultLang('fr');
 

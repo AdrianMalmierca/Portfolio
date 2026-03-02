@@ -1,16 +1,51 @@
 <nav class="navbar">
-  <a routerLink="/home">{{ 'HOME.TITLE' | translate }}</a>
-  <a routerLink="/projects">{{ 'PROJECTS.TITLE' | translate }}</a>
-  <a routerLink="/stack">{{ 'STACK.TITLE' | translate }}</a>
-  <a routerLink="/contact">{{ 'CONTACT.TITLE' | translate }}</a>
 
-  <div class="lang-buttons">
-    <button (click)="switchLang('fr')">FR</button>
-    <button (click)="switchLang('es')">ES</button>
-    <button (click)="switchLang('en')">EN</button>
+  <!-- LEFT: Logo -->
+  <div class="nav-left">
+    <a routerLink="/home" class="logo-link">
+      <img src="../assets/logo3.png" alt="Logo" class="logo">
+    </a>
   </div>
-</nav>
+ 
+  <!-- CENTER: Navigation -->
+  <div class="nav-center">
+      <a routerLink="/home">{{ 'NAV.HOME' | translate }}</a>
+      <a href="#experience">{{ 'NAV.EXPERIENCE' | translate }}</a>
+      <a href="#projects">{{ 'NAV.PROJECTS' | translate }}</a>
+      <a routerLink="/aboutme">{{ 'NAV.ABOUTME' | translate }}</a>
+  </div>
 
+  <!-- RIGHT: Social + Language -->
+  <div class="nav-right">
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/adri%C3%A1n-mart%C3%ADn-malmierca-4aa6b0293/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="icon-link">
+      <img src="../assets/linkedin.png" alt="LinkedIn">
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/AdrianMalmierca"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="icon-link">
+      <img src="../assets/github.png" alt="GitHub">
+    </a>
+
+    <!-- Language -->
+    <div class="lang-buttons">
+      <button (click)="switchLang('fr')">FR</button>
+      <button (click)="switchLang('es')">ES</button>
+      <button (click)="switchLang('en')">EN</button>
+    </div>
+
+  </div>
+
+</nav>
 <main>
   <router-outlet></router-outlet>
 </main>
+
+<app-footer></app-footer>

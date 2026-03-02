@@ -1,25 +1,18 @@
 import { Component } from '@angular/core';
-import { RouterOutlet, RouterModule } from '@angular/router';
+import { ProjectsComponent } from "../../components/projects/projects.component";
+import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { FooterComponent } from "./components/footer/footer.component";
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-aboutme',
   standalone: true,
-  imports: [
-    RouterOutlet,
-    CommonModule,
-    RouterModule,
-    TranslateModule,
-    FooterComponent
-  ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [ProjectsComponent, CommonModule, RouterModule, TranslateModule],
+  templateUrl: './aboutme.component.html',
+  styleUrl: './aboutme.component.css'
 })
-export class AppComponent {
-
-  constructor(private translate: TranslateService) {
+export class AboutmeComponent {
+    constructor(private translate: TranslateService) {
     translate.addLangs(['fr', 'en', 'es']);
     translate.setDefaultLang('fr');
 

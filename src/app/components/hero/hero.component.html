@@ -1,0 +1,20 @@
+<section class="hero-card container">
+  <div class="hero-container">
+    <div class="hero-left">
+      <img src="assets/FotoPerfil.png" alt="Profile" class="hero-img">
+    </div>
+    <div class="hero-right">
+      <span class="availability">{{ 'HERO.AVAILABILITY' | translate }}</span>
+      <h1 class="hero-name">{{ 'HERO.NAME' | translate }}</h1>
+      <p class="hero-description" [innerHTML]="'HERO.DESCRIPTION' | translate"></p>
+      <div class="hero-buttons">
+        <a href="mailto:adrianmartinmalmierca@gmail.com" class="btn-primary">
+          {{ 'HERO.BUTTONS.EMAIL' | translate }}
+        </a>
+        <a routerLink="/aboutme" class="btn-secondary">
+          {{ 'HERO.BUTTONS.ABOUTME' | translate }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

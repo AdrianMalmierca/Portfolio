@@ -1,0 +1,61 @@
+<section id="projects" class="projects-section">
+  <h2>{{ 'PROJECTS.TITLE' | translate }}</h2>
+
+  <div class="projects-container">
+
+    @for (project of projectsItems; track project.ID) {
+
+      <div class="card-projects2">
+        <h2 [innerHTML]="project.TITLE"></h2>
+
+        <p [innerHTML]="project.TEXT1"></p>
+
+        @if (project.TEXT2) {
+          <p [innerHTML]="project.TEXT2"></p>
+        }
+
+        @if (project.LINK_URL) {
+          <a [href]="project.LINK_URL" target="_blank">{{ project.LINK_TEXT }}</a>
+        }
+
+        @if (project.TEXT3) {
+          <p [innerHTML]="project.TEXT3"></p>
+        }
+
+        @if (project.TEXT4) {
+          <p [innerHTML]="project.TEXT4"></p>
+        }
+
+        @if (project.LIST) {
+          <ul>
+            @for (item of project.LIST; track item) {
+              <li>{{ item }}</li>
+            }
+          </ul>
+        }
+
+        <div class="tech-grid">
+          @for (tech of project.STACK; track tech) {
+            <div class="tech-item">
+              <span>{{ tech }}</span>
+            </div>
+          }
+        </div>
+
+        <a [href]="project.GITHUB_URL" class="btn-primary">{{ project.GITHUB }}</a>
+      </div>
+
+    }
+
+  </div>
+
+  <div class="projects-footer">
+    <p class="projects-more-text">
+      {{ 'PROJECTS.FOOTER_TEXT' | translate }}
+    </p>
+
+    <a [href]="'PROJECTS.FOOTER_LINK_URL' | translate" target="_blank" class="projects-github-link">
+      {{ 'PROJECTS.FOOTER_LINK' | translate }}
+    </a>
+  </div>
+</section>

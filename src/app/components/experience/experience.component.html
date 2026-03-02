@@ -1,0 +1,23 @@
+<section id="experience" class="experience-section">
+  <h2>{{ 'EXPERIENCE.TITLE' | translate }}</h2>
+
+  <div class="experience-container">
+
+    @for (item of experienceItems; track item.TITLE) {
+
+      <div class="experience-item">
+        <div class="experience-left">
+          <h3 [innerHTML]="item.TITLE"></h3>
+          <span class="company">{{ item.COMPANY }}</span>
+          <span class="dates">{{ item.DATES }}</span>
+        </div>
+        <div class="experience-right">
+          <p [innerHTML]="item.TEXT"></p>
+          <p class="stack"><strong>Stack:</strong> {{ item.STACK }}</p>
+        </div>
+      </div>
+
+    }
+
+  </div>
+</section>
