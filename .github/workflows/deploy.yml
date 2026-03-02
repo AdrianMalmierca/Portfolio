@@ -31,15 +31,15 @@ jobs:
         run: npm run build -- --configuration production
 
       - name: Copy 404.html for SPA routing
-        run: cp dist/portfolio2/browser/index.html dist/portfolio2/browser/404.html
+        run: cp dist/portfolio/browser/index.html dist/portfolio/browser/404.html
 
       - name: Add CNAME for custom domain
-        run: echo "www.adrianmalmierca.com" > dist/portfolio2/browser/CNAME
+        run: echo "www.adrianmalmierca.com" > dist/portfolio/browser/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/portfolio2/browser
+          path: dist/portfolio/browser
 
       - name: Setup Pages 
         uses: actions/configure-pages@v4
