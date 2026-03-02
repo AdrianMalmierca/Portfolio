@@ -37,11 +37,26 @@
   text-decoration: none;
   font-weight: 600;
   position: relative;
-  transition: color 0.2s ease;
+  padding-bottom: 3px; /* espacio para el borde animado */
+}
+
+.nav-center a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;              /* empieza desde 0 */
+  height: 2px;
+  background-color: #7300ff;
+  transition: width 0.3s ease; /* animación del ancho */
 }
 
 .nav-center a:hover {
-  color: #8624ff;
+  color: #ffffff;
+}
+
+.nav-center a:hover::after {
+  width: 100%;           /* se expande hasta el 100% del enlace */
 }
 
 /* RIGHT */
