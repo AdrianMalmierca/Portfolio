@@ -112,13 +112,21 @@ main {
   display: none !important;
 }
 
+.nav-toggle {
+  display: none;
+}
+
+
 /* Responsive Navbar */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
     gap: 0.5rem;
+    align-items: stretch; /* para que ocupe todo el ancho */
+    padding: 0; /* padding lateral cero para evitar scroll */
+    width: 100%;
+    overflow-x: hidden; /* evita scroll lateral por cualquier elemento */
   }
 
   /* Nav-left centrado */
@@ -131,12 +139,17 @@ main {
   /* Nav-center y Nav-right apilados y centrados */
   .nav-center,
   .nav-right {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    width: 100%; /* ok */
+    max-width: 100%; /* evita desbordamiento */
+    padding: 0 1rem; /* respiración lateral dentro del viewport */
+    flex-direction: column;
+    align-items: center;
     gap: 0.8rem;
     margin-top: 0.5rem;
+  }
+
+  main {
+    padding: 3rem 1rem; /* respeta el mismo padding que navCenter/navRight */
   }
 
   .nav-toggle {
@@ -146,7 +159,7 @@ main {
     right: 1.5rem;
     z-index: 1100;
   }
-  
+
   .nav-center a {
     font-size: 0.95rem;
   }
