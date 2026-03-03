@@ -177,13 +177,13 @@
     "INTRO2": "Soy ingenierio informático especializado en arquitectura del software, además de ser programador full stack especializado en desarrollo movil para Android, IOS y multiplataforma aunque también desarrollo aplicaciones para móvil y web como con Ionic por ejemplo, además de desarrollar backend y frontend indiferentemente.<br>Trato de crear aplicaciones lo más accesibles posibles ya que para mi es algo muy importante además de aplicar las arquitecturas correctas y patrones de diseño. <br>Me gusta emplear nuevas tecnologías que sean tendencia como SwiftUI, aunque también programo en tecnologías que van formando parte más del pasado. Considero que hay que entender ambas ya que por el momento convivirán. <br>También realizo tests para aplicaciones, gestiono bases de datos y microservicios. Si quieres saber un poco más sobre mis habilidades y proyectos puedes comprobar mi GitHub.",
     "WHAT_I_DO": {
       "TITLE": "¿Qué hago?",
-      "FULLSTACK": "<strong>Desarrollo Full-Stack:</strong> Diseño de aplicaciones de extremo a extremo con frameworks frontend modernos, backend escalable e infraestructura en la nube — desde modelado de bases de datos hasta despliegue en producción.",
+      "FULLSTACK": "<strong>Desarrollo Full-Stack:</strong> Diseño de aplicaciones de extremo a extremo con frameworks frontend modernos y backend escalable — desde modelado de bases de datos hasta despliegue en producción.",
       "MOBILE": "<strong>Ingeniería de Aplicaciones Móviles:</strong> Desarrollo nativo y cross-platform enfocado en rendimiento, UX y mantenibilidad a largo plazo.",
       "ARCHITECTURE": "<strong>Arquitectura & Calidad de Código:</strong> Arquitectura limpia, principios SOLID, sistemas modulares y patrones de diseño escalables."
     },
     "EDUCATION": {
       "TITLE": "Educación",
-      "STUDIES": "Estudié Ingeniería Informática en la Universidad Pontificia de Salamanca de Septiembre 2021 a Junio 2025. <br>Actualmente curso un Máster en Aplicaciones Móviles (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) en la Universidad Pontificia de Salamanca, con finalización prevista en Septiembre 2026."
+      "STUDIES": "Estudié Ingeniería Informática en la Universidad Pontificia de Salamanca de septiembre 2021 a junio 2025. <br>Actualmente curso un Máster en Aplicaciones Móviles (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) en la Universidad Pontificia de Salamanca, con finalización prevista en septiembre 2026."
     },
     "LANGUAGES": { 
       "TITLE": "Idiomas",

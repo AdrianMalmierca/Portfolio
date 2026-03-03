@@ -177,13 +177,13 @@
     "INTRO2": "Je suis ingénieur informatique spécialisé en architecture logicielle et développeur full-stack spécialisé dans le développement mobile pour Android, iOS et applications multiplateformes. Je développe également des applications mobiles et web avec des technologies comme Ionic, et je maîtrise aussi bien le backend que le frontend. Je m’efforce de créer des applications aussi accessibles que possible, car c’est un point essentiel pour moi, tout en appliquant les architectures et les modèles de conception appropriés. J’apprécie d’utiliser les nouvelles technologies en vogue comme SwiftUI, mais je programme également avec des technologies plus anciennes. Je pense qu’il est important de comprendre les deux, car elles coexisteront encore longtemps. Je réalise également des tests d’applications, gère des bases de données et développe des microservices. Pour en savoir plus sur mes compétences et mes projets, vous pouvez consulter mon profil.",
     "WHAT_I_DO": {
       "TITLE": "Qu'est-ce que je fais?",
-      "FULLSTACK": "<strong>Développement Full-Stack.</strong> Conception d'applications de bout en bout avec frameworks frontend modernes, backend scalable et infrastructure cloud — de la modélisation des bases de données au déploiement en production.",
+      "FULLSTACK": "<strong>Développement Full-Stack.</strong> Conception d'applications de bout en bout avec frameworks frontend modernes et backend scalable — de la modélisation des bases de données au déploiement en production.",
       "MOBILE": "<strong>Ingénierie d'applications mobiles.</strong> Développement natif et cross-platform axé sur la performance, l'UX et la maintenabilité à long terme.",
       "ARCHITECTURE": "<strong>Architecture & Qualité du code.</strong> Architecture propre, principes SOLID, systèmes modulaires et design patterns scalables."
     },
     "EDUCATION":{ 
       "TITLE": "Éducation",
-      "STUDIES": "J'ai étudié l'ingénierie informatique à l'Université Pontificale de Salamanque de Septembre 2021 à Juin 2025. Je poursuis actuellement un Master en Applications Mobiles (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) à l'Université Pontificale de Salamanque, avec une fin prévue en Septembre 2026."
+      "STUDIES": "J'ai étudié l'ingénierie informatique à l'Université Pontificale de Salamanque de septembre 2021 à juin 2025.<br>Je poursuis actuellement un Master en Applications Mobiles (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) à l'Université Pontificale de Salamanque, avec une fin prévue en septembre 2026."
     },
     "LANGUAGES": {
       "TITLE": "Langues",
