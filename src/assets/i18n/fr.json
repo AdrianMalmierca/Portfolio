@@ -8,7 +8,7 @@
   "HERO": {
     "AVAILABILITY": "Disponible pour le travail",
     "NAME": "Adrián Martín Malmierca",
-    "DESCRIPTION": "<strong>Ingénieur logiciel Full Stack & Ingénieur en applications mobiles</strong> avec plus d'un an d'expérience professionnelle (stages), spécialisé dans les systèmes évolutifs, l'architecture propre et les applications cloud-ready. Je transforme les idées numériques en réalité grâce à une combinaison de précision technique et de vision produit.",
+    "DESCRIPTION": "<strong>Ingénieur logiciel Full Stack & Ingénieur en applications mobiles</strong> avec plus d'un an d'expérience professionnelle (stages), spécialisé dans les systèmes évolutifs, l'architecture propre et les applications cloud-ready. Je transforme les idées numériques en réalité grâce à une combinaison de précision technique et de vision produit. Déménagement à Dijon, en France, à partir de septembre 2026.",
     "BUTTONS": {
       "EMAIL": "Envoyer un e-mail",
       "ABOUTME": "À propos de moi"
@@ -175,12 +175,22 @@
     "TITLE": "À propos de moi",
     "INTRO": "Je travaille à l'intersection de l'architecture, de l'utilisabilité et de la performance. Mon objectif n'est pas seulement de construire des applications fonctionnelles, mais d'ingénier des systèmes évolutifs, maintenables et durables.",
     "WHAT_I_DO": {
+      "TITLE": "Qu'est-ce que je fais?",
       "FULLSTACK": "<strong>Développement Full-Stack.</strong> Conception d'applications de bout en bout avec frameworks frontend modernes, backend scalable et infrastructure cloud — de la modélisation des bases de données au déploiement en production.",
       "MOBILE": "<strong>Ingénierie d'applications mobiles.</strong> Développement natif et cross-platform axé sur la performance, l'UX et la maintenabilité à long terme.",
       "ARCHITECTURE": "<strong>Architecture & Qualité du code.</strong> Architecture propre, principes SOLID, systèmes modulaires et design patterns scalables."
     },
-    "EDUCATION": "J'ai étudié l'ingénierie informatique à l'Université Pontificale de Salamanque de Septembre 2021 à Juin 2025. Je poursuis actuellement un Master en Applications Mobiles (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) à l'Université Pontificale de Salamanque, avec une fin prévue en Septembre 2026.",
-    "LANGUAGES": "Espagnol — Langue maternelle<br>Anglais — Certificat Oxford B2<br>Français — Certificat DELF B2",
-    "CERTIFICATES": "Participation à la 5ème édition de HACK4EDU | 2024<br>360° Personal Branding<br>Copilot : Maîtriser l'IA dans Microsoft 365"
+    "EDUCATION":{ 
+      "TITLE": "Éducation",
+      "STUDIES": "J'ai étudié l'ingénierie informatique à l'Université Pontificale de Salamanque de Septembre 2021 à Juin 2025. Je poursuis actuellement un Master en Applications Mobiles (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) à l'Université Pontificale de Salamanque, avec une fin prévue en Septembre 2026."
+    },
+    "LANGUAGES": {
+      "TITLE": "Langues",
+      "LANGUAGE":"Espagnol — Langue maternelle<br>Anglais — Certificat Oxford B2<br>Français — Certificat DELF B2"
+    },
+    "CERTIFICATES":{
+      "TITLE": "Certificats",
+      "CERTIFICATE": "Participation à la 5ème édition de HACK4EDU | 2024<br>360° Personal Branding<br>Copilot : Maîtriser l'IA dans Microsoft 365"
+    }
   }
 }

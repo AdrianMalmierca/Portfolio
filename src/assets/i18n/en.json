@@ -8,7 +8,7 @@
   "HERO": {
     "AVAILABILITY": "Available for work",
     "NAME": "Adrián Martín Malmierca",
-    "DESCRIPTION": "<strong>Full Stack Software Engineer & Mobile Applications Engineer</strong> with over a year of professional experience (internships), specializing in scalable systems, clean architecture, and cloud-ready applications. I turn digital ideas into reality through a combination of technical precision and product vision.",
+    "DESCRIPTION": "<strong>Full Stack Software Engineer & Mobile Applications Engineer</strong> with over a year of professional experience (internships), specializing in scalable systems, clean architecture, and cloud-ready applications. I turn digital ideas into reality through a combination of technical precision and product vision. Moving to Dijon, France starting in September 2026.",
     "BUTTONS": {
       "EMAIL": "Send Email",
       "ABOUTME": "About Me"
@@ -175,12 +175,21 @@
     "TITLE": "About Me",
     "INTRO": "I work at the intersection of architecture, usability, and performance. My goal is not just to build functional applications, but to engineer scalable, maintainable, and sustainable systems.",
     "WHAT_I_DO": {
+      "TITLE": "What I do?",
       "FULLSTACK": "<strong>Full-Stack Development.</strong> Designing end-to-end applications with modern frontend frameworks, scalable backend, and cloud infrastructure — from database modeling to production deployment.",
       "MOBILE": "<strong>Mobile Application Engineering.</strong> Native and cross-platform development focused on performance, UX, and long-term maintainability.",
       "ARCHITECTURE": "<strong>Architecture & Code Quality.</strong> Clean architecture, SOLID principles, modular systems, and scalable design patterns."
     },
-    "EDUCATION": "I studied Computer Engineering at the Pontifical University of Salamanca from September 2021 to June 2025. I am currently pursuing a Master in Mobile Applications (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) at the Pontifical University of Salamanca, expected to finish in September 2026.",
-    "LANGUAGES": "Spanish — Native<br>English — Oxford B2 Certificate<br>French — DELF B2 Certificate",
-    "CERTIFICATES": "Participant in the 5th edition of HACK4EDU | 2024<br>360° Personal Branding<br>Copilot: Mastering AI in Microsoft 365"
+    "EDUCATION": { 
+      "TITLE": "Eudcation",
+      "STUDIES": "I studied Computer Engineering at the Pontifical University of Salamanca from September 2021 to June 2025. I am currently pursuing a Master in Mobile Applications (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) at the Pontifical University of Salamanca, expected to finish in September 2026."
+    },
+    "LANGUAGES": { 
+      "TITLE": "Languages",
+      "LANGUAGE": "Spanish — Native<br>English — Oxford B2 Certificate<br>French — DELF B2 Certificate"
+    },
+    "CERTIFICATES": {
+      "TITLE": "Certificates",
+      "CERTIFICATE": "Participant in the 5th edition of HACK4EDU | 2024<br>360° Personal Branding<br>Copilot: Mastering AI in Microsoft 365"}
   }
 }
