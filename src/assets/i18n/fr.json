@@ -173,7 +173,8 @@
   },
   "ABOUTME": {
     "TITLE": "À propos de moi",
-    "INTRO": "Je travaille à l'intersection de l'architecture, de l'utilisabilité et de la performance. Mon objectif n'est pas seulement de construire des applications fonctionnelles, mais d'ingénier des systèmes évolutifs, maintenables et durables.",
+    "INTRO1": "Je suis développeur full-stack spécialisé dans le développement mobile pour Android, iOS et applications multiplateformes.",
+    "INTRO2": "Je suis ingénieur informatique spécialisé en architecture logicielle et développeur full-stack spécialisé dans le développement mobile pour Android, iOS et applications multiplateformes. Je développe également des applications mobiles et web avec des technologies comme Ionic, et je maîtrise aussi bien le backend que le frontend. Je m’efforce de créer des applications aussi accessibles que possible, car c’est un point essentiel pour moi, tout en appliquant les architectures et les modèles de conception appropriés. J’apprécie d’utiliser les nouvelles technologies en vogue comme SwiftUI, mais je programme également avec des technologies plus anciennes. Je pense qu’il est important de comprendre les deux, car elles coexisteront encore longtemps. Je réalise également des tests d’applications, gère des bases de données et développe des microservices. Pour en savoir plus sur mes compétences et mes projets, vous pouvez consulter mon profil.",
     "WHAT_I_DO": {
       "TITLE": "Qu'est-ce que je fais?",
       "FULLSTACK": "<strong>Développement Full-Stack.</strong> Conception d'applications de bout en bout avec frameworks frontend modernes, backend scalable et infrastructure cloud — de la modélisation des bases de données au déploiement en production.",

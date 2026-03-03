@@ -173,7 +173,8 @@
   },
   "ABOUTME": {
     "TITLE": "About Me",
-    "INTRO": "I work at the intersection of architecture, usability, and performance. My goal is not just to build functional applications, but to engineer scalable, maintainable, and sustainable systems.",
+    "INTRO1": "I'm a full-stack developer focused on mobile development for Android, iOS, and cross-platform applications.",
+    "INTRO2": "I'm a computer engineer specializing in software architecture, and I'm also a full-stack developer specializing in mobile development for Android, iOS, and cross-platform applications. I also develop mobile and web applications using technologies like Ionic, and I develop both backend and frontend applications. I strive to create the most accessible applications possible, as this is very important to me, in addition to applying the correct architectures and design patterns. I enjoy using new, trending technologies like SwiftUI, but I also program in technologies that are becoming more outdated. I believe it's important to understand both, as they will coexist for the time being. I also perform application testing, manage databases, and develop microservices. If you'd like to learn more about my skills and projects, you can check out my profile.",
     "WHAT_I_DO": {
       "TITLE": "What I do?",
       "FULLSTACK": "<strong>Full-Stack Development.</strong> Designing end-to-end applications with modern frontend frameworks, scalable backend, and cloud infrastructure — from database modeling to production deployment.",
