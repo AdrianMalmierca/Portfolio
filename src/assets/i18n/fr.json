@@ -118,6 +118,24 @@
         "GITHUB_URL": "https://github.com/AdrianMalmierca/Cloudproject"
       },
       {
+        "ID": "Backend de l'API événements de Dijon",
+        "TITLE": "Backend de l'API événements de Dijon",
+        "TEXT1": "Backend de l'API REST pour Dijon Événements — une application mobile qui agrège les événements culturels réels de la région de Dijon/Bourgogne via l'API OpenAgenda. Développée avec Spring Boot et Kotlin, conteneurisée avec Docker Compose.",
+        "TEXT2": "Il s'agit du backend du projet « Frontend de l'API événements de Dijon », une API REST développée avec Spring Boot et Kotlin, conteneurisée avec Docker Compose.",
+        "STACK": ["Spring Boot", "Kotlin", "Docker", "PostgreSQL", "JWT"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/evenements-dijon-api"
+      },
+      {
+        "ID": "Frontend de l'API événements de Dijon",
+        "TITLE": "Frontend de l'API événements de Dijon",
+        "TEXT1": "Application Android native permettant de découvrir les événements culturels à Dijon et en Bourgogne. Développée avec Kotlin et Jetpack Compose, suivant l'architecture MVVM avec injection de dépendances Hilt.",
+        "TEXT2": "Il s'agit du frontend du projet « Dijon events API backend », une application Android native développée avec Kotlin et Jetpack Compose, suivant l'architecture MVVM avec injection de dépendances Hilt.",
+        "STACK": ["Kotlin", "Jetpack Compose", "Hilt", "Retrofit", "Google Maps", "Min SDK"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/frontend-evenements-dijon-api"
+      },
+      {
         "ID": "Categorify",
         "TITLE": "Categorify",
         "TEXT1": "Categorify est une application web full-stack construite avec Angular (frontend) et Express (backend), conçue pour organiser et gérer les URL de manière structurée et visuelle.",
