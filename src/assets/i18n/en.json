@@ -137,7 +137,7 @@
         "ID": "GestiPro",
         "TITLE": "GestiPro — Role-Based Dashboard with i18n (FR/EN/ES)",
         "TEXT1": "A production-ready web dashboard built with Next.js App Router, featuring JWT authentication, role-based access control (ADMIN/USER), and full internationalization across three languages: French, English, and Spanish.",
-        "TEXT2": "GestiPro solves this by providing a clean, lightweight, self-hostable dashboard that:",
+        "TEXT2": "GestiPro provides a clean, lightweight, self-hostable dashboard that:",
         "LIST": ["Enforces role-based access so admins control what users can see and do", "Supports three languages out of the box, making it suitable for international teams", "Demonstrates a complete authentication and authorization flow using modern web standards"],
         "STACK": ["Next.js", "TypeScript", "Prisma", "NextAuth.js", "next-intl"],
         "GITHUB": "View on GitHub",
