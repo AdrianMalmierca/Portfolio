@@ -134,6 +134,16 @@
         "GITHUB_URL": "https://github.com/AdrianMalmierca/frontend-evenements-dijon-api"
       },
       {
+        "ID": "GestiPro",
+        "TÍTULO": "GestiPro: Panel de control basado en roles con i18n (FR/EN/ES)",
+        "TEXTO1": "Un panel de control web listo para producción, creado con Next.js App Router, que incluye autenticación JWT, control de acceso basado en roles (ADMIN/USUARIO) e internacionalización completa en tres idiomas: francés, inglés y español.",
+        "TEXTO2": "GestiPro resuelve esto proporcionando un panel de control limpio, ligero y autoalojado que:",
+        "LISTA": ["Impone el acceso basado en roles para que los administradores controlen lo que los usuarios pueden ver y hacer", "Admite tres idiomas de forma nativa, lo que lo hace adecuado para equipos internacionales", "Demuestra un flujo completo de autenticación y autorización utilizando estándares web modernos"],
+        "STACK": ["Next.js", "TypeScript", "Prisma", "NextAuth.js", "next-intl"],
+        "GITHUB": "Ver en GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/GestiPro"
+      },
+      {
         "ID": "Categorify",
         "TITLE": "Categorify",
         "TEXT1": "Categorify es una aplicación web full-stack construida con Angular (frontend) y Express (backend), diseñada para organizar y gestionar URLs de manera estructurada y visual.",
