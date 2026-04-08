@@ -129,7 +129,7 @@
       {
         "ID": "Dijon events API frontend",
         "TITLE": "Frontend de la API de eventos de Dijon",
-        "TEXTT1":"Aplicación nativa de Android para descubrir eventos culturales en Dijon y la región de Borgoña. Desarrollada con Kotlin y Jetpack Compose, siguiendo la arquitectura MVVM con inyección de dependencias Hilt.",
+        "TEXT1":"Aplicación nativa de Android para descubrir eventos culturales en Dijon y la región de Borgoña. Desarrollada con Kotlin y Jetpack Compose, siguiendo la arquitectura MVVM con inyección de dependencias Hilt.",
         "TEXT2": "Es el frontend del proyecto 'Dijon events API backend', que es una aplicación nativa de Android desarrollada con Kotlin y Jetpack Compose, siguiendo la arquitectura MVVM con inyección de dependencias Hilt.",
         "STACK": ["Kotlin", "Jetpack Compose", "Hilt", "Retrofit", "Google Maps", "Min SDK"],
         "GITHUB": "Ver en GitHub",
