@@ -151,7 +151,7 @@
         "LIST": ["Datos en tiempo real de OpenStreetMap: siempre actualizados, sin necesidad de curación", "Itinerarios de rutas del vino predefinidos (Route des Grands Crus, Route des Hautes-Côtes)", "Navegación directa, llamadas y acciones en el sitio web desde cada entrada"],
         "STACK": ["React Native", "Expo", "TypeScript", "OpenStreetMap"],
         "GITHUB": "Ver en GitHub",
-        "GITHUB_URL": "https://github.com/AdrianMalmierca/GeolocationDijonAPI"
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/GeolocationDijonAPI" 
       },
       {
         "ID": "Categorify",
