@@ -147,8 +147,8 @@
         "ID": "DijonVin",
         "TITLE": "Dijon Vin & Terroir: Aplicación de geolocalización para descubrir vinos de Borgoña",
         "TEXT1": "Una aplicación nativa de Android creada con React Native y Expo para descubrir bodegas, restaurantes y tiendas gastronómicas en la región de Dijon/Borgoña, Francia.",
-        "TEXT2": "Los datos se obtienen en tiempo real de OpenStreetMap a través de la API Overpass; sin datos simulados ni extracción de datos.",
-        "LIST": ["Una vista seleccionada en mapa de bodegas, restaurantes y tiendas locales en la zona metropolitana de Dijon", "Datos en tiempo real de OpenStreetMap: siempre actualizados, sin necesidad de curación", "Itinerarios de rutas del vino predefinidos (Ruta de los Grandes Crus, Ruta de las Altas Costas)", "Navegación directa, llamadas y acciones en el sitio web desde cada entrada"],
+        "TEXT2": "Los datos se obtienen en tiempo real de OpenStreetMap a través de la API Overpass.",
+        "LIST": ["Una vista seleccionada en mapa de bodegas, restaurantes y tiendas locales en la zona metropolitana de Dijon", "Datos en tiempo real de OpenStreetMap: siempre actualizados, sin necesidad de curación", "Itinerarios de rutas del vino predefinidos (Route des Grands Crus, Route des Hautes-Côtes)", "Navegación directa, llamadas y acciones en el sitio web desde cada entrada"],
         "STACK": ["React Native", "Expo", "TypeScript", "OpenStreetMap"],
         "GITHUB": "Ver en GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/GeolocationDijonAPI"
