@@ -147,7 +147,7 @@
         "ID": "DijonVin",
         "TITLE": "Dijon Vin & Terroir — Geolocation App for Burgundy Wine Discovery",
         "TEXT1": "A native Android app built with React Native and Expo for discovering wine caves, restaurants, and gastronomic shops in the Dijon / Burgundy region of France.",
-        "TEXT2": "Data is pulled in real time from OpenStreetMap via the Overpass API — no mock data, no scraping.",
+        "TEXT2": "Dijon Vin & Terroir provides:",
         "LIST": ["Real-time data from OpenStreetMap — always up to date, no curation required", "Pre-built wine route itineraries (Route des Grands Crus, Route des Hautes-Côtes)", "Direct navigation, call, and website actions from every listing"],
         "STACK": ["React Native", "Expo", "TypeScript", "OpenStreetMap"],
         "GITHUB": "View on GitHub",
