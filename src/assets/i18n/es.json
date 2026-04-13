@@ -134,16 +134,6 @@
         "GITHUB_URL": "https://github.com/AdrianMalmierca/frontend-evenements-dijon-api"
       },
       {
-        "ID": "DijonVin",
-        "TITLE": "Dijon Vin & Terroir: Aplicación de geolocalización para descubrir vinos de Borgoña",
-        "TEXT1": "Una aplicación nativa de Android creada con React Native y Expo para descubrir bodegas, restaurantes y tiendas gastronómicas en la región de Dijon/Borgoña, Francia.",
-        "TEXT2": "Los datos se obtienen en tiempo real de OpenStreetMap a través de la API Overpass; sin datos simulados ni extracción de datos.",
-        "LIST": ["Una vista seleccionada en mapa de bodegas, restaurantes y tiendas locales en la zona metropolitana de Dijon", "Datos en tiempo real de OpenStreetMap: siempre actualizados, sin necesidad de curación", "Itinerarios de rutas del vino predefinidos (Ruta de los Grandes Crus, Ruta de las Altas Costas)", "Navegación directa, llamadas y acciones en el sitio web desde cada entrada"],
-        "STACK": ["React Native", "Expo", "TypeScript", "OpenStreetMap"],
-        "GITHUB": "Ver en GitHub",
-        "GITHUB_URL": "https://github.com/AdrianMalmierca/GeolocationDijonAPI"
-      },
-      {
         "ID": "GestiPro",
         "TITLE": "GestiPro: Panel de control basado en roles con i18n (FR/EN/ES)",
         "TEXT1": "Un panel de control web listo para producción, creado con Next.js App Router, que incluye autenticación JWT, control de acceso basado en roles (ADMIN/USUARIO) e internacionalización completa en tres idiomas: francés, inglés y español.",
@@ -152,6 +142,16 @@
         "STACK": ["Next.js", "TypeScript", "Prisma", "NextAuth.js", "next-intl"],
         "GITHUB": "Ver en GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/GestiPro"
+      },
+      {
+        "ID": "DijonVin",
+        "TITLE": "Dijon Vin & Terroir: Aplicación de geolocalización para descubrir vinos de Borgoña",
+        "TEXT1": "Una aplicación nativa de Android creada con React Native y Expo para descubrir bodegas, restaurantes y tiendas gastronómicas en la región de Dijon/Borgoña, Francia.",
+        "TEXT2": "Los datos se obtienen en tiempo real de OpenStreetMap a través de la API Overpass; sin datos simulados ni extracción de datos.",
+        "LIST": ["Una vista seleccionada en mapa de bodegas, restaurantes y tiendas locales en la zona metropolitana de Dijon", "Datos en tiempo real de OpenStreetMap: siempre actualizados, sin necesidad de curación", "Itinerarios de rutas del vino predefinidos (Ruta de los Grandes Crus, Ruta de las Altas Costas)", "Navegación directa, llamadas y acciones en el sitio web desde cada entrada"],
+        "STACK": ["React Native", "Expo", "TypeScript", "OpenStreetMap"],
+        "GITHUB": "Ver en GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/GeolocationDijonAPI"
       },
       {
         "ID": "Categorify",
