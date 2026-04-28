@@ -97,7 +97,7 @@
     "ITEMS": [
       {
         "ID": "Chatbot",
-        "TITLE": "Chatbot",
+        "TITLE": "Chatbot RAG pour publications académiques",
         "TEXT1": "Ce projet implémente un système complet de <strong>RAG</strong> permettant aux utilisateurs d'interroger les données de publications académiques extraites du portail scientifique de l'Université Pontificale de Salamanque.",
         "TEXT2": "Los datos provienen de: <a href='https://portalcientifico.upsa.es/' target='_blank'>Portail scientifique</a>",
         "TEXT3": "Le site a été crawlé avec Apache Nutch, générant un fichier de données qui a ensuite été transformé et nettoyé en JSON structuré, adapté à l'indexation et à la recherche sémantique.",
@@ -107,7 +107,7 @@
       },
       {
         "ID": "AWS",
-        "TITLE": "AWS",
+        "TITLE": "AWS - Déploiement d'une API REST avec architecture évolutive automatisée",
         "TEXT1": "Ce projet déploie l'API REST MIMO Movies dans le cloud via une architecture évolutive automatisée avec :",
         "LIST": ["Docker", "Terraform", "Packer"],
         "TEXT2": "Il transforme une API locale en un déploiement entièrement automatisé, scalable et natif cloud sur AWS.",
@@ -155,7 +155,7 @@
       },
       {
         "ID": "Categorify",
-        "TITLE": "Categorify",
+        "TITLE": "Categorify - Application web de gestion de URLs avec Angular et Express",
         "TEXT1": "Categorify est une application web full-stack construite avec Angular (frontend) et Express (backend), conçue pour organiser et gérer les URL de manière structurée et visuelle.",
         "TEXT2": "Elle permet aux utilisateurs de créer des catégories colorées et de stocker des URL avec des métadonnées comme description, image et statut favori. <a href='https://categorify.onrender.com/' target='_blank'>Categorify sur Render</a>",
         "TEXT3": "L'application est déployée sur Render et ne nécessite donc pas d'exécution locale.",
@@ -166,7 +166,7 @@
       },
       {
         "ID": "DailyMood",
-        "TITLE": "Daily Mood",
+        "TITLE": "Daily Mood - Application web de commerce électronique avec Angular et Ionic",
         "TEXT1": "Application mobile/web e-commerce moderne développée avec Angular (architecture standalone) et Ionic, avec gestion d'état réactive via Angular Signals, processus de checkout simulé, gestion de stock, favoris et panier persistant.",
         "TEXT2": "Le projet illustre les principes d'architecture propre, les patterns UI réactifs, le design modulaire et les meilleures pratiques frontend.",
         "STACK": ["Angular", "Ionic", "TypeScript", "RxJS"],
@@ -175,12 +175,12 @@
       },
       {
         "ID": "Ledgerly",
-        "TITLE": "Ledgerly",
+        "TITLE": "Ledgerly - Application iOS de suivi des dépenses personnelles",
         "TEXT1": "Ledgerly est une application iOS de suivi des dépenses personnelles développée avec Swift et SwiftUI. Elle permet d'ajouter, consulter, catégoriser et visualiser ses dépenses avec une interface moderne et intuitive.",
         "TEXT2": "Ledgerly supporte également la persistance locale via Core Data et la synchronisation avec un backend.",
         "STACK": ["Swift", "SwiftUI", "MVVM"],
         "GITHUB": "Voir sur GitHub",
-        "GITHUB_URL": "https://github.com/AdrianMalmierca/Ledgerly"
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyIOS"
       },
       {
         "ID": "CI-testing",
@@ -194,7 +194,7 @@
       },
       {
         "ID": "Api-testing",
-        "TITLE": "API avec testing",
+        "TITLE": "API avec testing - API REST de films avec tests automatisés",
         "TEXT1": "Cette API fournit :",
         "LIST": ["Catalogue de films paginé", "Calcul de la note moyenne par film", "Système de notation par utilisateur (une note par utilisateur et par film)", "Gestion de watchlist authentifiée", "Authentification par clé API", "Validation des requêtes et gestion structurée des erreurs"],
         "TEXT2": "Elle simule un backend prêt pour la production pour une plateforme de films où les utilisateurs peuvent noter et gérer des watchlists personnelles.",

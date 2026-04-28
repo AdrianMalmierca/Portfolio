@@ -97,7 +97,7 @@
     "ITEMS": [
       {
         "ID": "Chatbot",
-        "TITLE": "Chatbot",
+        "TITLE": "Chatbot RAG para publicaciones académicas",
         "TEXT1": "Este proyecto implementa un sistema completo <strong>RAG</strong> que permite a los usuarios consultar datos de publicaciones académicas extraídas del Portal Científico de la Universidad Pontificia de Salamanca.",
         "TEXT2": "Los datos provienen de: <a href='https://portalcientifico.upsa.es/' target='_blank'>Portal Científico</a>",
         "TEXT3": "El sitio fue crawleado con Apache Nutch, generando un archivo de datos que luego fue transformado y limpiado en JSON estructurado, adecuado para indexación y búsqueda semántica.",
@@ -107,7 +107,7 @@
       },
       {
         "ID": "AWS",
-        "TITLE": "AWS",
+        "TITLE": "AWS - Despliegue de API REST con arquitectura escalable automatizada",
         "TEXT1": "Este proyecto despliega la API REST MIMO Movies en la nube mediante una arquitectura escalable automatizada con:",
         "LIST": ["Docker", "Terraform", "Packer"],
         "TEXT2": "Transforma una API local en un despliegue totalmente automatizado, escalable y nativo en la nube en AWS.",
@@ -155,7 +155,7 @@
       },
       {
         "ID": "Categorify",
-        "TITLE": "Categorify",
+        "TITLE": "Categorify - Aplicación web de gestión de URLs con Angular y Express",
         "TEXT1": "Categorify es una aplicación web full-stack construida con Angular (frontend) y Express (backend), diseñada para organizar y gestionar URLs de manera estructurada y visual.",
         "TEXT2": "Permite a los usuarios crear categorías con colores y almacenar URLs con metadatos como descripción, imagen y estado favorito. <a href='https://categorify.onrender.com/' target='_blank'>Categorify en Render</a>",
         "TEXT3": "La aplicación está desplegada en Render y no requiere ejecución local.",
@@ -166,7 +166,7 @@
       },
       {
         "ID": "DailyMood",
-        "TITLE": "Daily Mood",
+        "TITLE": "Daily Mood - Aplicación web de compra con Angular e Ionic",
         "TEXT1": "Aplicación de comercio electrónico móvil/web moderna desarrollada con Angular (arquitectura standalone) e Ionic, con gestión de estado reactiva mediante Angular Signals, proceso de checkout simulado, gestión de stock, favoritos y carrito persistente.",
         "TEXT2": "El proyecto ilustra principios de arquitectura limpia, patrones de UI reactivos, diseño modular y buenas prácticas frontend.",
         "STACK": ["Angular", "Ionic", "TypeScript", "RxJS"],
@@ -175,16 +175,16 @@
       },
       {
         "ID": "Ledgerly",
-        "TITLE": "Ledgerly",
+        "TITLE": "Ledgerly - Aplicación iOS de seguimiento de gastos personales",
         "TEXT1": "Ledgerly es una aplicación iOS de seguimiento de gastos personales desarrollada con Swift y SwiftUI. Permite agregar, consultar, categorizar y visualizar gastos con una interfaz moderna e intuitiva.",
         "TEXT2": "Ledgerly también soporta persistencia local mediante Core Data y sincronización con un backend.",
         "STACK": ["Swift", "SwiftUI", "MVVM"],
         "GITHUB": "Ver en GitHub",
-        "GITHUB_URL": "https://github.com/AdrianMalmierca/Ledgerly"
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyIOS"
       },
       {
         "ID": "CI-testing",
-        "TITLE": "CI/testing",
+        "TITLE": "CI/testing - Configuración de integración continua y testing para API REST Express.js",
         "TEXT1": "API REST Express.js estructurada para producción, demostrando:",
         "LIST": ["Arquitectura modular", "Configuración basada en entorno", "Tests automatizados con Jest + Supertest", "Pipeline CI con GitHub Actions", "Separación clara de responsabilidades", "Gestión y registro de errores"],
         "TEXT2": "Este proyecto presenta lógica de negocio simple pero diseñada según estándares backend profesionales.",
@@ -194,7 +194,7 @@
       },
       {
         "ID": "Api-testing",
-        "TITLE": "API con testing",
+        "TITLE": "API con testing - API REST de películas con pruebas automatizadas",
         "TEXT1": "Esta API proporciona:",
         "LIST": ["Catálogo de películas paginado", "Cálculo de puntuación media por película", "Sistema de puntuación por usuario (una puntuación por usuario y película)", "Gestión de watchlist autenticada", "Autenticación por clave API", "Validación de peticiones y manejo estructurado de errores"],
         "TEXT2": "Simula un backend listo para producción para una plataforma de películas donde los usuarios pueden puntuar y gestionar watchlists personales.",

@@ -97,7 +97,7 @@
     "ITEMS": [
       {
         "ID": "Chatbot",
-        "TITLE": "Chatbot",
+        "TITLE": "Chatbot RAG for academic publications",
         "TEXT1": "This project implements a complete <strong>RAG</strong> system allowing users to query academic publication data extracted from the Pontifical University of Salamanca Scientific Portal.",
         "TEXT2": "The source data comes from: <a href='https://portalcientifico.upsa.es/' target='_blank'>Scientific Portal</a>",
         "TEXT3": "The site was crawled with Apache Nutch, generating a data file that was then transformed and cleaned into structured JSON suitable for indexing and semantic search.",
@@ -107,7 +107,7 @@
       },
       {
         "ID": "AWS",
-        "TITLE": "AWS",
+        "TITLE": "AWS - Automated Scalable REST API Deployment",
         "TEXT1": "This project deploys the MIMO Movies REST API in the cloud via an automated scalable architecture with:",
         "LIST": ["Docker", "Terraform", "Packer"],
         "TEXT2": "It transforms a local API into a fully automated, scalable, cloud-native deployment on AWS.",
@@ -155,7 +155,7 @@
       },
       {
         "ID": "Categorify",
-        "TITLE": "Categorify",
+        "TITLE": "Categorify - URL Management App with Angular and Express",
         "TEXT1": "Categorify is a full-stack web application built with Angular (frontend) and Express (backend), designed to organize and manage URLs in a structured and visual way.",
         "TEXT2": "It allows users to create colored categories and store URLs with metadata like description, image, and favorite status. <a href='https://categorify.onrender.com/' target='_blank'>Categorify on Render</a>",
         "TEXT3": "The application is deployed on Render and does not require local execution.",
@@ -166,7 +166,7 @@
       },
       {
         "ID": "DailyMood",
-        "TITLE": "Daily Mood",
+        "TITLE": "Daily Mood - Modern E-commerce App with Angular and Ionic",
         "TEXT1": "Modern mobile/web e-commerce app developed with Angular (standalone architecture) and Ionic, with reactive state management via Angular Signals, simulated checkout process, stock management, favorites, and persistent cart.",
         "TEXT2": "The project illustrates clean architecture principles, reactive UI patterns, modular design, and frontend best practices.",
         "STACK": ["Angular", "Ionic", "TypeScript", "RxJS"],
@@ -175,16 +175,16 @@
       },
       {
         "ID": "Ledgerly",
-        "TITLE": "Ledgerly",
+        "TITLE": "Ledgerly - iOS Personal Expense Tracking App",
         "TEXT1": "Ledgerly is an iOS personal expense tracking app developed with Swift and SwiftUI. It allows users to add, view, categorize, and visualize expenses with a modern and intuitive interface.",
         "TEXT2": "Ledgerly also supports local persistence via Core Data and synchronization with a backend.",
         "STACK": ["Swift", "SwiftUI", "MVVM"],
         "GITHUB": "View on GitHub",
-        "GITHUB_URL": "https://github.com/AdrianMalmierca/Ledgerly"
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyIOS"
       },
       {
         "ID": "CI-testing",
-        "TITLE": "CI/testing",
+        "TITLE": "CI/testing - Continuous Integration and Testing Setup for Express.js REST API",
         "TEXT1": "Express.js REST API structured for production, demonstrating:",
         "LIST": ["Modular architecture", "Environment-based configuration", "Automated tests with Jest + Supertest", "CI pipeline with GitHub Actions", "Clear separation of concerns", "Bug tracking and logging"],
         "TEXT2": "This project presents simple business logic designed according to professional backend standards.",
@@ -194,7 +194,7 @@
       },
       {
         "ID": "Api-testing",
-        "TITLE": "API with testing",
+        "TITLE": "API with testing - Movie catalog REST API with automated tests",
         "TEXT1": "This API provides:",
         "LIST": ["Paginated movie catalog", "Average rating calculation per movie", "User rating system (one rating per user per movie)", "Authenticated watchlist management", "API key authentication", "Request validation and structured error handling"],
         "TEXT2": "It simulates a production-ready backend for a movie platform where users can rate and manage personal watchlists.",
