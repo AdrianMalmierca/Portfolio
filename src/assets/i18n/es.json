@@ -120,7 +120,7 @@
         "TITLE": "Backend de la API de eventos de Dijon",
         "TEXT1": "Backend de la API REST para Dijon Événements — una aplicación móvil que agrega eventos culturales reales de la región de Dijon/Borgoña utilizando la API de OpenAgenda. Desarrollada con Spring Boot y Kotlin, en contenedores con Docker Compose.",
         "TEXT2": "Es el backend del proyecto 'Frontend de la API de eventos de Dijon', que es una API REST desarrollada con Spring Boot y Kotlin, en contenedores Docker Compose.",
-        "STACK": ["Spring Boot", "Kotlin", "Docker", "PostgreSQL", "JWT"],
+        "STACK": ["Spring Boot", "Kotlin", "Docker", "PostgreSQL", "JWT", "Firebase"],
         "GITHUB": "Ver en GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/evenements-dijon-api"
       },
@@ -129,7 +129,8 @@
         "TITLE": "Frontend de la API de eventos de Dijon",
         "TEXT1":"Aplicación nativa de Android para descubrir eventos culturales en Dijon y la región de Borgoña. Desarrollada con Kotlin y Jetpack Compose, siguiendo la arquitectura MVVM con inyección de dependencias Hilt.",
         "TEXT2": "Es el frontend del proyecto 'Dijon events API backend', que es una aplicación nativa de Android desarrollada con Kotlin y Jetpack Compose, siguiendo la arquitectura MVVM con inyección de dependencias Hilt.",
-        "STACK": ["Kotlin", "Jetpack Compose", "Hilt", "Retrofit", "Google Maps", "Min SDK"],
+        "TEXT3": "Puede probar la apk descargandola desde : <a href='https://github.com/AdrianMalmierca/frontend-evenements-dijon-api/releases/latest' target='_blank'>APK Dijon Events</a>",
+        "STACK": ["Kotlin", "Jetpack Compose", "Hilt", "Retrofit", "Google Maps", "Min SDK", "Firebase"],
         "GITHUB": "Ver en GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/frontend-evenements-dijon-api"
       },
@@ -178,7 +179,7 @@
         "TITLE": "Ledgerly - Aplicación iOS de seguimiento de gastos personales",
         "TEXT1": "Ledgerly es una aplicación iOS de seguimiento de gastos personales desarrollada con Swift y SwiftUI. Permite agregar, consultar, categorizar y visualizar gastos con una interfaz moderna e intuitiva.",
         "TEXT2": "Ledgerly también soporta persistencia local mediante Core Data y sincronización con un backend.",
-        "STACK": ["Swift", "SwiftUI", "MVVM"],
+        "STACK": ["Swift", "SwiftUI", "MVVM", "Core Data", "Firebase"],
         "GITHUB": "Ver en GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyIOS"
       },

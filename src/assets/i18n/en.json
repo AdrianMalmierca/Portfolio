@@ -120,7 +120,7 @@
         "TITLE": "Dijon events API backend",
         "TEXT1": "Backend REST API for Dijon Événements — a mobile application that aggregates real cultural events from the Dijon/Burgundy region using the OpenAgenda API. Built with Spring Boot and Kotlin, containerised with Docker Compose.",
         "TEXT2": "Is the backend of the project 'Dijon events API frontend', which is a REST API built with Spring Boot and Kotlin, containerised with Docker Compose.",
-        "STACK": ["Spring Boot", "Kotlin", "Docker", "PostgreSQL", "JWT"],
+        "STACK": ["Spring Boot", "Kotlin", "Docker", "PostgreSQL", "JWT", "Firebase"],
         "GITHUB": "View on GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/evenements-dijon-api"
       },
@@ -129,7 +129,8 @@
         "TITLE": "Dijon events API frontend",
         "TEXT1": "Native Android application for discovering cultural events in Dijon and the Burgundy region. Built with Kotlin and Jetpack Compose, following MVVM architecture with Hilt dependency injection.",
         "TEXT2": "Is the frontend of the project 'Dijon events API backend', which is a native Android application built with Kotlin and Jetpack Compose, following MVVM architecture with Hilt dependency injection.",
-        "STACK": ["Kotlin", "Jetpack Compose", "Hilt", "Retrofit", "Google Maps", "Min SDK"],
+        "TEXT3": "You can try the apk by downloading it from: <a href='https://github.com/AdrianMalmierca/frontend-evenements-dijon-api/releases/latest' target='_blank'>APK Dijon Events</a>",
+        "STACK": ["Kotlin", "Jetpack Compose", "Hilt", "Retrofit", "Google Maps", "Min SDK", "Firebase"],
         "GITHUB": "View on GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/frontend-evenements-dijon-api"
       },
@@ -178,7 +179,7 @@
         "TITLE": "Ledgerly - iOS Personal Expense Tracking App",
         "TEXT1": "Ledgerly is an iOS personal expense tracking app developed with Swift and SwiftUI. It allows users to add, view, categorize, and visualize expenses with a modern and intuitive interface.",
         "TEXT2": "Ledgerly also supports local persistence via Core Data and synchronization with a backend.",
-        "STACK": ["Swift", "SwiftUI", "MVVM"],
+        "STACK": ["Swift", "SwiftUI", "MVVM", "Core Data", "Firebase"],
         "GITHUB": "View on GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyIOS"
       },
