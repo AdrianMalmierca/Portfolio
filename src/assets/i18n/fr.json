@@ -184,6 +184,24 @@
         "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyIOS"
       },
       {
+        "ID": "Ledgerly",
+        "TITLE": "Ledgerly - Application Android de suivi des dépenses personnelles",
+        "TEXT1": "Une application native d'Android construite complètement avec Jetpack Compose pour suivre les dépenses personnelles.",
+        "TEXT2": "Chaque utilisateur se connecte avec Firebase Auth et ses dépenses sont synchronisées en temps réel dans Firestore — accessibles depuis n'importe quel appareil, sans backend personnel à maintenir.",
+        "STACK": ["Kotlin", "Jetpack Compose", "MVVM", "Hilt", "Firebase"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyAndroid"
+      },
+      {
+        "ID": "Ledgerly",
+        "TITLE": "Ledgerly - Application React Native de suivi des dépenses personnelles",
+        "TEXT1": "Un suivi des dépenses personnelles construit avec React Native, qui s'exécute nativement sur iOS et Android à partir d'une seule base de code JavaScript/TypeScript.",
+        "TEXT2": "Étendu avec des modules natifs spécifiques à la plateforme et des vues natives là où le framework seul n'était pas suffisant.",
+        "STACK": ["React Native", "TypeScript", "iOS", "Android", "SQLite"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyReact"
+      },
+      {
         "ID": "CI-testing",
         "TITLE": "CI/testing",
         "TEXT1": "API REST Express.js structurée pour la production, démontrant :",

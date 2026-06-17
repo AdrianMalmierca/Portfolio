@@ -184,6 +184,24 @@
         "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyIOS"
       },
       {
+        "ID": "Ledgerly",
+        "TITLE": "Ledgerly - Android Personal Expense Tracking App",
+        "TEXT1": "A native Android app built entirely with Jetpack Compose for tracking personal expenses.",
+        "TEXT2": "Each user signs in with Firebase Auth and their expenses are synced in real time to Firestore — accessible from any device, with no backend of my own to maintain.",
+        "STACK": ["Kotlin", "Jetpack Compose", "MVVM", "Hilt", "Firebase"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyAndroid"
+      },
+      {
+        "ID": "Ledgerly",
+        "TITLE": "Ledgerly - React Native Personal Expense Tracking App",
+        "TEXT1": "A personal expense tracker built with React Native, running natively on both iOS and Android from a single JavaScript/TypeScript codebase.",
+        "TEXT2": "Extended with platform-specific native modules and native views where the framework alone wasn't enough.",
+        "STACK": ["React Native", "TypeScript", "iOS", "Android", "SQLite"],
+        "GITHUB": "View on GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/LedgerlyReact"
+      },
+      {
         "ID": "CI-testing",
         "TITLE": "CI/testing - Continuous Integration and Testing Setup for Express.js REST API",
         "TEXT1": "Express.js REST API structured for production, demonstrating:",
