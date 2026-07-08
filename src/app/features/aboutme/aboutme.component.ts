@@ -3,6 +3,7 @@ import { ProjectsComponent } from "../../components/projects/projects.component"
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-aboutme',
@@ -12,7 +13,12 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrl: './aboutme.component.css'
 })
 export class AboutmeComponent {
-    constructor(private translate: TranslateService) {
+
+  educationItems$: Observable<any[]>;
+  languageItems$: Observable<any[]>;
+  certificateItems$: Observable<any[]>;
+
+  constructor(private translate: TranslateService) {
     translate.addLangs(['fr', 'en', 'es']);
     translate.setDefaultLang('fr');
 
@@ -25,6 +31,10 @@ export class AboutmeComponent {
       const langToUse = browserLang?.match(/en|fr|es/) ? browserLang : 'fr';
       translate.use(langToUse);
     }
+
+    this.educationItems$ = this.translate.stream('ABOUTME.EDUCATION.ITEMS');
+    this.languageItems$ = this.translate.stream('ABOUTME.LANGUAGES.ITEMS');
+    this.certificateItems$ = this.translate.stream('ABOUTME.CERTIFICATES.ITEMS');
   }
 
   switchLang(lang: string) {

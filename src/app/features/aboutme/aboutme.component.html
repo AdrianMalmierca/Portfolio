@@ -22,18 +22,50 @@
 
       <div class="section-divider"></div>
 
-      <h2>{{'ABOUTME.EDUCATION.TITLE' | translate}}</h2>
-      <p [innerHTML]="'ABOUTME.EDUCATION.STUDIES' | translate"></p>
+      <h2>{{ 'ABOUTME.EDUCATION.TITLE' | translate }}</h2>
+      <div class="info-list">
+        @for (item of (educationItems$ | async); track item.DEGREE) {
+          <div class="info-item">
+            <div class="info-item-header">
+              <h3 class="info-item-title">{{ item.DEGREE }}</h3>
+              <span class="info-item-meta">{{ item.INSTITUTION }} · {{ item.PERIOD }}</span>
+            </div>
+            <p class="info-item-body" [innerHTML]="item.BODY"></p>
+          </div>
+        }
+      </div>
 
       <div class="section-divider"></div>
 
-      <h2> {{'ABOUTME.LANGUAGES.TITLE' | translate}}</h2>
-      <p [innerHTML]="'ABOUTME.LANGUAGES.LANGUAGE' | translate"></p>
+      <h2>{{ 'ABOUTME.LANGUAGES.TITLE' | translate }}</h2>
+      <div class="info-list">
+        @for (item of (languageItems$ | async); track item.NAME) {
+          <div class="info-item">
+            <div class="info-item-header">
+              <h3 class="info-item-title">{{ item.NAME }}</h3>
+              <span class="info-item-meta">{{ item.LEVEL }}</span>
+            </div>
+            @if (item.BODY) {
+              <p class="info-item-body" [innerHTML]="item.BODY"></p>
+            }
+          </div>
+        }
+      </div>
 
       <div class="section-divider"></div>
 
-      <h2>{{'ABOUTME.CERTIFICATES.TITLE' | translate}}</h2>
-      <p [innerHTML]="'ABOUTME.CERTIFICATES.CERTIFICATE' | translate"></p>
+      <h2>{{ 'ABOUTME.CERTIFICATES.TITLE' | translate }}</h2>
+      <div class="info-list">
+        @for (item of (certificateItems$ | async); track item.NAME) {
+          <div class="info-item">
+            <div class="info-item-header">
+              <h3 class="info-item-title">{{ item.NAME }}</h3>
+              <span class="info-item-meta">{{ item.ISSUER }} · {{ item.PERIOD }}</span>
+            </div>
+            <p class="info-item-body" [innerHTML]="item.BODY"></p>
+          </div>
+        }
+      </div>
     </div>
   </div>
 </section>

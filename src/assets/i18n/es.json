@@ -8,7 +8,7 @@
   "HERO": {
     "AVAILABILITY": "Disponible para trabajar",
     "NAME": "Adrián Martín Malmierca",
-    "DESCRIPTION": "<strong>Ingeniero de Software Full Stack & Ingeniero en Aplicaciones Móviles</strong> con más de un año de experiencia profesional (prácticas), especializado en sistemas escalables, arquitectura limpia y aplicaciones listas para la nube. Transformo ideas digitales en realidad mediante una combinación de precisión técnica y visión de producto. Mudandome a Dijon, Francia a partir del mes de septiembre de 2026.",
+    "DESCRIPTION": "<strong>Ingeniero de Software Full Stack e Ingeniero en Aplicaciones Móviles</strong> con más de un año de experiencia profesional (prácticas), especializado en sistemas escalables, arquitectura limpia y aplicaciones listas para la nube. Transformo ideas digitales en realidad mediante una combinación de precisión técnica y visión de producto. A partir de septiembre de 2026 me mudo a Dijon, Francia, donde cursaré un Master of Science en Data Science e IA en CODA.",
     "BUTTONS": {
       "EMAIL": "Enviar correo",
       "ABOUTME": "Sobre mí"
@@ -26,7 +26,7 @@
       {
         "TITLE": "Prácticas en desarrollo de app iOS con funciones AR",
         "COMPANY": "Orange",
-        "DATES": "Marzo 2026 - Presente (fin Agosto 2026) (5 meses)",
+        "DATES": "Marzo 2026 - Julio 2026 (5 meses)",
         "TEXT": "Desarrollé una aplicación interactiva en SwiftUI con funciones AR y backend en Google Firebase. Los usuarios inician sesión con Google, visualizan POIs en un mapa y los exploran en realidad aumentada con imágenes y metadatos (coordenadas, usuario, fecha, etc.).",
         "STACK": "iOS: Swift, SwiftUI, ARKit/RealityKit, Firebase"
       },
@@ -228,8 +228,8 @@
   },
   "ABOUTME": {
     "TITLE": "Sobre mí",
-    "INTRO1": "Soy programador full stack centrado en desarrollo movil para Android, IOS y multiplataforma.",
-    "INTRO2": "Soy ingenierio informático especializado en arquitectura del software, además de ser programador full stack especializado en desarrollo movil para Android, IOS y multiplataforma aunque también desarrollo aplicaciones para móvil y web como con Ionic por ejemplo, además de desarrollar backend y frontend indiferentemente.<br>Trato de crear aplicaciones lo más accesibles posibles ya que para mi es algo muy importante además de aplicar las arquitecturas correctas y patrones de diseño. <br>Me gusta emplear nuevas tecnologías que sean tendencia como SwiftUI, aunque también programo en tecnologías que van formando parte más del pasado. Considero que hay que entender ambas ya que por el momento convivirán. <br>También realizo tests para aplicaciones, gestiono bases de datos y microservicios. Si quieres saber un poco más sobre mis habilidades y proyectos puedes comprobar mi GitHub.",
+    "INTRO1": "Soy programador full stack centrado en desarrollo móvil para Android, iOS y multiplataforma.",
+    "INTRO2": "Soy ingeniero informático especializado en arquitectura de software, además de programador full stack centrado en desarrollo móvil para Android, iOS y multiplataforma, aunque también desarrollo aplicaciones web con tecnologías como Ionic, trabajando indistintamente en backend y frontend.<br>Trato de crear aplicaciones lo más accesibles posibles, ya que para mí es algo muy importante, además de aplicar las arquitecturas y patrones de diseño correctos. <br>Me gusta emplear tecnologías nuevas y en tendencia como SwiftUI, aunque también programo en tecnologías más consolidadas. Considero que hay que entender ambas, ya que por el momento convivirán. <br>También realizo tests para aplicaciones, y gestiono bases de datos y microservicios.<br>A partir de septiembre de 2026 amplío mi perfil hacia Data Science e Inteligencia Artificial con un máster en Coda (Dijon, Francia), como parte de mi proyecto de instalarme profesionalmente en Francia. Si quieres saber un poco más sobre mis habilidades y proyectos, puedes consultar mi <a href='https://github.com/AdrianMalmierca' target='_blank'>Github</a>",
     "WHAT_I_DO": {
       "TITLE": "¿Qué hago?",
       "FULLSTACK": "<strong>Desarrollo Full-Stack:</strong> Diseño de aplicaciones de extremo a extremo con frameworks frontend modernos y backend escalable — desde modelado de bases de datos hasta despliegue en producción.",
@@ -237,16 +237,58 @@
       "ARCHITECTURE": "<strong>Arquitectura & Calidad de Código:</strong> Arquitectura limpia, principios SOLID, sistemas modulares y patrones de diseño escalables."
     },
     "EDUCATION": {
-      "TITLE": "Educación",
-      "STUDIES": "Estudié Ingeniería Informática en la Universidad Pontificia de Salamanca de septiembre 2021 a junio 2025. <br>Actualmente curso un Máster en Aplicaciones Móviles (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) en la Universidad Pontificia de Salamanca, con finalización prevista en septiembre 2026."
+      "TITLE": "Estudios",
+      "ITEMS": [
+        {
+          "DEGREE": "Grado en Ingeniería Informática",
+          "INSTITUTION": "Universidad Pontificia de Salamanca - España",
+          "PERIOD": "2021 - 2025",
+          "BODY": "A lo largo del grado trabajé con una amplia variedad de lenguajes y tecnologías — Java, C, C#, Python, SQL, HTML, CSS, JavaScript, TypeScript, Angular, React y Node.js, entre otras — mientras construía una base sólida en arquitectura de software, bases de datos y computación en la nube. También apliqué metodologías Scrum y Agile en proyectos de equipo, lo que reforzó mi capacidad para trabajar de forma colaborativa, comunicarme con eficacia y gestionar mi tiempo y mis recursos para entregar aplicaciones y sistemas complejos."
+        },
+        {
+          "DEGREE": "Máster en Aplicaciones Móviles",
+          "INSTITUTION": "Universidad Pontificia de Salamanca - España",
+          "PERIOD": "2025 - 2026",
+          "BODY": "Este máster está especializado en desarrollo de aplicaciones móviles: Android con Kotlin, iOS con Swift (UIKit y SwiftUI), aplicaciones híbridas con Angular e Ionic, y desarrollo multiplataforma con React Native, combinado con bases de datos y tecnologías en la nube. El programa pone énfasis en mantenerse al día con las herramientas emergentes, aplicando arquitectura limpia, sistemas escalables y diseño preparado para la nube — siempre con un fuerte foco en la experiencia de usuario y la accesibilidad."
+        },
+        {
+          "DEGREE": "Master of Science en Data Science e IA",
+          "INSTITUTION": "CODA - Dijon, Francia",
+          "PERIOD": "2026 - 2028",
+          "BODY": "A partir de septiembre de 2026 cursaré este Master of Science (Bac+5, título RNCP nivel 7) especializado en Data Science e Inteligencia Artificial, abarcando machine learning, deep learning, procesamiento del lenguaje natural (NLP) y visión por computador. El programa está fuertemente orientado a la práctica, construido en torno a proyectos reales de empresa, con la posibilidad de cursarlo en modalidad de alternancia, lo que me permitirá combinar esta especialización con experiencia profesional directa en el mercado tecnológico francés."
+        }
+      ]
     },
-    "LANGUAGES": { 
+    "LANGUAGES": {
       "TITLE": "Idiomas",
-      "LANGUAGE": "Español — Nativo<br>Inglés — Certificado Oxford B2<br>Francés — Certificado DELF B2"
+      "ITEMS": [
+        { "NAME": "Español", "LEVEL": "", "BODY": "Nativo" },
+        { "NAME": "Francés", "LEVEL": "2026 - Alliance Française", "BODY": "DELF B2" },
+        { "NAME": "Inglés", "LEVEL": "2023 - Oxford", "BODY": "B2" }
+      ]
     },
-    "CERTIFICATES":{
+    "CERTIFICATES": {
       "TITLE": "Certificados",
-      "CERTIFICATE":"Participante en la 5ª edición de HACK4EDU | 2024<br>360° Personal Branding<br>Copilot: Dominando la IA en Microsoft 365"
+      "ITEMS": [
+        {
+          "NAME": "Participante en la 5ª edición de HACK4EDU",
+          "PERIOD": "2024",
+          "ISSUER": "Universidad Pontificia de Salamanca",
+          "BODY": "Creé un proyecto con IA para ayudar a los estudiantes con sus estudios, desarrollando una app donde cada estudiante tendría una experiencia de aprendizaje personalizada según sus necesidades. El proyecto se presentó en el evento HACK4EDU."
+        },
+        {
+          "NAME": "360° Personal Branding",
+          "PERIOD": "2026",
+          "ISSUER": "Santander Open Academy",
+          "BODY": "Este curso me enseñó a crear una marca personal y a utilizarla para encontrar empleo. Aprendí a elaborar un CV, un perfil de LinkedIn y una página web personal. También aprendí a prepararme para entrevistas y a negociar un salario."
+        },
+        {
+          "NAME": "Copilot: Mastering AI in Microsoft 365",
+          "PERIOD": "2026",
+          "ISSUER": "Santander Open Academy",
+          "BODY": "Este curso me enseñó a utilizar Copilot para mejorar la productividad en las aplicaciones de Microsoft 365. Aprendí a aprovechar la IA para tareas como redacción, edición y análisis de datos."
+        }
+      ]
     }
   }
 }

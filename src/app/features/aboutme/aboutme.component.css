@@ -196,3 +196,63 @@
     margin: 1.5rem 0;
   }
 }
+
+/* LISTA DE ITEMS (educación, idiomas, certificados) */
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.info-item {
+  padding-left: 1.2rem;
+  border-left: 3px solid rgba(98, 0, 209, 0.25);
+}
+
+.info-item-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.info-item-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #120a2a;
+  margin: 0;
+}
+
+.info-item-meta {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #6200d1;
+  white-space: nowrap;
+}
+
+.info-item-body {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #1b1238;
+  margin: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .info-list {
+    gap: 1.1rem;
+  }
+
+  .info-item-title {
+    font-size: 1.05rem;
+  }
+
+  .info-item-meta {
+    font-size: 0.85rem;
+  }
+
+  .info-item-body {
+    font-size: 0.95rem;
+  }
+}

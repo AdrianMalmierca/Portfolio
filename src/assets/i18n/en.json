@@ -8,7 +8,7 @@
   "HERO": {
     "AVAILABILITY": "Available for work",
     "NAME": "Adrián Martín Malmierca",
-    "DESCRIPTION": "<strong>Full Stack Software Engineer & Mobile Applications Engineer</strong> with over a year of professional experience (internships), specializing in scalable systems, clean architecture, and cloud-ready applications. I turn digital ideas into reality through a combination of technical precision and product vision. Moving to Dijon, France starting in September 2026.",
+    "DESCRIPTION": "<strong>Full Stack Software Engineer & Mobile Applications Engineer</strong> with over a year of professional experience (internships), specializing in scalable systems, clean architecture, and cloud-ready applications. I turn digital ideas into reality through a mix of technical precision and product vision. Starting September 2026, I'm moving to Dijon, France, where I'll be pursuing a Master of Science in Data Science & AI at CODA.",
     "BUTTONS": {
       "EMAIL": "Send Email",
       "ABOUTME": "About Me"
@@ -26,7 +26,7 @@
       {
         "TITLE": "iOS App Development Intern with AR Features",
         "COMPANY": "Orange",
-        "DATES": "March 2026 - Present (end August 2026) (5 months)",
+        "DATES": "March 2026 - July 2026 (5 months)",
         "TEXT": "Developed an interactive SwiftUI application with AR features and Google Firebase backend. Users log in with Google, view POIs on a map, and explore them in augmented reality with images and metadata (coordinates, user, date, etc.).",
         "STACK": "iOS: Swift, SwiftUI, ARKit/RealityKit, Firebase"
       },
@@ -229,23 +229,66 @@
   "ABOUTME": {
     "TITLE": "About Me",
     "INTRO1": "I'm a full-stack developer focused on mobile development for Android, iOS, and cross-platform applications.",
-    "INTRO2": "I'm a computer engineer specializing in software architecture, and I'm also a full-stack developer specializing in mobile development for Android, iOS, and cross-platform applications. I also develop mobile and web applications using technologies like Ionic, and I develop both backend and frontend applications. I strive to create the most accessible applications possible, as this is very important to me, in addition to applying the correct architectures and design patterns. I enjoy using new, trending technologies like SwiftUI, but I also program in technologies that are becoming more outdated. I believe it's important to understand both, as they will coexist for the time being. I also perform application testing, manage databases, and develop microservices. If you'd like to learn more about my skills and projects, you can check out my profile.",
+    "INTRO2": "I'm a computer engineer specializing in software architecture, and a full-stack developer focused on mobile development for Android, iOS, and cross-platform applications, though I also build web applications with technologies like Ionic, working across both backend and frontend.<br>I strive to make my applications as accessible as possible, as this matters a lot to me, alongside applying the right architectures and design patterns. <br>I enjoy working with new, trending technologies like SwiftUI, but I also program in more established technologies. I believe it's important to understand both, as they will coexist for the time being. <br>I also handle application testing, and manage databases and microservices.<br>Starting September 2026, I'm expanding into Data Science and Artificial Intelligence with a Master of Science at CODA (Dijon, France), as part of my plan to build my career in the French tech market. If you'd like to learn more about my skills and projects, you can check out my <a href='https://github.com/AdrianMalmierca' target='_blank'>Github</a>",
     "WHAT_I_DO": {
       "TITLE": "What I do?",
       "FULLSTACK": "<strong>Full-Stack Development.</strong> Designing end-to-end applications with modern frontend frameworks and scalable backend — from database modeling to production deployment.",
       "MOBILE": "<strong>Mobile Application Engineering.</strong> Native and cross-platform development focused on performance, UX, and long-term maintainability.",
       "ARCHITECTURE": "<strong>Architecture & Code Quality.</strong> Clean architecture, SOLID principles, modular systems, and scalable design patterns."
     },
-    "EDUCATION": { 
-      "TITLE": "Eudcation",
-      "STUDIES": "I studied Computer Engineering at the Pontifical University of Salamanca from September 2021 to June 2025. <br>I am currently pursuing a Master in Mobile Applications (<a href='https://www.upsa.es/oferta-academica/master-universitario-en-informatica-movil'>MIMO</a>) at the Pontifical University of Salamanca, expected to finish in September 2026."
+    "EDUCATION": {
+      "TITLE": "Education",
+      "ITEMS": [
+        {
+          "DEGREE": "Bachelor's Degree in Computer Engineering",
+          "INSTITUTION": "Pontifical University of Salamanca - Spain",
+          "PERIOD": "2021 - 2025",
+          "BODY": "Throughout the degree I worked across a wide range of languages and technologies — Java, C, C#, Python, SQL, HTML, CSS, JavaScript, TypeScript, Angular, React, and Node.js among others — while building a solid foundation in software architecture, databases, and cloud computing. I also applied Scrum and Agile methodologies in team projects, which strengthened my ability to work collaboratively, communicate effectively, and manage my time and resources to deliver complex applications and systems."
+        },
+        {
+          "DEGREE": "Master's Degree in Mobile Applications",
+          "INSTITUTION": "Pontifical University of Salamanca - Spain",
+          "PERIOD": "2025 - 2026",
+          "BODY": "This master's specializes in mobile application development across Android with Kotlin, iOS with Swift (UIKit and SwiftUI), hybrid apps with Angular and Ionic, and cross-platform development with React Native, combined with databases and cloud technologies. The program emphasizes staying current with emerging tools while applying clean architecture, scalable systems, and cloud-ready design — always with a strong focus on user experience and accessibility."
+        },
+        {
+          "DEGREE": "Master of Science AI & Data Science",
+          "INSTITUTION": "CODA - Dijon, France",
+          "PERIOD": "2026 - 2028",
+          "BODY": "Starting September 2026, I will be pursuing this Master of Science (Bac+5, French RNCP level 7 credential) specializing in Data Science and Artificial Intelligence, covering machine learning, deep learning, natural language processing (NLP), and computer vision. The program is heavily hands-on, built around real company projects, with the option to complete it through a work-study track — allowing me to combine this specialization with direct professional experience in the French tech market."
+        }
+      ]
     },
-    "LANGUAGES": { 
+    "LANGUAGES": {
       "TITLE": "Languages",
-      "LANGUAGE": "Spanish — Native<br>English — Oxford B2 Certificate<br>French — DELF B2 Certificate"
+      "ITEMS": [
+        { "NAME": "Spanish", "LEVEL": "", "BODY": "Native" },
+        { "NAME": "French", "LEVEL": "2026 - Alliance Française", "BODY": "DELF B2" },
+        { "NAME": "English", "LEVEL": "2023 - Oxford", "BODY": "B2" }
+      ]
     },
     "CERTIFICATES": {
       "TITLE": "Certificates",
-      "CERTIFICATE": "Participant in the 5th edition of HACK4EDU | 2024<br>360° Personal Branding<br>Copilot: Mastering AI in Microsoft 365"}
+      "ITEMS": [
+        {
+          "NAME": "Participant in the 5th edition of HACK4EDU",
+          "PERIOD": "2024",
+          "ISSUER": "Pontifical University of Salamanca",
+          "BODY": "Created a project with AI to help students with their studies, creating an app where each student would have a personalized learning experience depending on their needs. The project was presented at the HACK4EDU event."
+        },
+        {
+          "NAME": "360° Personal Branding",
+          "PERIOD": "2026",
+          "ISSUER": "Santander Open Academy",
+          "BODY": "This course taught me how to create a personal brand and how to use it to find a job. I learned how to create a CV, a LinkedIn profile, and a personal website. I also learned how to prepare for interviews and how to negotiate a salary."
+        },
+        {
+          "NAME": "Copilot: Mastering AI in Microsoft 365",
+          "PERIOD": "2026",
+          "ISSUER": "Santander Open Academy",
+          "BODY": "This course taught me how to use Copilot to enhance productivity in Microsoft 365 applications. I learned how to leverage AI for tasks like writing, editing, and data analysis."
+        }
+      ]
+    }
   }
 }
