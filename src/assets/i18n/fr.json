@@ -114,7 +114,6 @@
           "Créer et visualiser des points d'intérêt géolocalisés sur une carte interactive",
           "Afficher les points comme des ancres 3D superposées à l'environnement réel via la caméra",
           "Authentification par e-mail/mot de passe et Google Sign-In",
-          "Téléchargement de photos associées à chaque point",
           "Synchronisation en temps réel entre tous les utilisateurs via Firestore",
           "Positionnement AR stable entre les sessions grâce au GPS et à la boussole"
         ],

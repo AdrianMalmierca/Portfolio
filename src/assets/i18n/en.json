@@ -108,19 +108,18 @@
       },
       {
         "ID": "Orian",
-        "TITLE": "Orian - App iOS de puntos de interés con realidad aumentada",
-        "TEXT1": "Esta aplicación permite:",
+        "TITLE": "Orian - iOS Geolocated Points of Interest with Augmented Reality",
+        "TEXT1": "This app provides:",
         "LIST": [
-          "Crear y visualizar puntos de interés geolocalizados en un mapa interactivo",
-          "Ver los puntos como anclajes 3D superpuestos al entorno real mediante la cámara",
-          "Autenticación con correo/contraseña y Google Sign-In",
-          "Subida de fotografías asociadas a cada punto",
-          "Sincronización en tiempo real entre todos los usuarios via Firestore",
-          "Posicionamiento AR estable entre sesiones mediante GPS y brújula"
+          "Create and browse geolocated points of interest on an interactive map",
+          "View points as 3D anchors overlaid on the real world through the device camera",
+          "Authentication with email/password and Google Sign-In",
+          "Real-time sync across all users via Firestore",
+          "Stable cross-session AR positioning using GPS and compass heading"
         ],
-        "TEXT2": "Simula una plataforma de realidad aumentada geolocalizada donde los usuarios pueden marcar y descubrir lugares de interés a través de la cámara de su dispositivo.",
+        "TEXT2": "Simulates a geolocated augmented reality platform where users can mark and discover points of interest through their device camera.",
         "STACK": ["Swift", "SwiftUI", "ARKit", "RealityKit", "Firebase", "MapKit"],
-        "GITHUB": "Ver en GitHub",
+        "GITHUB": "View on GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/ARMap"
       },
       {

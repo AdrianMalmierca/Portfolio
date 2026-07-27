@@ -114,7 +114,6 @@
           "Crear y visualizar puntos de interés geolocalizados en un mapa interactivo",
           "Ver los puntos como anclajes 3D superpuestos al entorno real mediante la cámara",
           "Autenticación con correo/contraseña y Google Sign-In",
-          "Subida de fotografías asociadas a cada punto",
           "Sincronización en tiempo real entre todos los usuarios via Firestore",
           "Posicionamiento AR estable entre sesiones mediante GPS y brújula"
         ],
@@ -229,7 +228,7 @@
         "GITHUB": "Ver en GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/Api-with-testing"
       },
-            {
+      {
         "ID": "AWS",
         "TITLE": "AWS - Despliegue de API REST con arquitectura escalable automatizada",
         "TEXT1": "Este proyecto despliega la API REST MIMO Movies en la nube mediante una arquitectura escalable automatizada con:",
