@@ -101,19 +101,27 @@
         "TEXT1": "Ce projet implémente un système complet de <strong>RAG</strong> permettant aux utilisateurs d'interroger les données de publications académiques extraites du portail scientifique de l'Université Pontificale de Salamanque.",
         "TEXT2": "Los datos provienen de: <a href='https://portalcientifico.upsa.es/' target='_blank'>Portail scientifique</a>",
         "TEXT3": "Le site a été crawlé avec Apache Nutch, générant un fichier de données qui a ensuite été transformé et nettoyé en JSON structuré, adapté à l'indexation et à la recherche sémantique.",
+        "TEXT4": "Vous pouvez essayer l'application depuis : <a href='https://chatbot-sigma-two-27.vercel.app/' target='_blank'>Chatbot</a>. Le backend met environ 60 secondes à démarrer.",
         "STACK": ["Python", "FAISS", "RAG", "LLM", "Angular", "FastAPI", "OpenAI (GPT-4 Turbo)"],
         "GITHUB": "Voir sur GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/Chatbot"
       },
       {
-        "ID": "AWS",
-        "TITLE": "AWS - Déploiement d'une API REST avec architecture évolutive automatisée",
-        "TEXT1": "Ce projet déploie l'API REST MIMO Movies dans le cloud via une architecture évolutive automatisée avec :",
-        "LIST": ["Docker", "Terraform", "Packer"],
-        "TEXT2": "Il transforme une API locale en un déploiement entièrement automatisé, scalable et natif cloud sur AWS.",
-        "STACK": ["TypeScript", "Terraform", "Packer", "Docker", "SQLite", "Postman"],
+        "ID": "Orian",
+        "TITLE": "Orian - App iOS de points d'intérêt avec réalité augmentée",
+        "TEXT1": "Cette application permet :",
+        "LIST": [
+          "Créer et visualiser des points d'intérêt géolocalisés sur une carte interactive",
+          "Afficher les points comme des ancres 3D superposées à l'environnement réel via la caméra",
+          "Authentification par e-mail/mot de passe et Google Sign-In",
+          "Téléchargement de photos associées à chaque point",
+          "Synchronisation en temps réel entre tous les utilisateurs via Firestore",
+          "Positionnement AR stable entre les sessions grâce au GPS et à la boussole"
+        ],
+        "TEXT2": "Simule une plateforme de réalité augmentée géolocalisée où les utilisateurs peuvent marquer et découvrir des lieux d'intérêt à travers la caméra de leur appareil.",
+        "STACK": ["Swift", "SwiftUI", "ARKit", "RealityKit", "Firebase", "MapKit"],
         "GITHUB": "Voir sur GitHub",
-        "GITHUB_URL": "https://github.com/AdrianMalmierca/Cloudproject"
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/ARMap"
       },
       {
         "ID": "Dijon events API backend",
@@ -220,6 +228,16 @@
         "STACK": ["TypeScript", "Docker", "SQLite", "Postman"],
         "GITHUB": "Voir sur GitHub",
         "GITHUB_URL": "https://github.com/AdrianMalmierca/Api-with-testing"
+      },
+      {
+        "ID": "AWS",
+        "TITLE": "AWS - Déploiement d'une API REST avec architecture évolutive automatisée",
+        "TEXT1": "Ce projet déploie l'API REST MIMO Movies dans le cloud via une architecture évolutive automatisée avec :",
+        "LIST": ["Docker", "Terraform", "Packer"],
+        "TEXT2": "Il transforme une API locale en un déploiement entièrement automatisé, scalable et natif cloud sur AWS.",
+        "STACK": ["TypeScript", "Terraform", "Packer", "Docker", "SQLite", "Postman"],
+        "GITHUB": "Voir sur GitHub",
+        "GITHUB_URL": "https://github.com/AdrianMalmierca/Cloudproject"
       }
     ],
     "FOOTER_TEXT": "Intéressé par l'exploration de plus de dépôts prêts pour la production, d'expériences architecturales et de recherches en cours ?",
